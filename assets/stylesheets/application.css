@@ -1,0 +1,52 @@
+.app-header {
+    font-size: 36px;
+    font-weight: 800;
+}
+svg {
+    height: 500px;
+    width: 1000px;
+   
+    /* background: cornflowerblue; */
+}
+
+rect {
+    margin: 5px;
+}
+
+rect:hover {
+    fill: red;
+    transition: fill .3s ease-in;
+}
+
+line {
+    stroke: black;
+    stroke-width: 2;
+}
+
+line:hover {
+    stroke: cyan;
+}
+.flashing {
+    animation-name: flashing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes flashing {
+     from {
+        transform:rotate(0  deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+}
