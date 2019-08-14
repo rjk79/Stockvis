@@ -31,21 +31,21 @@ https://wireframe.cc/v3Q5Gz
 * D3 for visualizing data
 * Webpack for bundling scripts
 ## Implementation Timeline
-Weekend
+### Weekend
 * Read documentation for D3
 * Create project idea and develop proposal
-Day 1
+### Day 1
 * Acquire access to data and vet data.
 * Create project skeleton.
 * Construct basic rendering of data.
-Day 2
+### Day 2
 * Allow filtering by various industries and time periods.
-Day 3
+### Day 3
 * Implement viewing of moving averages and Bollinger Bands.
-Day 4
+### Day 4
 * Implement viewing of stochastic oscillators.
 * Allow trend lines to render gradually.
-Day 5
+### Day 5
 * Create color coding on each type of graph to indicate favorable and unfavorable trends.
 * Add Github/LinkedIn links.
 * Style and polish project.
