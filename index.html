@@ -3,25 +3,38 @@
 <head>
     <title>Stockvis</title>
     <script src='https://d3js.org/d3.v4.min.js'></script> 
+    <script src="./src/stockData.json"></script>
     <!-- version 4 -->
     <link rel="stylesheet" href="assets/stylesheets/application.css">
 </head>
 
 <body>
-    <div className="main">
-        <p class="app-header">StockVis</p>
-        
-        <div className="content">
-            <svg></svg>
+    <p class="app-header">StockVis</p>
+<!-- 33333333333333333 -->
+    <div class="inputs">
+        <input class="input-sma" type="text" name="tick" value="" placeholder="TICKER" autofocus>
+        <button class="button-sma">Go!</button>
+    </div>
+    <div class="main">
+
+
+        <div class="content">
+            <div class="tooltip"></div>
+            <svg class="svg-smas"></svg>
+            <svg class="svg-boll"></svg>
         
             <ul> </ul>
         </div>
     </div>
     
     
+    <a class="github-link" href="https://github.com/rjk79">
+        <img class="icon" src="assets/GitHub-Mark-120px-plus.png">
+    </a>
 
 <!-- ##################################################################### -->
-    <script type="text/javascript" src="src/index.js"></script>
+    <script type="module" src="src/index.js"></script>
+    <script type="text/javascript" src="src/bollinger.js"></script>
     
 </body>
 
