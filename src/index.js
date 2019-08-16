@@ -14,10 +14,10 @@ const SMAGrapher = () => {
     // Bollinger()
     
     let tick = document.getElementsByClassName("input-sma")[0].value
-    let numWeeks = document.getElementsByClassName("input-sma-weeks")[0].value
+    // let numWeeks = document.getElementsByClassName("input-sma-weeks")[0].value
 
     var request = new XMLHttpRequest()
-    request.open('GET', `https://www.alphavantage.co/query?function=SMA&symbol=${tick}&interval=weekly&time_period=${numWeeks}&series_type=open&apikey=T12XNN62PCMC53Y8`, true)
+    request.open('GET', `https://www.alphavantage.co/query?function=SMA&symbol=${tick}&interval=weekly&time_period=3&series_type=open&apikey=T12XNN62PCMC53Y8`, true)
     request.onload = function () {
         var data = JSON.parse(this.response)
 
@@ -25,38 +25,11 @@ const SMAGrapher = () => {
 
             // let data = stockData
             
-            let reverseDataSMAs = Object.values(data["Technical Analysis: SMA"])
-                            .map(el => parseFloat(el["SMA"]))
-            let reverseDataYears = Object.keys(data["Technical Analysis: SMA"])
-                            .map(el => parseInt(el))
-            let dataSMAsFloat = reverseDataSMAs.reverse()
-            let dataYears = reverseDataYears.reverse()
-
-            // let dataPoints = dataYears.map((year, idx) => ( {"year": year, "SMA": dataSMAsFloat[idx]} ))
-            
-            // WORKS
-            // d3.select('ul')
-            //     .selectAll('li')
-            //     .data(dataSMAsFloat)
-            //     .enter()
-            //     .append('li')
-            //     .text(function (d) { return d; });
-
-                
-                // BAR GRAPH
-                // var barHeight = 20;
-            // d3.select('svg')
-            //     .selectAll('rect')
-            //     .data(dataSMAsFloat)
-            //     .enter()
-            //     .append('rect')
-            //     .attr('width', function(d) {return d})
-            //     .attr('height', barHeight - 1)
-    
-            //     .attr("transform", function (d, i) {
-            //         return "translate(0," + i * barHeight + ")";
-            //     });
-            
+            //GLOBAL
+            let dataSMAsFloat = Object.values(data["Technical Analysis: SMA"])
+                            .map(el => parseFloat(el["SMA"])) .reverse()
+            let dataYears = Object.keys(data["Technical Analysis: SMA"])
+                            .map(el => parseInt(el)) .reverse()
     
             // console.log(dataSMAsFloat)
 
@@ -129,11 +102,12 @@ const SMAGrapher = () => {
             lines.transition()
                  .duration(2000)
                  .style('stroke', function (d, idx) {
-                    if (d > dataSMAsFloat[idx - 1]) {
-                        return 'cyan'
-                    } else {
-                        return 'hotpink'
-                    }
+                    // if (d > dataSMAsFloat[idx - 1]) {
+                    //     return 'blue'
+                    // } else {
+                    //     return 'red'
+                    // }
+                    return 'lightgreen'
                  })
                  .attr('y1', function (d, idx) { return y_scale(d3.max(dataSMAsFloat) - (dataSMAsFloat[idx - 1] || d))  })
                  .attr('y2', function (d, idx) { return y_scale(d3.max(dataSMAsFloat) - d )  })
@@ -144,16 +118,48 @@ const SMAGrapher = () => {
             el.addEventListener('mouseenter', e => {
                 document.getElementsByClassName("tooltip")[0].style.left = `${e.pageX}` + "px"
                 document.getElementsByClassName("tooltip")[0].style.top = `${e.pageY}` + "px"
-        }
-        )
-    }
-    )
+            })
+        })
+    /////////
             
+            ///////
+            var request2 = new XMLHttpRequest()
+            request2.open('GET', `https://www.alphavantage.co/query?function=SMA&symbol=${tick}&interval=weekly&time_period=7&series_type=open&apikey=T12XNN62PCMC53Y8`, true)
+            request2.onload = function () {
+                var data2 = JSON.parse(this.response)
+                
+                if (request2.status >= 200 && request2.status < 400) {
+                    let dataSMAsFloat2 = Object.values(data2["Technical Analysis: SMA"])
+                        .map(el => parseFloat(el["SMA"])).reverse()
+                    
+                    var x_scale = d3.scaleLinear()
+                        .domain([0, dataSMAsFloat2.length - 1])
+                        .range([0, width])
+
+                    var line = d3.line() //define how to make lines
+                        .x((d, idx) => x_scale(idx))
+                        .y((d, idx) => y_scale(d3.max( dataSMAsFloat.concat(dataSMAsFloat2) ) - d))
+
+                    var g1 = svg.append('g')
+                        .attr('transform', 'translate(' + margin.left + ', 0)')
+
+                    var path = g1.append('path') //new
+                        .attr('d', line(dataSMAsFloat2))
+                        .attr('stroke', 'rgb(15, 15, 15)')
+                        .attr('stroke-width', '2')
+                        .attr('fill', 'none')
+                        .attr('class', 'draw')
+    ////////////
+                }
+                else {
+                    console.log('error')
+                }}
+                request2.send()
+    //////////
         }
         else {
             console.log('error')
-        }
-        }
+        }}
         request.send()
 
 
@@ -164,44 +170,7 @@ const SMAGrapher = () => {
     }
 
 
-    // var request2 = new XMLHttpRequest()
-    // request2.open('GET', `https://www.alphavantage.co/query?function=SMA&symbol=${tick}&interval=weekly&time_period=${numWeeks}&series_type=open&apikey=T12XNN62PCMC53Y8`, true)
-    // request2.onload = function () {
-    //     var data = JSON.parse(this.response)
 
-    //     if (request2.status >= 200 && request2.status < 400) {
-
-    //         var g = g1.selectAll("g")
-    //             .data(dataSMAsFloat)
-    //             .enter()
-    //             .append("g")
-
-    //         var lines = g.append('line')
-    //             .attr('x1', function (d, idx) { return x_scale(idx - 1) })
-    //             .attr('x2', function (d, idx) { return x_scale(idx) })
-
-    //             .attr('y1', function (d, idx) { return height - 50 })
-    //             .attr('y2', function (d, idx) { return height - 50 })
-    //             .attr('class', 'line-sma')
-
-    //         lines.transition()
-    //             .duration(2000)
-    //             .style('stroke', function (d, idx) {
-    //                 if (d > dataSMAsFloat[idx - 1]) {
-    //                     return 'green'
-    //                 } else {
-    //                     return 'red'
-    //                 }
-    //             })
-    //             .attr('y1', function (d, idx) { return y_scale(d3.max(dataSMAsFloat) - (dataSMAsFloat[idx - 1] || d)) })
-    //             .attr('y2', function (d, idx) { return y_scale(d3.max(dataSMAsFloat) - d) })
-
-    //     }
-    //     else {
-    //         console.log('error')
-    //     }
-    //     }
-    //     request2.send()
 
 
 

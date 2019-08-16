@@ -1,1 +1,16 @@
 npm run start
+
+       
+                // BAR GRAPH
+                // var barHeight = 20;
+            // d3.select('svg')
+            //     .selectAll('rect')
+            //     .data(dataSMAsFloat)
+            //     .enter()
+            //     .append('rect')
+            //     .attr('width', function(d) {return d})
+            //     .attr('height', barHeight - 1)
+    
+            //     .attr("transform", function (d, i) {
+            //         return "translate(0," + i * barHeight + ")";
+            //     });

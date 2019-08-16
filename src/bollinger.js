@@ -1,16 +1,15 @@
 const Bollinger = () => {
     //grab info from form
     let tick = document.getElementsByClassName("input-sma")[0].value
-    let numWeeks = document.getElementsByClassName("input-sma-weeks")[0].value
-    
-    // //make the request
-    // var request = new XMLHttpRequest()
-    // request.open('GET', `https://www.alphavantage.co/query?function=BBANDS&symbol=MSFT&interval=weekly&time_period=5&series_type=close&nbdevup=3&nbdevdn=3&apikey=demo`, true)
-    // request.onload = function () {
-    //     var data = JSON.parse(this.response)
-    //     console.log(data)
-    // if (request.status >= 200 && request.status < 400) {
-        let data = bollData
+
+    //make the request
+    var request = new XMLHttpRequest()
+    request.open('GET', `https://www.alphavantage.co/query?function=BBANDS&symbol=${tick}&interval=weekly&time_period=5&series_type=close&nbdevup=3&nbdevdn=3&apikey=T12XNN62PCMC53Y8`, true)
+    request.onload = function () {
+        var data = JSON.parse(this.response)
+        console.log(data)
+    if (request.status >= 200 && request.status < 400) {
+        // let data = bollData
         //vet the data
         let reverseDataUppers = Object.values(data["Technical Analysis: BBANDS"])
             .map(el => parseFloat(el["Real Upper Band"]))
@@ -152,12 +151,12 @@ const Bollinger = () => {
                 .on("end", fade)
             }
 
-    //     }
-    //     else {
-    //         console.log('error')
-    //     }
-    // }
-    // request.send()
+        }
+        else {
+            console.log('error')
+        }
+    }
+    request.send()
 
 
     function handleMouseOver(e) {
