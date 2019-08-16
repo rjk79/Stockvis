@@ -4,6 +4,7 @@
     <title>Stockvis</title>
     <script src='https://d3js.org/d3.v4.min.js'></script> 
     <script src="./src/stockData.json"></script>
+    <script src="./src/bollData.json"></script>
     <!-- version 4 -->
     <link rel="stylesheet" href="assets/stylesheets/application.css">
 </head>
@@ -12,8 +13,10 @@
     <p class="app-header">StockVis</p>
 <!-- 33333333333333333 -->
     <div class="inputs">
-        <input class="input-sma" type="text" name="tick" value="" placeholder="TICKER" autofocus>
-        <button class="button-sma">Go!</button>
+        <input class="input-sma" type="text" name="tick" value="" placeholder="ticker" autofocus>
+        <input class="input-sma-weeks" type="text" name="weeks" value="" placeholder="weeks">
+        <button class="button-sma">SMA</button>
+        <button class="button-boll">Bollinger</button>
     </div>
     <div class="main">
 
@@ -21,7 +24,7 @@
         <div class="content">
             <div class="tooltip"></div>
             <svg class="svg-smas"></svg>
-            <svg class="svg-boll"></svg>
+            <svg class="svg-bolls"></svg>
         
             <ul> </ul>
         </div>

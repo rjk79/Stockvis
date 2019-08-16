@@ -1,0 +1,5211 @@
+bollData = {
+"Meta Data": {
+"1: Symbol": "MSFT",
+"2: Indicator": "Bollinger Bands (BBANDS)",
+"3: Last Refreshed": "2019-08-15 16:00:01",
+"4: Interval": "weekly",
+"5: Time Period": 5,
+"6.1: Deviation multiplier for upper band": 3,
+"6.2: Deviation multiplier for lower band": 3,
+"6.3: MA Type": 0,
+"7: Series Type": "close",
+"8: Time Zone": "US/Eastern Time"
+},
+"Technical Analysis: BBANDS": {
+"2019-08-15 16:00:01": {
+"Real Middle Band": "137.2500",
+"Real Upper Band": "144.6234",
+"Real Lower Band": "129.8766"
+},
+"2019-08-09": {
+"Real Middle Band": "138.2940",
+"Real Upper Band": "143.4435",
+"Real Lower Band": "133.1445"
+},
+"2019-08-02": {
+"Real Middle Band": "138.1640",
+"Real Upper Band": "143.5018",
+"Real Lower Band": "132.8262"
+},
+"2019-07-26": {
+"Real Middle Band": "137.5760",
+"Real Upper Band": "144.9460",
+"Real Lower Band": "130.2060"
+},
+"2019-07-19": {
+"Real Middle Band": "136.7020",
+"Real Upper Band": "141.4561",
+"Real Lower Band": "131.9479"
+},
+"2019-07-12": {
+"Real Middle Band": "135.8680",
+"Real Upper Band": "142.8589",
+"Real Lower Band": "128.8771"
+},
+"2019-07-05": {
+"Real Middle Band": "134.3680",
+"Real Upper Band": "141.2968",
+"Real Lower Band": "127.4392"
+},
+"2019-06-28": {
+"Real Middle Band": "131.6920",
+"Real Upper Band": "144.9636",
+"Real Lower Band": "118.4204"
+},
+"2019-06-21": {
+"Real Middle Band": "130.1480",
+"Real Upper Band": "144.2521",
+"Real Lower Band": "116.0439"
+},
+"2019-06-14": {
+"Real Middle Band": "128.3680",
+"Real Upper Band": "138.0845",
+"Real Lower Band": "118.6515"
+},
+"2019-06-07": {
+"Real Middle Band": "127.3040",
+"Real Upper Band": "134.8530",
+"Real Lower Band": "119.7550"
+},
+"2019-05-31": {
+"Real Middle Band": "126.8040",
+"Real Upper Band": "132.2006",
+"Real Lower Band": "121.4074"
+},
+"2019-05-24": {
+"Real Middle Band": "128.0460",
+"Real Upper Band": "131.8951",
+"Real Lower Band": "124.1969"
+},
+"2019-05-17": {
+"Real Middle Band": "127.4720",
+"Real Upper Band": "134.2052",
+"Real Lower Band": "120.7388"
+},
+"2019-05-10": {
+"Real Middle Band": "126.0480",
+"Real Upper Band": "136.1973",
+"Real Lower Band": "115.8987"
+},
+"2019-05-03": {
+"Real Middle Band": "124.6000",
+"Real Upper Band": "136.8592",
+"Real Lower Band": "112.3408"
+},
+"2019-04-26": {
+"Real Middle Band": "122.4080",
+"Real Upper Band": "134.8017",
+"Real Lower Band": "110.0143"
+},
+"2019-04-18": {
+"Real Middle Band": "119.8400",
+"Real Upper Band": "126.5602",
+"Real Lower Band": "113.1198"
+},
+"2019-04-12": {
+"Real Middle Band": "118.3480",
+"Real Upper Band": "123.8705",
+"Real Lower Band": "112.8255"
+},
+"2019-04-05": {
+"Real Middle Band": "116.2600",
+"Real Upper Band": "125.7286",
+"Real Lower Band": "106.7914"
+},
+"2019-03-29": {
+"Real Middle Band": "114.7880",
+"Real Upper Band": "123.2425",
+"Real Lower Band": "106.3335"
+},
+"2019-03-22": {
+"Real Middle Band": "113.3940",
+"Real Upper Band": "121.2899",
+"Real Lower Band": "105.4981"
+},
+"2019-03-15": {
+"Real Middle Band": "111.6280",
+"Real Upper Band": "119.2702",
+"Real Lower Band": "103.9858"
+},
+"2019-03-08": {
+"Real Middle Band": "109.5800",
+"Real Upper Band": "116.7596",
+"Real Lower Band": "102.4004"
+},
+"2019-03-01": {
+"Real Middle Band": "108.0340",
+"Real Upper Band": "118.6033",
+"Real Lower Band": "97.4647"
+},
+"2019-02-22": {
+"Real Middle Band": "106.9620",
+"Real Upper Band": "115.1061",
+"Real Lower Band": "98.8179"
+},
+"2019-02-15": {
+"Real Middle Band": "106.3100",
+"Real Upper Band": "112.1916",
+"Real Lower Band": "100.4284"
+},
+"2019-02-08": {
+"Real Middle Band": "105.2260",
+"Real Upper Band": "111.5210",
+"Real Lower Band": "98.9310"
+},
+"2019-02-01": {
+"Real Middle Band": "104.4780",
+"Real Upper Band": "111.8122",
+"Real Lower Band": "97.1438"
+},
+"2019-01-25": {
+"Real Middle Band": "104.0000",
+"Real Upper Band": "112.7536",
+"Real Lower Band": "95.2464"
+},
+"2019-01-18": {
+"Real Middle Band": "102.2120",
+"Real Upper Band": "111.6826",
+"Real Lower Band": "92.7414"
+},
+"2019-01-11": {
+"Real Middle Band": "101.8760",
+"Real Upper Band": "109.6545",
+"Real Lower Band": "94.0975"
+},
+"2019-01-04": {
+"Real Middle Band": "102.2800",
+"Real Upper Band": "110.8299",
+"Real Lower Band": "93.7301"
+},
+"2018-12-28": {
+"Real Middle Band": "104.0720",
+"Real Upper Band": "117.3918",
+"Real Lower Band": "90.7522"
+},
+"2018-12-21": {
+"Real Middle Band": "104.6080",
+"Real Upper Band": "116.9463",
+"Real Lower Band": "92.2697"
+},
+"2018-12-14": {
+"Real Middle Band": "106.6200",
+"Real Upper Band": "114.8043",
+"Real Lower Band": "98.4357"
+},
+"2018-12-07": {
+"Real Middle Band": "107.3280",
+"Real Upper Band": "116.1319",
+"Real Lower Band": "98.5241"
+},
+"2018-11-30": {
+"Real Middle Band": "107.5960",
+"Real Upper Band": "115.8420",
+"Real Lower Band": "99.3500"
+},
+"2018-11-23": {
+"Real Middle Band": "106.8100",
+"Real Upper Band": "113.4155",
+"Real Lower Band": "100.2045"
+},
+"2018-11-16": {
+"Real Middle Band": "107.9280",
+"Real Upper Band": "111.5840",
+"Real Lower Band": "104.2720"
+},
+"2018-11-09": {
+"Real Middle Band": "108.1840",
+"Real Upper Band": "112.3546",
+"Real Lower Band": "104.0134"
+},
+"2018-11-02": {
+"Real Middle Band": "108.6960",
+"Real Upper Band": "114.9892",
+"Real Lower Band": "102.4028"
+},
+"2018-10-26": {
+"Real Middle Band": "110.3380",
+"Real Upper Band": "118.1937",
+"Real Lower Band": "102.4823"
+},
+"2018-10-19": {
+"Real Middle Band": "111.7980",
+"Real Upper Band": "118.8461",
+"Real Lower Band": "104.7499"
+},
+"2018-10-12": {
+"Real Middle Band": "112.7400",
+"Real Upper Band": "118.0704",
+"Real Lower Band": "107.4096"
+},
+"2018-10-05": {
+"Real Middle Band": "112.4680",
+"Real Upper Band": "119.2942",
+"Real Lower Band": "105.6418"
+},
+"2018-09-28": {
+"Real Middle Band": "112.5080",
+"Real Upper Band": "119.3206",
+"Real Lower Band": "105.6954"
+},
+"2018-09-21": {
+"Real Middle Band": "111.3140",
+"Real Upper Band": "118.9111",
+"Real Lower Band": "103.7169"
+},
+"2018-09-14": {
+"Real Middle Band": "109.9780",
+"Real Upper Band": "117.1283",
+"Real Lower Band": "102.8277"
+},
+"2018-09-07": {
+"Real Middle Band": "109.1040",
+"Real Upper Band": "114.1303",
+"Real Lower Band": "104.0777"
+},
+"2018-08-31": {
+"Real Middle Band": "109.0700",
+"Real Upper Band": "114.1545",
+"Real Lower Band": "103.9855"
+},
+"2018-08-24": {
+"Real Middle Band": "108.1400",
+"Real Upper Band": "109.6945",
+"Real Lower Band": "106.5855"
+},
+"2018-08-17": {
+"Real Middle Band": "107.7140",
+"Real Upper Band": "110.3514",
+"Real Lower Band": "105.0766"
+},
+"2018-08-10": {
+"Real Middle Band": "107.2840",
+"Real Upper Band": "111.1114",
+"Real Lower Band": "103.4566"
+},
+"2018-08-03": {
+"Real Middle Band": "105.7160",
+"Real Upper Band": "113.1138",
+"Real Lower Band": "98.3182"
+},
+"2018-07-27": {
+"Real Middle Band": "103.8300",
+"Real Upper Band": "114.0224",
+"Real Lower Band": "93.6376"
+},
+"2018-07-20": {
+"Real Middle Band": "102.3760",
+"Real Upper Band": "111.2771",
+"Real Lower Band": "93.4749"
+},
+"2018-07-13": {
+"Real Middle Band": "101.1480",
+"Real Upper Band": "108.0360",
+"Real Lower Band": "94.2600"
+},
+"2018-07-06": {
+"Real Middle Band": "100.3880",
+"Real Upper Band": "103.4961",
+"Real Lower Band": "97.2799"
+},
+"2018-06-29": {
+"Real Middle Band": "100.3140",
+"Real Upper Band": "103.2854",
+"Real Lower Band": "97.3426"
+},
+"2018-06-22": {
+"Real Middle Band": "100.2640",
+"Real Upper Band": "103.4971",
+"Real Lower Band": "97.0309"
+},
+"2018-06-15": {
+"Real Middle Band": "99.4540",
+"Real Upper Band": "105.1059",
+"Real Lower Band": "93.8021"
+},
+"2018-06-08": {
+"Real Middle Band": "98.9680",
+"Real Upper Band": "104.8445",
+"Real Lower Band": "93.0915"
+},
+"2018-06-01": {
+"Real Middle Band": "97.6740",
+"Real Upper Band": "103.4020",
+"Real Lower Band": "91.9460"
+},
+"2018-05-25": {
+"Real Middle Band": "96.6800",
+"Real Upper Band": "100.2335",
+"Real Lower Band": "93.1265"
+},
+"2018-05-18": {
+"Real Middle Band": "96.0080",
+"Real Upper Band": "98.9343",
+"Real Lower Band": "93.0817"
+},
+"2018-05-11": {
+"Real Middle Band": "95.3520",
+"Real Upper Band": "99.8128",
+"Real Lower Band": "90.8912"
+},
+"2018-05-04": {
+"Real Middle Band": "93.8580",
+"Real Upper Band": "99.9498",
+"Real Lower Band": "87.7662"
+},
+"2018-04-27": {
+"Real Middle Band": "93.0800",
+"Real Upper Band": "99.4570",
+"Real Lower Band": "86.7030"
+},
+"2018-04-20": {
+"Real Middle Band": "91.3520",
+"Real Upper Band": "99.2853",
+"Real Lower Band": "83.4187"
+},
+"2018-04-13": {
+"Real Middle Band": "91.2720",
+"Real Upper Band": "98.8822",
+"Real Lower Band": "83.6618"
+},
+"2018-04-06": {
+"Real Middle Band": "91.9640",
+"Real Upper Band": "101.8470",
+"Real Lower Band": "82.0810"
+},
+"2018-03-29": {
+"Real Middle Band": "92.5280",
+"Real Upper Band": "102.0947",
+"Real Lower Band": "82.9613"
+},
+"2018-03-23": {
+"Real Middle Band": "93.0860",
+"Real Upper Band": "102.5779",
+"Real Lower Band": "83.5941"
+},
+"2018-03-16": {
+"Real Middle Band": "94.0500",
+"Real Upper Band": "98.6401",
+"Real Lower Band": "89.4599"
+},
+"2018-03-09": {
+"Real Middle Band": "92.7660",
+"Real Upper Band": "100.9946",
+"Real Lower Band": "84.5374"
+},
+"2018-03-02": {
+"Real Middle Band": "91.8140",
+"Real Upper Band": "97.7860",
+"Real Lower Band": "85.8420"
+},
+"2018-02-23": {
+"Real Middle Band": "92.0160",
+"Real Upper Band": "98.4680",
+"Real Lower Band": "85.5640"
+},
+"2018-02-16": {
+"Real Middle Band": "91.2040",
+"Real Upper Band": "97.1613",
+"Real Lower Band": "85.2467"
+},
+"2018-02-09": {
+"Real Middle Band": "90.7240",
+"Real Upper Band": "96.7991",
+"Real Lower Band": "84.6489"
+},
+"2018-02-02": {
+"Real Middle Band": "90.7260",
+"Real Upper Band": "96.7935",
+"Real Lower Band": "84.6585"
+},
+"2018-01-26": {
+"Real Middle Band": "89.4780",
+"Real Upper Band": "97.7971",
+"Real Lower Band": "81.1589"
+},
+"2018-01-19": {
+"Real Middle Band": "87.7680",
+"Real Upper Band": "93.5509",
+"Real Lower Band": "81.9851"
+},
+"2018-01-12": {
+"Real Middle Band": "87.1380",
+"Real Upper Band": "91.8729",
+"Real Lower Band": "82.4031"
+},
+"2018-01-05": {
+"Real Middle Band": "86.0500",
+"Real Upper Band": "90.1510",
+"Real Lower Band": "81.9490"
+},
+"2017-12-29": {
+"Real Middle Band": "85.2640",
+"Real Upper Band": "88.2275",
+"Real Lower Band": "82.3005"
+},
+"2017-12-22": {
+"Real Middle Band": "84.8080",
+"Real Upper Band": "88.5500",
+"Real Lower Band": "81.0660"
+},
+"2017-12-15": {
+"Real Middle Band": "84.1860",
+"Real Upper Band": "88.6660",
+"Real Lower Band": "79.7060"
+},
+"2017-12-08": {
+"Real Middle Band": "83.5900",
+"Real Upper Band": "85.6586",
+"Real Lower Band": "81.5214"
+},
+"2017-12-01": {
+"Real Middle Band": "83.5860",
+"Real Upper Band": "85.6448",
+"Real Lower Band": "81.5272"
+},
+"2017-11-24": {
+"Real Middle Band": "83.4960",
+"Real Upper Band": "85.3502",
+"Real Lower Band": "81.6418"
+},
+"2017-11-17": {
+"Real Middle Band": "82.6060",
+"Real Upper Band": "88.5838",
+"Real Lower Band": "76.6282"
+},
+"2017-11-10": {
+"Real Middle Band": "81.6240",
+"Real Upper Band": "90.2316",
+"Real Lower Band": "73.0164"
+},
+"2017-11-03": {
+"Real Middle Band": "80.0500",
+"Real Upper Band": "90.0323",
+"Real Lower Band": "70.0677"
+},
+"2017-10-27": {
+"Real Middle Band": "78.1200",
+"Real Upper Band": "87.6938",
+"Real Lower Band": "68.5462"
+},
+"2017-10-20": {
+"Real Middle Band": "76.2400",
+"Real Upper Band": "81.3728",
+"Real Lower Band": "71.1072"
+},
+"2017-10-13": {
+"Real Middle Band": "75.5400",
+"Real Upper Band": "78.9464",
+"Real Lower Band": "72.1336"
+},
+"2017-10-06": {
+"Real Middle Band": "74.8380",
+"Real Upper Band": "77.0069",
+"Real Lower Band": "72.6691"
+},
+"2017-09-29": {
+"Real Middle Band": "74.4260",
+"Real Upper Band": "75.9084",
+"Real Lower Band": "72.9436"
+},
+"2017-09-22": {
+"Real Middle Band": "74.0920",
+"Real Upper Band": "76.5063",
+"Real Lower Band": "71.6777"
+},
+"2017-09-15": {
+"Real Middle Band": "73.7080",
+"Real Upper Band": "76.6979",
+"Real Lower Band": "70.7181"
+},
+"2017-09-08": {
+"Real Middle Band": "73.1460",
+"Real Upper Band": "75.1718",
+"Real Lower Band": "71.1202"
+},
+"2017-09-01": {
+"Real Middle Band": "72.8860",
+"Real Upper Band": "74.5091",
+"Real Lower Band": "71.2629"
+},
+"2017-08-25": {
+"Real Middle Band": "72.7060",
+"Real Upper Band": "73.3271",
+"Real Lower Band": "72.0849"
+},
+"2017-08-18": {
+"Real Middle Band": "72.9000",
+"Real Upper Band": "74.3624",
+"Real Lower Band": "71.4376"
+},
+"2017-08-11": {
+"Real Middle Band": "72.9580",
+"Real Upper Band": "74.3114",
+"Real Lower Band": "71.6046"
+},
+"2017-08-04": {
+"Real Middle Band": "72.3500",
+"Real Upper Band": "76.8391",
+"Real Lower Band": "67.8609"
+},
+"2017-07-28": {
+"Real Middle Band": "71.6000",
+"Real Upper Band": "77.5956",
+"Real Lower Band": "65.6044"
+},
+"2017-07-21": {
+"Real Middle Band": "71.2340",
+"Real Upper Band": "76.8271",
+"Real Lower Band": "65.6409"
+},
+"2017-07-14": {
+"Real Middle Band": "70.4760",
+"Real Upper Band": "74.6104",
+"Real Lower Band": "66.3416"
+},
+"2017-07-07": {
+"Real Middle Band": "69.9840",
+"Real Upper Band": "72.3085",
+"Real Lower Band": "67.6595"
+},
+"2017-06-30": {
+"Real Middle Band": "70.4440",
+"Real Upper Band": "73.3905",
+"Real Lower Band": "67.4975"
+},
+"2017-06-23": {
+"Real Middle Band": "70.6500",
+"Real Upper Band": "72.7938",
+"Real Lower Band": "68.5062"
+},
+"2017-06-16": {
+"Real Middle Band": "69.9460",
+"Real Upper Band": "73.8628",
+"Real Lower Band": "66.0292"
+},
+"2017-06-09": {
+"Real Middle Band": "69.6220",
+"Real Upper Band": "73.9586",
+"Real Lower Band": "65.2854"
+},
+"2017-06-02": {
+"Real Middle Band": "69.3580",
+"Real Upper Band": "73.6004",
+"Real Lower Band": "65.1156"
+},
+"2017-05-26": {
+"Real Middle Band": "68.6980",
+"Real Upper Band": "70.9660",
+"Real Lower Band": "66.4300"
+},
+"2017-05-19": {
+"Real Middle Band": "67.9860",
+"Real Upper Band": "70.6730",
+"Real Lower Band": "65.2990"
+},
+"2017-05-12": {
+"Real Middle Band": "67.4380",
+"Real Upper Band": "72.0152",
+"Real Lower Band": "62.8608"
+},
+"2017-05-05": {
+"Real Middle Band": "66.8980",
+"Real Upper Band": "71.6194",
+"Real Lower Band": "62.1766"
+},
+"2017-04-28": {
+"Real Middle Band": "66.2700",
+"Real Upper Band": "69.8378",
+"Real Lower Band": "62.7022"
+},
+"2017-04-21": {
+"Real Middle Band": "65.5740",
+"Real Upper Band": "67.2267",
+"Real Lower Band": "63.9213"
+},
+"2017-04-13": {
+"Real Middle Band": "65.2680",
+"Real Upper Band": "66.5141",
+"Real Lower Band": "64.0219"
+},
+"2017-04-07": {
+"Real Middle Band": "65.2640",
+"Real Upper Band": "66.5195",
+"Real Lower Band": "64.0085"
+},
+"2017-03-31": {
+"Real Middle Band": "64.9780",
+"Real Upper Band": "66.5205",
+"Real Lower Band": "63.4355"
+},
+"2017-03-24": {
+"Real Middle Band": "64.7300",
+"Real Upper Band": "65.5401",
+"Real Lower Band": "63.9199"
+},
+"2017-03-17": {
+"Real Middle Band": "64.6580",
+"Real Upper Band": "65.3783",
+"Real Lower Band": "63.9377"
+},
+"2017-03-10": {
+"Real Middle Band": "64.4840",
+"Real Upper Band": "65.4560",
+"Real Lower Band": "63.5120"
+},
+"2017-03-03": {
+"Real Middle Band": "64.2340",
+"Real Upper Band": "65.3239",
+"Real Lower Band": "63.1441"
+},
+"2017-02-24": {
+"Real Middle Band": "64.5400",
+"Real Upper Band": "66.6957",
+"Real Lower Band": "62.3843"
+},
+"2017-02-17": {
+"Real Middle Band": "64.1640",
+"Real Upper Band": "67.1963",
+"Real Lower Band": "61.1317"
+},
+"2017-02-10": {
+"Real Middle Band": "63.7800",
+"Real Upper Band": "67.1492",
+"Real Lower Band": "60.4108"
+},
+"2017-02-03": {
+"Real Middle Band": "63.5480",
+"Real Upper Band": "67.0652",
+"Real Lower Band": "60.0308"
+},
+"2017-01-27": {
+"Real Middle Band": "63.2400",
+"Real Upper Band": "67.1199",
+"Real Lower Band": "59.3601"
+},
+"2017-01-20": {
+"Real Middle Band": "62.7320",
+"Real Upper Band": "63.7895",
+"Real Lower Band": "61.6745"
+},
+"2017-01-13": {
+"Real Middle Band": "62.6440",
+"Real Upper Band": "63.8206",
+"Real Lower Band": "61.4674"
+},
+"2017-01-06": {
+"Real Middle Band": "62.4980",
+"Real Upper Band": "63.9138",
+"Real Lower Band": "61.0822"
+},
+"2016-12-30": {
+"Real Middle Band": "61.7800",
+"Real Upper Band": "65.7979",
+"Real Lower Band": "57.7621"
+},
+"2016-12-23": {
+"Real Middle Band": "61.4580",
+"Real Upper Band": "65.6758",
+"Real Lower Band": "57.2402"
+},
+"2016-12-16": {
+"Real Middle Band": "60.8800",
+"Real Upper Band": "64.2381",
+"Real Lower Band": "57.5219"
+},
+"2016-12-09": {
+"Real Middle Band": "60.2240",
+"Real Upper Band": "63.3865",
+"Real Lower Band": "57.0615"
+},
+"2016-12-02": {
+"Real Middle Band": "59.5720",
+"Real Upper Band": "61.7661",
+"Real Lower Band": "57.3779"
+},
+"2016-11-25": {
+"Real Middle Band": "59.6960",
+"Real Upper Band": "61.8521",
+"Real Lower Band": "57.5399"
+},
+"2016-11-18": {
+"Real Middle Band": "59.5220",
+"Real Upper Band": "61.2903",
+"Real Lower Band": "57.7537"
+},
+"2016-11-11": {
+"Real Middle Band": "58.9360",
+"Real Upper Band": "61.5351",
+"Real Lower Band": "56.3369"
+},
+"2016-11-04": {
+"Real Middle Band": "58.6920",
+"Real Upper Band": "61.6126",
+"Real Lower Band": "55.7714"
+},
+"2016-10-28": {
+"Real Middle Band": "58.4700",
+"Real Upper Band": "61.6687",
+"Real Lower Band": "55.2713"
+},
+"2016-10-21": {
+"Real Middle Band": "57.9820",
+"Real Upper Band": "60.5330",
+"Real Lower Band": "55.4310"
+},
+"2016-10-14": {
+"Real Middle Band": "57.5000",
+"Real Upper Band": "58.0593",
+"Real Lower Band": "56.9407"
+},
+"2016-10-07": {
+"Real Middle Band": "57.2580",
+"Real Upper Band": "58.9222",
+"Real Lower Band": "55.5938"
+},
+"2016-09-30": {
+"Real Middle Band": "57.2320",
+"Real Upper Band": "58.8258",
+"Real Lower Band": "55.6382"
+},
+"2016-09-23": {
+"Real Middle Band": "57.3180",
+"Real Upper Band": "59.1555",
+"Real Lower Band": "55.4805"
+},
+"2016-09-16": {
+"Real Middle Band": "57.3560",
+"Real Upper Band": "59.2281",
+"Real Lower Band": "55.4839"
+},
+"2016-09-09": {
+"Real Middle Band": "57.4940",
+"Real Upper Band": "59.4757",
+"Real Lower Band": "55.5123"
+},
+"2016-09-02": {
+"Real Middle Band": "57.8440",
+"Real Upper Band": "58.3419",
+"Real Lower Band": "57.3461"
+},
+"2016-08-26": {
+"Real Middle Band": "57.6460",
+"Real Upper Band": "59.1558",
+"Real Lower Band": "56.1362"
+},
+"2016-08-19": {
+"Real Middle Band": "57.3540",
+"Real Upper Band": "59.1790",
+"Real Lower Band": "55.5290"
+},
+"2016-08-12": {
+"Real Middle Band": "56.5700",
+"Real Upper Band": "61.2288",
+"Real Lower Band": "51.9112"
+},
+"2016-08-05": {
+"Real Middle Band": "55.4420",
+"Real Upper Band": "61.7423",
+"Real Lower Band": "49.1417"
+},
+"2016-07-29": {
+"Real Middle Band": "54.0820",
+"Real Upper Band": "60.7632",
+"Real Lower Band": "47.4008"
+},
+"2016-07-22": {
+"Real Middle Band": "52.7120",
+"Real Upper Band": "59.6503",
+"Real Lower Band": "45.7737"
+},
+"2016-07-15": {
+"Real Middle Band": "51.4240",
+"Real Upper Band": "55.7157",
+"Real Lower Band": "47.1323"
+},
+"2016-07-08": {
+"Real Middle Band": "50.9800",
+"Real Upper Band": "53.6866",
+"Real Lower Band": "48.2734"
+},
+"2016-07-01": {
+"Real Middle Band": "50.8780",
+"Real Upper Band": "53.1751",
+"Real Lower Band": "48.5809"
+},
+"2016-06-24": {
+"Real Middle Band": "51.1100",
+"Real Upper Band": "54.0069",
+"Real Lower Band": "48.2131"
+},
+"2016-06-17": {
+"Real Middle Band": "51.2680",
+"Real Upper Band": "53.6450",
+"Real Lower Band": "48.8910"
+},
+"2016-06-10": {
+"Real Middle Band": "51.4580",
+"Real Upper Band": "53.2067",
+"Real Lower Band": "49.7093"
+},
+"2016-06-03": {
+"Real Middle Band": "51.2400",
+"Real Upper Band": "53.4039",
+"Real Lower Band": "49.0761"
+},
+"2016-05-27": {
+"Real Middle Band": "50.8560",
+"Real Upper Band": "53.3438",
+"Real Lower Band": "48.3682"
+},
+"2016-05-20": {
+"Real Middle Band": "50.7480",
+"Real Upper Band": "52.6879",
+"Real Lower Band": "48.8081"
+},
+"2016-05-13": {
+"Real Middle Band": "51.7540",
+"Real Upper Band": "57.9086",
+"Real Lower Band": "45.5994"
+},
+"2016-05-06": {
+"Real Middle Band": "52.4220",
+"Real Upper Band": "59.1924",
+"Real Lower Band": "45.6516"
+},
+"2016-04-29": {
+"Real Middle Band": "53.4580",
+"Real Upper Band": "60.2833",
+"Real Lower Band": "46.6327"
+},
+"2016-04-22": {
+"Real Middle Band": "54.3260",
+"Real Upper Band": "58.5271",
+"Real Lower Band": "50.1249"
+},
+"2016-04-15": {
+"Real Middle Band": "54.6680",
+"Real Upper Band": "57.1552",
+"Real Lower Band": "52.1808"
+},
+"2016-04-08": {
+"Real Middle Band": "54.1520",
+"Real Upper Band": "56.7309",
+"Real Lower Band": "51.5731"
+},
+"2016-04-01": {
+"Real Middle Band": "53.6740",
+"Real Upper Band": "57.2195",
+"Real Lower Band": "50.1285"
+},
+"2016-03-24": {
+"Real Middle Band": "52.8200",
+"Real Upper Band": "55.9313",
+"Real Lower Band": "49.7087"
+},
+"2016-03-18": {
+"Real Middle Band": "52.3420",
+"Real Upper Band": "54.7805",
+"Real Lower Band": "49.9035"
+},
+"2016-03-11": {
+"Real Middle Band": "51.7440",
+"Real Upper Band": "54.2862",
+"Real Lower Band": "49.2018"
+},
+"2016-03-04": {
+"Real Middle Band": "51.1620",
+"Real Upper Band": "53.3451",
+"Real Lower Band": "48.9789"
+},
+"2016-02-26": {
+"Real Middle Band": "51.7740",
+"Real Upper Band": "57.0476",
+"Real Lower Band": "46.5004"
+},
+"2016-02-19": {
+"Real Middle Band": "51.9720",
+"Real Upper Band": "57.2192",
+"Real Lower Band": "46.7248"
+},
+"2016-02-12": {
+"Real Middle Band": "51.8060",
+"Real Upper Band": "57.1893",
+"Real Lower Band": "46.4227"
+},
+"2016-02-05": {
+"Real Middle Band": "52.1720",
+"Real Upper Band": "57.1918",
+"Real Lower Band": "47.1522"
+},
+"2016-01-29": {
+"Real Middle Band": "53.2360",
+"Real Upper Band": "58.4724",
+"Real Lower Band": "47.9996"
+},
+"2016-01-22": {
+"Real Middle Band": "53.3520",
+"Real Upper Band": "58.9889",
+"Real Lower Band": "47.7151"
+},
+"2016-01-15": {
+"Real Middle Band": "53.7200",
+"Real Upper Band": "59.1620",
+"Real Lower Band": "48.2780"
+},
+"2016-01-08": {
+"Real Middle Band": "54.3340",
+"Real Upper Band": "57.9417",
+"Real Lower Band": "50.7263"
+},
+"2015-12-31": {
+"Real Middle Band": "55.0500",
+"Real Upper Band": "57.4257",
+"Real Lower Band": "52.6743"
+},
+"2015-12-24": {
+"Real Middle Band": "54.7400",
+"Real Upper Band": "57.3292",
+"Real Lower Band": "52.1508"
+},
+"2015-12-18": {
+"Real Middle Band": "54.4440",
+"Real Upper Band": "56.6583",
+"Real Lower Band": "52.2297"
+},
+"2015-12-11": {
+"Real Middle Band": "54.1860",
+"Real Upper Band": "57.1453",
+"Real Lower Band": "51.2267"
+},
+"2015-12-04": {
+"Real Middle Band": "54.3580",
+"Real Upper Band": "57.4292",
+"Real Lower Band": "51.2868"
+},
+"2015-11-27": {
+"Real Middle Band": "53.7040",
+"Real Upper Band": "56.2653",
+"Real Lower Band": "51.1427"
+},
+"2015-11-20": {
+"Real Middle Band": "53.4920",
+"Real Upper Band": "56.1968",
+"Real Lower Band": "50.7872"
+},
+"2015-11-13": {
+"Real Middle Band": "52.1560",
+"Real Upper Band": "59.5578",
+"Real Lower Band": "44.7542"
+},
+"2015-11-06": {
+"Real Middle Band": "51.0100",
+"Real Upper Band": "60.3885",
+"Real Lower Band": "41.6315"
+},
+"2015-10-30": {
+"Real Middle Band": "49.1400",
+"Real Upper Band": "58.2083",
+"Real Lower Band": "40.0717"
+},
+"2015-10-23": {
+"Real Middle Band": "47.4000",
+"Real Upper Band": "56.4337",
+"Real Lower Band": "38.3663"
+},
+"2015-10-16": {
+"Real Middle Band": "45.5220",
+"Real Upper Band": "50.3869",
+"Real Lower Band": "40.6571"
+},
+"2015-10-09": {
+"Real Middle Band": "44.7160",
+"Real Upper Band": "48.9836",
+"Real Lower Band": "40.4484"
+},
+"2015-10-02": {
+"Real Middle Band": "43.8160",
+"Real Upper Band": "46.7468",
+"Real Lower Band": "40.8852"
+},
+"2015-09-25": {
+"Real Middle Band": "43.4880",
+"Real Upper Band": "44.9396",
+"Real Lower Band": "42.0364"
+},
+"2015-09-18": {
+"Real Middle Band": "43.3140",
+"Real Upper Band": "44.6487",
+"Real Lower Band": "41.9793"
+},
+"2015-09-11": {
+"Real Middle Band": "44.0180",
+"Real Upper Band": "48.6792",
+"Real Lower Band": "39.3568"
+},
+"2015-09-04": {
+"Real Middle Band": "44.6700",
+"Real Upper Band": "50.2123",
+"Real Lower Band": "39.1277"
+},
+"2015-08-28": {
+"Real Middle Band": "45.4880",
+"Real Upper Band": "50.4351",
+"Real Lower Band": "40.5409"
+},
+"2015-08-21": {
+"Real Middle Band": "45.8900",
+"Real Upper Band": "50.2510",
+"Real Lower Band": "41.5290"
+},
+"2015-08-14": {
+"Real Middle Band": "46.6000",
+"Real Upper Band": "47.6612",
+"Real Lower Band": "45.5388"
+},
+"2015-08-07": {
+"Real Middle Band": "46.1220",
+"Real Upper Band": "48.5530",
+"Real Lower Band": "43.6910"
+},
+"2015-07-31": {
+"Real Middle Band": "45.6540",
+"Real Upper Band": "48.5847",
+"Real Lower Band": "42.7233"
+},
+"2015-07-24": {
+"Real Middle Band": "45.3660",
+"Real Upper Band": "47.8464",
+"Real Lower Band": "42.8856"
+},
+"2015-07-17": {
+"Real Middle Band": "45.3980",
+"Real Upper Band": "47.9514",
+"Real Lower Band": "42.8446"
+},
+"2015-07-10": {
+"Real Middle Band": "45.2680",
+"Real Upper Band": "47.3341",
+"Real Lower Band": "43.2019"
+},
+"2015-07-02": {
+"Real Middle Band": "45.5740",
+"Real Upper Band": "47.5778",
+"Real Lower Band": "43.5702"
+},
+"2015-06-26": {
+"Real Middle Band": "46.0660",
+"Real Upper Band": "47.5933",
+"Real Lower Band": "44.5387"
+},
+"2015-06-19": {
+"Real Middle Band": "46.3940",
+"Real Upper Band": "47.5969",
+"Real Lower Band": "45.1911"
+},
+"2015-06-12": {
+"Real Middle Band": "46.8330",
+"Real Upper Band": "49.2951",
+"Real Lower Band": "44.3709"
+},
+"2015-06-05": {
+"Real Middle Band": "47.1890",
+"Real Upper Band": "49.4460",
+"Real Lower Band": "44.9320"
+},
+"2015-05-29": {
+"Real Middle Band": "47.6920",
+"Real Upper Band": "49.8611",
+"Real Lower Band": "45.5229"
+},
+"2015-05-22": {
+"Real Middle Band": "47.8940",
+"Real Upper Band": "49.6685",
+"Real Lower Band": "46.1195"
+},
+"2015-05-15": {
+"Real Middle Band": "46.8370",
+"Real Upper Band": "54.7289",
+"Real Lower Band": "38.9451"
+},
+"2015-05-08": {
+"Real Middle Band": "45.5220",
+"Real Upper Band": "55.0100",
+"Real Lower Band": "36.0340"
+},
+"2015-05-01": {
+"Real Middle Band": "44.0300",
+"Real Upper Band": "54.5336",
+"Real Lower Band": "33.5264"
+},
+"2015-04-24": {
+"Real Middle Band": "42.4930",
+"Real Upper Band": "50.7037",
+"Real Lower Band": "34.2823"
+},
+"2015-04-17": {
+"Real Middle Band": "41.4950",
+"Real Upper Band": "44.0795",
+"Real Lower Band": "38.9105"
+},
+"2015-04-10": {
+"Real Middle Band": "41.4480",
+"Real Upper Band": "44.0282",
+"Real Lower Band": "38.8678"
+},
+"2015-04-02": {
+"Real Middle Band": "41.5760",
+"Real Upper Band": "44.3821",
+"Real Lower Band": "38.7699"
+},
+"2015-03-27": {
+"Real Middle Band": "42.2880",
+"Real Upper Band": "45.3933",
+"Real Lower Band": "39.1827"
+},
+"2015-03-20": {
+"Real Middle Band": "42.8650",
+"Real Upper Band": "45.6827",
+"Real Lower Band": "40.0473"
+},
+"2015-03-13": {
+"Real Middle Band": "43.0630",
+"Real Upper Band": "46.1296",
+"Real Lower Band": "39.9964"
+},
+"2015-03-06": {
+"Real Middle Band": "43.2690",
+"Real Upper Band": "45.4350",
+"Real Lower Band": "41.1030"
+},
+"2015-02-27": {
+"Real Middle Band": "42.8770",
+"Real Upper Band": "46.9559",
+"Real Lower Band": "38.7981"
+},
+"2015-02-20": {
+"Real Middle Band": "43.5430",
+"Real Upper Band": "50.1965",
+"Real Lower Band": "36.8895"
+},
+"2015-02-13": {
+"Real Middle Band": "44.0200",
+"Real Upper Band": "51.4456",
+"Real Lower Band": "36.5944"
+},
+"2015-02-06": {
+"Real Middle Band": "44.6840",
+"Real Upper Band": "53.0038",
+"Real Lower Band": "36.3642"
+},
+"2015-01-30": {
+"Real Middle Band": "45.5540",
+"Real Upper Band": "53.3551",
+"Real Lower Band": "37.7529"
+},
+"2015-01-23": {
+"Real Middle Band": "47.0500",
+"Real Upper Band": "48.6742",
+"Real Lower Band": "45.4258"
+},
+"2015-01-16": {
+"Real Middle Band": "47.1460",
+"Real Upper Band": "48.9333",
+"Real Lower Band": "45.3587"
+},
+"2015-01-09": {
+"Real Middle Band": "47.2880",
+"Real Upper Band": "48.5548",
+"Real Lower Band": "46.0212"
+},
+"2015-01-02": {
+"Real Middle Band": "47.5340",
+"Real Upper Band": "49.3641",
+"Real Lower Band": "45.7039"
+},
+"2014-12-26": {
+"Real Middle Band": "47.7440",
+"Real Upper Band": "49.1622",
+"Real Lower Band": "46.3258"
+},
+"2014-12-19": {
+"Real Middle Band": "47.7640",
+"Real Upper Band": "49.2043",
+"Real Lower Band": "46.3237"
+},
+"2014-12-12": {
+"Real Middle Band": "48.1480",
+"Real Upper Band": "50.7295",
+"Real Lower Band": "45.5665"
+},
+"2014-12-05": {
+"Real Middle Band": "48.4940",
+"Real Upper Band": "50.3682",
+"Real Lower Band": "46.6198"
+},
+"2014-11-28": {
+"Real Middle Band": "48.2000",
+"Real Upper Band": "50.8488",
+"Real Lower Band": "45.5512"
+},
+"2014-11-21": {
+"Real Middle Band": "47.8640",
+"Real Upper Band": "51.5299",
+"Real Lower Band": "44.1981"
+},
+"2014-11-14": {
+"Real Middle Band": "46.9940",
+"Real Upper Band": "53.2286",
+"Real Lower Band": "40.7594"
+},
+"2014-11-07": {
+"Real Middle Band": "45.8840",
+"Real Upper Band": "51.5017",
+"Real Lower Band": "40.2663"
+},
+"2014-10-31": {
+"Real Middle Band": "45.3660",
+"Real Upper Band": "49.2580",
+"Real Lower Band": "41.4740"
+},
+"2014-10-24": {
+"Real Middle Band": "45.2580",
+"Real Upper Band": "48.7919",
+"Real Lower Band": "41.7241"
+},
+"2014-10-17": {
+"Real Middle Band": "45.5360",
+"Real Upper Band": "49.9671",
+"Real Lower Band": "41.1049"
+},
+"2014-10-10": {
+"Real Middle Band": "46.1490",
+"Real Upper Band": "49.6320",
+"Real Lower Band": "42.6660"
+},
+"2014-10-03": {
+"Real Middle Band": "46.5250",
+"Real Upper Band": "48.2218",
+"Real Lower Band": "44.8282"
+},
+"2014-09-26": {
+"Real Middle Band": "46.3930",
+"Real Upper Band": "48.5238",
+"Real Lower Band": "44.2622"
+},
+"2014-09-19": {
+"Real Middle Band": "46.1410",
+"Real Upper Band": "48.7389",
+"Real Lower Band": "43.5431"
+},
+"2014-09-12": {
+"Real Middle Band": "45.5950",
+"Real Upper Band": "47.5770",
+"Real Lower Band": "43.6130"
+},
+"2014-09-05": {
+"Real Middle Band": "44.8960",
+"Real Upper Band": "47.6669",
+"Real Lower Band": "42.1251"
+},
+"2014-08-29": {
+"Real Middle Band": "44.2860",
+"Real Upper Band": "47.4387",
+"Real Lower Band": "41.1333"
+},
+"2014-08-22": {
+"Real Middle Band": "44.1000",
+"Real Upper Band": "46.8120",
+"Real Lower Band": "41.3880"
+},
+"2014-08-15": {
+"Real Middle Band": "44.0080",
+"Real Upper Band": "46.4413",
+"Real Lower Band": "41.5747"
+},
+"2014-08-08": {
+"Real Middle Band": "43.4680",
+"Real Upper Band": "46.4374",
+"Real Lower Band": "40.4986"
+},
+"2014-08-01": {
+"Real Middle Band": "43.1880",
+"Real Upper Band": "46.7923",
+"Real Lower Band": "39.5837"
+},
+"2014-07-25": {
+"Real Middle Band": "43.0660",
+"Real Upper Band": "46.8405",
+"Real Lower Band": "39.2915"
+},
+"2014-07-18": {
+"Real Middle Band": "42.5020",
+"Real Upper Band": "45.8397",
+"Real Lower Band": "39.1643"
+},
+"2014-07-11": {
+"Real Middle Band": "41.8100",
+"Real Upper Band": "42.8710",
+"Real Lower Band": "40.7490"
+},
+"2014-07-03": {
+"Real Middle Band": "41.6880",
+"Real Upper Band": "42.7111",
+"Real Lower Band": "40.6649"
+},
+"2014-06-27": {
+"Real Middle Band": "41.5160",
+"Real Upper Band": "42.8445",
+"Real Lower Band": "40.1875"
+},
+"2014-06-20": {
+"Real Middle Band": "41.0900",
+"Real Upper Band": "42.7239",
+"Real Lower Band": "39.4561"
+},
+"2014-06-13": {
+"Real Middle Band": "40.7200",
+"Real Upper Band": "42.6354",
+"Real Lower Band": "38.8046"
+},
+"2014-06-06": {
+"Real Middle Band": "40.3820",
+"Real Upper Band": "42.5450",
+"Real Lower Band": "38.2190"
+},
+"2014-05-30": {
+"Real Middle Band": "40.0240",
+"Real Upper Band": "41.5130",
+"Real Lower Band": "38.5350"
+},
+"2014-05-23": {
+"Real Middle Band": "39.8180",
+"Real Upper Band": "40.4081",
+"Real Lower Band": "39.2279"
+},
+"2014-05-16": {
+"Real Middle Band": "39.7960",
+"Real Upper Band": "40.2921",
+"Real Lower Band": "39.2999"
+},
+"2014-05-09": {
+"Real Middle Band": "39.6718",
+"Real Upper Band": "40.5235",
+"Real Lower Band": "38.8201"
+},
+"2014-05-02": {
+"Real Middle Band": "39.7378",
+"Real Upper Band": "40.5896",
+"Real Lower Band": "38.8860"
+},
+"2014-04-25": {
+"Real Middle Band": "39.8598",
+"Real Upper Band": "40.9352",
+"Real Lower Band": "38.7844"
+},
+"2014-04-17": {
+"Real Middle Band": "39.9098",
+"Real Upper Band": "41.0463",
+"Real Lower Band": "38.7733"
+},
+"2014-04-11": {
+"Real Middle Band": "39.4478",
+"Real Upper Band": "42.3013",
+"Real Lower Band": "36.5943"
+},
+"2014-04-04": {
+"Real Middle Band": "39.1860",
+"Real Upper Band": "42.6117",
+"Real Lower Band": "35.7603"
+},
+"2014-03-28": {
+"Real Middle Band": "38.8740",
+"Real Upper Band": "42.2501",
+"Real Lower Band": "35.4979"
+},
+"2014-03-21": {
+"Real Middle Band": "38.4100",
+"Real Upper Band": "41.1005",
+"Real Lower Band": "35.7195"
+},
+"2014-03-14": {
+"Real Middle Band": "37.9020",
+"Real Upper Band": "38.6281",
+"Real Lower Band": "37.1759"
+},
+"2014-03-07": {
+"Real Middle Band": "37.6740",
+"Real Upper Band": "39.4706",
+"Real Lower Band": "35.8774"
+},
+"2014-02-28": {
+"Real Middle Band": "37.6620",
+"Real Upper Band": "39.4464",
+"Real Lower Band": "35.8776"
+},
+"2014-02-21": {
+"Real Middle Band": "37.3610",
+"Real Upper Band": "39.0741",
+"Real Lower Band": "35.6479"
+},
+"2014-02-14": {
+"Real Middle Band": "37.0410",
+"Real Upper Band": "38.7891",
+"Real Lower Band": "35.2929"
+},
+"2014-02-07": {
+"Real Middle Band": "36.7250",
+"Real Upper Band": "38.5573",
+"Real Lower Band": "34.8927"
+},
+"2014-01-31": {
+"Real Middle Band": "36.7950",
+"Real Upper Band": "38.6186",
+"Real Lower Band": "34.9714"
+},
+"2014-01-24": {
+"Real Middle Band": "36.6850",
+"Real Upper Band": "37.9858",
+"Real Lower Band": "35.3842"
+},
+"2014-01-17": {
+"Real Middle Band": "36.6840",
+"Real Upper Band": "37.9840",
+"Real Lower Band": "35.3840"
+},
+"2014-01-10": {
+"Real Middle Band": "36.7460",
+"Real Upper Band": "37.9663",
+"Real Lower Band": "35.5257"
+},
+"2014-01-03": {
+"Real Middle Band": "37.2100",
+"Real Upper Band": "39.0385",
+"Real Lower Band": "35.3815"
+},
+"2013-12-27": {
+"Real Middle Band": "37.4540",
+"Real Upper Band": "39.4958",
+"Real Lower Band": "35.4122"
+},
+"2013-12-20": {
+"Real Middle Band": "37.5100",
+"Real Upper Band": "39.5389",
+"Real Lower Band": "35.4811"
+},
+"2013-12-13": {
+"Real Middle Band": "37.7182",
+"Real Upper Band": "39.4550",
+"Real Lower Band": "35.9814"
+},
+"2013-12-06": {
+"Real Middle Band": "37.9362",
+"Real Upper Band": "38.7684",
+"Real Lower Band": "37.1040"
+},
+"2013-11-29": {
+"Real Middle Band": "37.3692",
+"Real Upper Band": "40.1871",
+"Real Lower Band": "34.5513"
+},
+"2013-11-22": {
+"Real Middle Band": "36.8892",
+"Real Upper Band": "39.9976",
+"Real Lower Band": "33.7808"
+},
+"2013-11-15": {
+"Real Middle Band": "36.3672",
+"Real Upper Band": "39.9831",
+"Real Lower Band": "32.7513"
+},
+"2013-11-08": {
+"Real Middle Band": "35.6250",
+"Real Upper Band": "39.2604",
+"Real Lower Band": "31.9896"
+},
+"2013-11-01": {
+"Real Middle Band": "34.8450",
+"Real Upper Band": "37.0501",
+"Real Lower Band": "32.6399"
+},
+"2013-10-25": {
+"Real Middle Band": "34.3940",
+"Real Upper Band": "36.9756",
+"Real Lower Band": "31.8124"
+},
+"2013-10-18": {
+"Real Middle Band": "33.8062",
+"Real Upper Band": "36.0350",
+"Real Lower Band": "31.5774"
+},
+"2013-10-11": {
+"Real Middle Band": "33.4202",
+"Real Upper Band": "34.9416",
+"Real Lower Band": "31.8988"
+},
+"2013-10-04": {
+"Real Middle Band": "32.8246",
+"Real Upper Band": "35.5588",
+"Real Lower Band": "30.0904"
+},
+"2013-09-27": {
+"Real Middle Band": "32.7286",
+"Real Upper Band": "35.1748",
+"Real Lower Band": "30.2824"
+},
+"2013-09-20": {
+"Real Middle Band": "33.0246",
+"Real Upper Band": "36.4919",
+"Real Lower Band": "29.5573"
+},
+"2013-09-13": {
+"Real Middle Band": "32.8264",
+"Real Upper Band": "36.6040",
+"Real Lower Band": "29.0488"
+},
+"2013-09-06": {
+"Real Middle Band": "32.7604",
+"Real Upper Band": "36.5267",
+"Real Lower Band": "28.9941"
+},
+"2013-08-30": {
+"Real Middle Band": "32.9080",
+"Real Upper Band": "36.1785",
+"Real Lower Band": "29.6375"
+},
+"2013-08-23": {
+"Real Middle Band": "32.5520",
+"Real Upper Band": "36.0313",
+"Real Lower Band": "29.0727"
+},
+"2013-08-16": {
+"Real Middle Band": "31.8820",
+"Real Upper Band": "33.2080",
+"Real Lower Band": "30.5560"
+},
+"2013-08-09": {
+"Real Middle Band": "32.6560",
+"Real Upper Band": "37.3659",
+"Real Lower Band": "27.9461"
+},
+"2013-08-02": {
+"Real Middle Band": "32.9580",
+"Real Upper Band": "38.0280",
+"Real Lower Band": "27.8880"
+},
+"2013-07-26": {
+"Real Middle Band": "33.4890",
+"Real Upper Band": "38.5534",
+"Real Lower Band": "28.4246"
+},
+"2013-07-19": {
+"Real Middle Band": "33.8180",
+"Real Upper Band": "38.1164",
+"Real Lower Band": "29.5196"
+},
+"2013-07-12": {
+"Real Middle Band": "34.4180",
+"Real Upper Band": "36.7249",
+"Real Lower Band": "32.1111"
+},
+"2013-07-05": {
+"Real Middle Band": "34.4180",
+"Real Upper Band": "36.7249",
+"Real Lower Band": "32.1111"
+},
+"2013-06-28": {
+"Real Middle Band": "34.5560",
+"Real Upper Band": "36.8993",
+"Real Lower Band": "32.2127"
+},
+"2013-06-21": {
+"Real Middle Band": "34.5008",
+"Real Upper Band": "36.8697",
+"Real Lower Band": "32.1319"
+},
+"2013-06-14": {
+"Real Middle Band": "34.8218",
+"Real Upper Band": "36.2984",
+"Real Lower Band": "33.3452"
+},
+"2013-06-07": {
+"Real Middle Band": "34.4798",
+"Real Upper Band": "37.4778",
+"Real Lower Band": "31.4818"
+},
+"2013-05-31": {
+"Real Middle Band": "34.0438",
+"Real Upper Band": "36.5915",
+"Real Lower Band": "31.4961"
+},
+"2013-05-24": {
+"Real Middle Band": "33.4218",
+"Real Upper Band": "36.7131",
+"Real Lower Band": "30.1305"
+},
+"2013-05-17": {
+"Real Middle Band": "32.5210",
+"Real Upper Band": "37.6501",
+"Real Lower Band": "27.3919"
+},
+"2013-05-10": {
+"Real Middle Band": "31.3050",
+"Real Upper Band": "36.6082",
+"Real Lower Band": "26.0018"
+},
+"2013-05-03": {
+"Real Middle Band": "30.5070",
+"Real Upper Band": "36.0887",
+"Real Lower Band": "24.9253"
+},
+"2013-04-26": {
+"Real Middle Band": "29.5300",
+"Real Upper Band": "33.1437",
+"Real Lower Band": "25.9163"
+},
+"2013-04-19": {
+"Real Middle Band": "28.8220",
+"Real Upper Band": "30.3396",
+"Real Lower Band": "27.3044"
+},
+"2013-04-12": {
+"Real Middle Band": "28.4760",
+"Real Upper Band": "29.3361",
+"Real Lower Band": "27.6159"
+},
+"2013-04-05": {
+"Real Middle Band": "28.3180",
+"Real Upper Band": "29.1814",
+"Real Lower Band": "27.4546"
+},
+"2013-03-28": {
+"Real Middle Band": "28.1680",
+"Real Upper Band": "28.8919",
+"Real Lower Band": "27.4441"
+},
+"2013-03-22": {
+"Real Middle Band": "27.9990",
+"Real Upper Band": "28.4711",
+"Real Lower Band": "27.5269"
+},
+"2013-03-15": {
+"Real Middle Band": "27.9510",
+"Real Upper Band": "28.2493",
+"Real Lower Band": "27.6527"
+},
+"2013-03-08": {
+"Real Middle Band": "27.8540",
+"Real Upper Band": "28.3841",
+"Real Lower Band": "27.3239"
+},
+"2013-03-01": {
+"Real Middle Band": "27.8400",
+"Real Upper Band": "28.3413",
+"Real Lower Band": "27.3387"
+},
+"2013-02-22": {
+"Real Middle Band": "27.8260",
+"Real Upper Band": "28.3062",
+"Real Lower Band": "27.3458"
+},
+"2013-02-15": {
+"Real Middle Band": "27.7240",
+"Real Upper Band": "28.5763",
+"Real Lower Band": "26.8717"
+},
+"2013-02-08": {
+"Real Middle Band": "27.4880",
+"Real Upper Band": "28.7194",
+"Real Lower Band": "26.2566"
+},
+"2013-02-01": {
+"Real Middle Band": "27.3260",
+"Real Upper Band": "28.8361",
+"Real Lower Band": "25.8159"
+},
+"2013-01-25": {
+"Real Middle Band": "27.0500",
+"Real Upper Band": "28.4720",
+"Real Lower Band": "25.6280"
+},
+"2013-01-18": {
+"Real Middle Band": "26.9640",
+"Real Upper Band": "27.9658",
+"Real Lower Band": "25.9622"
+},
+"2013-01-11": {
+"Real Middle Band": "26.8760",
+"Real Upper Band": "27.7867",
+"Real Lower Band": "25.9653"
+},
+"2013-01-04": {
+"Real Middle Band": "26.8010",
+"Real Upper Band": "27.8469",
+"Real Lower Band": "25.7551"
+},
+"2012-12-28": {
+"Real Middle Band": "26.7760",
+"Real Upper Band": "27.8455",
+"Real Lower Band": "25.7065"
+},
+"2012-12-21": {
+"Real Middle Band": "27.0060",
+"Real Upper Band": "28.4595",
+"Real Lower Band": "25.5525"
+},
+"2012-12-14": {
+"Real Middle Band": "26.8202",
+"Real Upper Band": "28.1879",
+"Real Lower Band": "25.4525"
+},
+"2012-12-07": {
+"Real Middle Band": "27.2242",
+"Real Upper Band": "29.9941",
+"Real Lower Band": "24.4543"
+},
+"2012-11-30": {
+"Real Middle Band": "27.8332",
+"Real Upper Band": "31.3817",
+"Real Lower Band": "24.2847"
+},
+"2012-11-23": {
+"Real Middle Band": "28.1522",
+"Real Upper Band": "31.1953",
+"Real Lower Band": "25.1091"
+},
+"2012-11-16": {
+"Real Middle Band": "28.3402",
+"Real Upper Band": "31.3406",
+"Real Lower Band": "25.3398"
+},
+"2012-11-09": {
+"Real Middle Band": "28.8760",
+"Real Upper Band": "30.2148",
+"Real Lower Band": "27.5372"
+},
+"2012-11-02": {
+"Real Middle Band": "29.0800",
+"Real Upper Band": "30.8468",
+"Real Lower Band": "27.3132"
+},
+"2012-10-26": {
+"Real Middle Band": "29.1320",
+"Real Upper Band": "31.0325",
+"Real Lower Band": "27.2315"
+},
+"2012-10-19": {
+"Real Middle Band": "29.7280",
+"Real Upper Band": "32.2792",
+"Real Lower Band": "27.1768"
+},
+"2012-10-12": {
+"Real Middle Band": "30.2420",
+"Real Upper Band": "32.6820",
+"Real Lower Band": "27.8020"
+},
+"2012-10-05": {
+"Real Middle Band": "30.5920",
+"Real Upper Band": "32.5411",
+"Real Lower Band": "28.6429"
+},
+"2012-09-28": {
+"Real Middle Band": "30.7860",
+"Real Upper Band": "32.3868",
+"Real Lower Band": "29.1852"
+},
+"2012-09-21": {
+"Real Middle Band": "30.9460",
+"Real Upper Band": "31.6736",
+"Real Lower Band": "30.2184"
+},
+"2012-09-14": {
+"Real Middle Band": "30.8880",
+"Real Upper Band": "31.5171",
+"Real Lower Band": "30.2589"
+},
+"2012-09-07": {
+"Real Middle Band": "30.7300",
+"Real Upper Band": "31.3454",
+"Real Lower Band": "30.1146"
+},
+"2012-08-31": {
+"Real Middle Band": "30.4900",
+"Real Upper Band": "31.7155",
+"Real Lower Band": "29.2645"
+},
+"2012-08-24": {
+"Real Middle Band": "30.2770",
+"Real Upper Band": "31.6445",
+"Real Lower Band": "28.9095"
+},
+"2012-08-17": {
+"Real Middle Band": "30.1880",
+"Real Upper Band": "31.4925",
+"Real Lower Band": "28.8835"
+},
+"2012-08-10": {
+"Real Middle Band": "29.8860",
+"Real Upper Band": "30.9418",
+"Real Lower Band": "28.8302"
+},
+"2012-08-03": {
+"Real Middle Band": "29.8390",
+"Real Upper Band": "30.7007",
+"Real Lower Band": "28.9773"
+},
+"2012-07-27": {
+"Real Middle Band": "30.0070",
+"Real Upper Band": "31.2274",
+"Real Lower Band": "28.7866"
+},
+"2012-07-20": {
+"Real Middle Band": "30.1960",
+"Real Upper Band": "31.5809",
+"Real Lower Band": "28.8111"
+},
+"2012-07-13": {
+"Real Middle Band": "30.1770",
+"Real Upper Band": "31.5765",
+"Real Lower Band": "28.7775"
+},
+"2012-07-06": {
+"Real Middle Band": "30.2290",
+"Real Upper Band": "31.3777",
+"Real Lower Band": "29.0803"
+},
+"2012-06-29": {
+"Real Middle Band": "29.8820",
+"Real Upper Band": "32.3170",
+"Real Lower Band": "27.4470"
+},
+"2012-06-22": {
+"Real Middle Band": "29.5760",
+"Real Upper Band": "31.8998",
+"Real Lower Band": "27.2522"
+},
+"2012-06-15": {
+"Real Middle Band": "29.2900",
+"Real Upper Band": "30.8895",
+"Real Lower Band": "27.6905"
+},
+"2012-06-08": {
+"Real Middle Band": "29.5180",
+"Real Upper Band": "32.2430",
+"Real Lower Band": "26.7930"
+},
+"2012-06-01": {
+"Real Middle Band": "29.7840",
+"Real Upper Band": "33.0405",
+"Real Lower Band": "26.5275"
+},
+"2012-05-25": {
+"Real Middle Band": "30.4900",
+"Real Upper Band": "33.8953",
+"Real Lower Band": "27.0847"
+},
+"2012-05-18": {
+"Real Middle Band": "31.1620",
+"Real Upper Band": "34.4110",
+"Real Lower Band": "27.9130"
+},
+"2012-05-11": {
+"Real Middle Band": "31.4700",
+"Real Upper Band": "33.3360",
+"Real Lower Band": "29.6040"
+},
+"2012-05-04": {
+"Real Middle Band": "31.5420",
+"Real Upper Band": "33.3494",
+"Real Lower Band": "29.7346"
+},
+"2012-04-27": {
+"Real Middle Band": "31.7970",
+"Real Upper Band": "33.5371",
+"Real Lower Band": "30.0569"
+},
+"2012-04-20": {
+"Real Middle Band": "31.8030",
+"Real Upper Band": "33.5492",
+"Real Lower Band": "30.0568"
+},
+"2012-04-13": {
+"Real Middle Band": "31.8390",
+"Real Upper Band": "33.7087",
+"Real Lower Band": "29.9693"
+},
+"2012-04-05": {
+"Real Middle Band": "32.0750",
+"Real Upper Band": "33.1378",
+"Real Lower Band": "31.0122"
+},
+"2012-03-30": {
+"Real Middle Band": "32.1860",
+"Real Upper Band": "32.8673",
+"Real Lower Band": "31.5047"
+},
+"2012-03-23": {
+"Real Middle Band": "32.0310",
+"Real Upper Band": "33.0971",
+"Real Lower Band": "30.9649"
+},
+"2012-03-16": {
+"Real Middle Band": "31.8790",
+"Real Upper Band": "33.3023",
+"Real Lower Band": "30.4557"
+},
+"2012-03-09": {
+"Real Middle Band": "31.4580",
+"Real Upper Band": "33.1734",
+"Real Lower Band": "29.7426"
+},
+"2012-03-02": {
+"Real Middle Band": "31.1080",
+"Real Upper Band": "33.1083",
+"Real Lower Band": "29.1077"
+},
+"2012-02-24": {
+"Real Middle Band": "30.5390",
+"Real Upper Band": "32.9374",
+"Real Lower Band": "28.1406"
+},
+"2012-02-17": {
+"Real Middle Band": "30.1850",
+"Real Upper Band": "32.2509",
+"Real Lower Band": "28.1191"
+},
+"2012-02-10": {
+"Real Middle Band": "29.5850",
+"Real Upper Band": "31.9779",
+"Real Lower Band": "27.1921"
+},
+"2012-02-03": {
+"Real Middle Band": "29.1070",
+"Real Upper Band": "31.5812",
+"Real Lower Band": "26.6328"
+},
+"2012-01-27": {
+"Real Middle Band": "28.2510",
+"Real Upper Band": "32.1295",
+"Real Lower Band": "24.3725"
+},
+"2012-01-20": {
+"Real Middle Band": "27.6110",
+"Real Upper Band": "31.9134",
+"Real Lower Band": "23.3086"
+},
+"2012-01-13": {
+"Real Middle Band": "26.8690",
+"Real Upper Band": "30.0778",
+"Real Lower Band": "23.6602"
+},
+"2012-01-06": {
+"Real Middle Band": "26.3590",
+"Real Upper Band": "29.0014",
+"Real Lower Band": "23.7166"
+},
+"2011-12-30": {
+"Real Middle Band": "25.7820",
+"Real Upper Band": "26.6952",
+"Real Lower Band": "24.8688"
+},
+"2011-12-23": {
+"Real Middle Band": "25.4500",
+"Real Upper Band": "27.3835",
+"Real Lower Band": "23.5165"
+},
+"2011-12-16": {
+"Real Middle Band": "25.3040",
+"Real Upper Band": "27.0307",
+"Real Lower Band": "23.5773"
+},
+"2011-12-09": {
+"Real Middle Band": "25.4860",
+"Real Upper Band": "28.0265",
+"Real Lower Band": "22.9455"
+},
+"2011-12-02": {
+"Real Middle Band": "25.5960",
+"Real Upper Band": "28.3003",
+"Real Lower Band": "22.8917"
+},
+"2011-11-25": {
+"Real Middle Band": "25.9480",
+"Real Upper Band": "29.0125",
+"Real Lower Band": "22.8835"
+},
+"2011-11-18": {
+"Real Middle Band": "26.5200",
+"Real Upper Band": "28.5699",
+"Real Lower Band": "24.4701"
+},
+"2011-11-11": {
+"Real Middle Band": "26.9140",
+"Real Upper Band": "27.9810",
+"Real Lower Band": "25.8470"
+},
+"2011-11-04": {
+"Real Middle Band": "26.7820",
+"Real Upper Band": "28.1144",
+"Real Lower Band": "25.4496"
+},
+"2011-10-28": {
+"Real Middle Band": "26.5100",
+"Real Upper Band": "29.1639",
+"Real Lower Band": "23.8561"
+},
+"2011-10-21": {
+"Real Middle Band": "26.1260",
+"Real Upper Band": "29.1431",
+"Real Lower Band": "23.1089"
+},
+"2011-10-14": {
+"Real Middle Band": "26.1180",
+"Real Upper Band": "29.1108",
+"Real Lower Band": "23.1252"
+},
+"2011-10-07": {
+"Real Middle Band": "25.8120",
+"Real Upper Band": "28.2579",
+"Real Lower Band": "23.3661"
+},
+"2011-09-30": {
+"Real Middle Band": "25.7220",
+"Real Upper Band": "28.0809",
+"Real Lower Band": "23.3631"
+},
+"2011-09-23": {
+"Real Middle Band": "25.7940",
+"Real Upper Band": "27.9556",
+"Real Lower Band": "23.6324"
+},
+"2011-09-16": {
+"Real Middle Band": "25.5920",
+"Real Upper Band": "28.5602",
+"Real Lower Band": "22.6238"
+},
+"2011-09-09": {
+"Real Middle Band": "25.1880",
+"Real Upper Band": "27.0787",
+"Real Lower Band": "23.2973"
+},
+"2011-09-02": {
+"Real Middle Band": "25.1760",
+"Real Upper Band": "27.0363",
+"Real Lower Band": "23.3157"
+},
+"2011-08-26": {
+"Real Middle Band": "25.4960",
+"Real Upper Band": "28.7734",
+"Real Lower Band": "22.2186"
+},
+"2011-08-19": {
+"Real Middle Band": "25.9520",
+"Real Upper Band": "29.9779",
+"Real Lower Band": "21.9261"
+},
+"2011-08-12": {
+"Real Middle Band": "26.4980",
+"Real Upper Band": "29.3698",
+"Real Lower Band": "23.6262"
+},
+"2011-08-05": {
+"Real Middle Band": "26.8620",
+"Real Upper Band": "28.8260",
+"Real Lower Band": "24.8980"
+},
+"2011-07-29": {
+"Real Middle Band": "26.9300",
+"Real Upper Band": "28.5353",
+"Real Lower Band": "25.3247"
+},
+"2011-07-22": {
+"Real Middle Band": "26.3100",
+"Real Upper Band": "29.6522",
+"Real Lower Band": "22.9678"
+},
+"2011-07-15": {
+"Real Middle Band": "25.6560",
+"Real Upper Band": "29.1497",
+"Real Lower Band": "22.1623"
+},
+"2011-07-08": {
+"Real Middle Band": "25.0410",
+"Real Upper Band": "28.6988",
+"Real Lower Band": "21.3832"
+},
+"2011-07-01": {
+"Real Middle Band": "24.4380",
+"Real Upper Band": "26.9027",
+"Real Lower Band": "21.9733"
+},
+"2011-06-24": {
+"Real Middle Band": "24.1860",
+"Real Upper Band": "25.2745",
+"Real Lower Band": "23.0975"
+},
+"2011-06-17": {
+"Real Middle Band": "24.2240",
+"Real Upper Band": "25.3707",
+"Real Lower Band": "23.0773"
+},
+"2011-06-10": {
+"Real Middle Band": "24.3780",
+"Real Upper Band": "25.8841",
+"Real Lower Band": "22.8719"
+},
+"2011-06-03": {
+"Real Middle Band": "24.8110",
+"Real Upper Band": "26.7533",
+"Real Lower Band": "22.8687"
+},
+"2011-05-27": {
+"Real Middle Band": "25.2140",
+"Real Upper Band": "26.9596",
+"Real Lower Band": "23.4684"
+},
+"2011-05-20": {
+"Real Middle Band": "25.3660",
+"Real Upper Band": "26.9898",
+"Real Lower Band": "23.7422"
+},
+"2011-05-13": {
+"Real Middle Band": "25.5420",
+"Real Upper Band": "26.5303",
+"Real Lower Band": "24.5537"
+},
+"2011-05-06": {
+"Real Middle Band": "25.7500",
+"Real Upper Band": "26.5357",
+"Real Lower Band": "24.9643"
+},
+"2011-04-29": {
+"Real Middle Band": "25.6720",
+"Real Upper Band": "26.4893",
+"Real Lower Band": "24.8547"
+},
+"2011-04-21": {
+"Real Middle Band": "25.6120",
+"Real Upper Band": "26.3398",
+"Real Lower Band": "24.8842"
+},
+"2011-04-15": {
+"Real Middle Band": "25.4680",
+"Real Upper Band": "26.6987",
+"Real Lower Band": "24.2373"
+},
+"2011-04-08": {
+"Real Middle Band": "25.5300",
+"Real Upper Band": "26.7724",
+"Real Lower Band": "24.2876"
+},
+"2011-04-01": {
+"Real Middle Band": "25.5066",
+"Real Upper Band": "26.6624",
+"Real Lower Band": "24.3508"
+},
+"2011-03-25": {
+"Real Middle Band": "25.7206",
+"Real Upper Band": "27.4183",
+"Real Lower Band": "24.0229"
+},
+"2011-03-18": {
+"Real Middle Band": "26.0086",
+"Real Upper Band": "28.3209",
+"Real Lower Band": "23.6963"
+},
+"2011-03-11": {
+"Real Middle Band": "26.4986",
+"Real Upper Band": "28.3235",
+"Real Lower Band": "24.6737"
+},
+"2011-03-04": {
+"Real Middle Band": "26.9166",
+"Real Upper Band": "28.7771",
+"Real Lower Band": "25.0561"
+},
+"2011-02-25": {
+"Real Middle Band": "27.2762",
+"Real Upper Band": "28.6471",
+"Real Lower Band": "25.9053"
+},
+"2011-02-18": {
+"Real Middle Band": "27.5702",
+"Real Upper Band": "28.6416",
+"Real Lower Band": "26.4988"
+},
+"2011-02-11": {
+"Real Middle Band": "27.8182",
+"Real Upper Band": "28.8596",
+"Real Lower Band": "26.7768"
+},
+"2011-02-04": {
+"Real Middle Band": "28.0882",
+"Real Upper Band": "29.0616",
+"Real Lower Band": "27.1148"
+},
+"2011-01-28": {
+"Real Middle Band": "28.1162",
+"Real Upper Band": "29.0192",
+"Real Lower Band": "27.2132"
+},
+"2011-01-21": {
+"Real Middle Band": "28.2260",
+"Real Upper Band": "28.9524",
+"Real Lower Band": "27.4996"
+},
+"2011-01-14": {
+"Real Middle Band": "28.2024",
+"Real Upper Band": "28.9994",
+"Real Lower Band": "27.4054"
+},
+"2011-01-07": {
+"Real Middle Band": "28.0104",
+"Real Upper Band": "29.2851",
+"Real Lower Band": "26.7357"
+},
+"2010-12-31": {
+"Real Middle Band": "27.6944",
+"Real Upper Band": "29.0605",
+"Real Lower Band": "26.3283"
+},
+"2010-12-23": {
+"Real Middle Band": "27.1784",
+"Real Upper Band": "30.2523",
+"Real Lower Band": "24.1045"
+},
+"2010-12-17": {
+"Real Middle Band": "26.6564",
+"Real Upper Band": "29.6093",
+"Real Lower Band": "23.7035"
+},
+"2010-12-10": {
+"Real Middle Band": "26.3300",
+"Real Upper Band": "28.6184",
+"Real Lower Band": "24.0416"
+},
+"2010-12-03": {
+"Real Middle Band": "26.2320",
+"Real Upper Band": "28.1816",
+"Real Lower Band": "24.2824"
+},
+"2010-11-26": {
+"Real Middle Band": "26.1610",
+"Real Upper Band": "27.8859",
+"Real Lower Band": "24.4361"
+},
+"2010-11-19": {
+"Real Middle Band": "26.1706",
+"Real Upper Band": "27.8544",
+"Real Lower Band": "24.4868"
+},
+"2010-11-12": {
+"Real Middle Band": "26.1406",
+"Real Upper Band": "27.9090",
+"Real Lower Band": "24.3722"
+},
+"2010-11-05": {
+"Real Middle Band": "25.8006",
+"Real Upper Band": "28.3495",
+"Real Lower Band": "23.2517"
+},
+"2010-10-29": {
+"Real Middle Band": "25.3066",
+"Real Upper Band": "27.7460",
+"Real Lower Band": "22.8672"
+},
+"2010-10-22": {
+"Real Middle Band": "24.9286",
+"Real Upper Band": "26.2895",
+"Real Lower Band": "23.5677"
+},
+"2010-10-15": {
+"Real Middle Band": "24.8970",
+"Real Upper Band": "26.1746",
+"Real Lower Band": "23.6194"
+},
+"2010-10-08": {
+"Real Middle Band": "24.5590",
+"Real Upper Band": "25.9129",
+"Real Lower Band": "23.2051"
+},
+"2010-10-01": {
+"Real Middle Band": "24.5030",
+"Real Upper Band": "25.8940",
+"Real Lower Band": "23.1120"
+},
+"2010-09-24": {
+"Real Middle Band": "24.4130",
+"Real Upper Band": "25.9705",
+"Real Lower Band": "22.8555"
+},
+"2010-09-17": {
+"Real Middle Band": "24.3040",
+"Real Upper Band": "25.7680",
+"Real Lower Band": "22.8400"
+},
+"2010-09-10": {
+"Real Middle Band": "24.1400",
+"Real Upper Band": "24.7784",
+"Real Lower Band": "23.5016"
+},
+"2010-09-03": {
+"Real Middle Band": "24.4800",
+"Real Upper Band": "26.1516",
+"Real Lower Band": "22.8084"
+},
+"2010-08-27": {
+"Real Middle Band": "24.7840",
+"Real Upper Band": "27.0382",
+"Real Lower Band": "22.5298"
+},
+"2010-08-20": {
+"Real Middle Band": "25.1600",
+"Real Upper Band": "27.2555",
+"Real Lower Band": "23.0645"
+},
+"2010-08-13": {
+"Real Middle Band": "25.2920",
+"Real Upper Band": "26.9680",
+"Real Lower Band": "23.6160"
+},
+"2010-08-06": {
+"Real Middle Band": "25.2660",
+"Real Upper Band": "27.0690",
+"Real Lower Band": "23.4630"
+},
+"2010-07-30": {
+"Real Middle Band": "24.8100",
+"Real Upper Band": "27.7092",
+"Real Lower Band": "21.9108"
+},
+"2010-07-23": {
+"Real Middle Band": "24.5544",
+"Real Upper Band": "27.0356",
+"Real Lower Band": "22.0732"
+},
+"2010-07-16": {
+"Real Middle Band": "24.6804",
+"Real Upper Band": "27.7749",
+"Real Lower Band": "21.5859"
+},
+"2010-07-09": {
+"Real Middle Band": "24.8344",
+"Real Upper Band": "28.1526",
+"Real Lower Band": "21.5162"
+},
+"2010-07-02": {
+"Real Middle Band": "25.1384",
+"Real Upper Band": "28.4924",
+"Real Lower Band": "21.7844"
+},
+"2010-06-25": {
+"Real Middle Band": "25.6444",
+"Real Upper Band": "27.5015",
+"Real Lower Band": "23.7873"
+},
+"2010-06-18": {
+"Real Middle Band": "26.1060",
+"Real Upper Band": "27.4760",
+"Real Lower Band": "24.7360"
+},
+"2010-06-11": {
+"Real Middle Band": "26.6040",
+"Real Upper Band": "30.3187",
+"Real Lower Band": "22.8893"
+},
+"2010-06-04": {
+"Real Middle Band": "27.1140",
+"Real Upper Band": "30.9215",
+"Real Lower Band": "23.3065"
+},
+"2010-05-28": {
+"Real Middle Band": "28.0630",
+"Real Upper Band": "32.9927",
+"Real Lower Band": "23.1333"
+},
+"2010-05-21": {
+"Real Middle Band": "29.0950",
+"Real Upper Band": "33.6343",
+"Real Lower Band": "24.5557"
+},
+"2010-05-14": {
+"Real Middle Band": "29.8610",
+"Real Upper Band": "33.1224",
+"Real Lower Band": "26.5996"
+},
+"2010-05-07": {
+"Real Middle Band": "30.1430",
+"Real Upper Band": "33.1050",
+"Real Lower Band": "27.1810"
+},
+"2010-04-30": {
+"Real Middle Band": "30.3330",
+"Real Upper Band": "32.1937",
+"Real Lower Band": "28.4723"
+},
+"2010-04-23": {
+"Real Middle Band": "30.1580",
+"Real Upper Band": "32.1400",
+"Real Lower Band": "28.1760"
+},
+"2010-04-16": {
+"Real Middle Band": "29.8840",
+"Real Upper Band": "31.5198",
+"Real Lower Band": "28.2482"
+},
+"2010-04-09": {
+"Real Middle Band": "29.6040",
+"Real Upper Band": "30.8436",
+"Real Lower Band": "28.3644"
+},
+"2010-04-01": {
+"Real Middle Band": "29.2534",
+"Real Upper Band": "30.4010",
+"Real Lower Band": "28.1058"
+},
+"2010-03-26": {
+"Real Middle Band": "29.1554",
+"Real Upper Band": "30.5073",
+"Real Lower Band": "27.8035"
+},
+"2010-03-19": {
+"Real Middle Band": "28.9774",
+"Real Upper Band": "30.1399",
+"Real Lower Band": "27.8149"
+},
+"2010-03-12": {
+"Real Middle Band": "28.6454",
+"Real Upper Band": "29.9333",
+"Real Lower Band": "27.3575"
+},
+"2010-03-05": {
+"Real Middle Band": "28.3954",
+"Real Upper Band": "29.4432",
+"Real Lower Band": "27.3476"
+},
+"2010-02-26": {
+"Real Middle Band": "28.3140",
+"Real Upper Band": "29.3415",
+"Real Lower Band": "27.2865"
+},
+"2010-02-19": {
+"Real Middle Band": "28.3720",
+"Real Upper Band": "29.6164",
+"Real Lower Band": "27.1276"
+},
+"2010-02-12": {
+"Real Middle Band": "28.7900",
+"Real Upper Band": "32.0814",
+"Real Lower Band": "25.4986"
+},
+"2010-02-05": {
+"Real Middle Band": "29.3360",
+"Real Upper Band": "32.9572",
+"Real Lower Band": "25.7148"
+},
+"2010-01-29": {
+"Real Middle Band": "29.8280",
+"Real Upper Band": "33.0175",
+"Real Lower Band": "26.6385"
+},
+"2010-01-22": {
+"Real Middle Band": "30.3920",
+"Real Upper Band": "32.6042",
+"Real Lower Band": "28.1798"
+},
+"2010-01-15": {
+"Real Middle Band": "30.6720",
+"Real Upper Band": "31.3785",
+"Real Lower Band": "29.9655"
+},
+"2010-01-08": {
+"Real Middle Band": "30.4700",
+"Real Upper Band": "31.6033",
+"Real Lower Band": "29.3367"
+},
+"2009-12-31": {
+"Real Middle Band": "30.3340",
+"Real Upper Band": "31.5527",
+"Real Lower Band": "29.1153"
+},
+"2009-12-24": {
+"Real Middle Band": "30.0820",
+"Real Upper Band": "31.8453",
+"Real Lower Band": "28.3187"
+},
+"2009-12-18": {
+"Real Middle Band": "29.8060",
+"Real Upper Band": "30.9421",
+"Real Lower Band": "28.6699"
+},
+"2009-12-11": {
+"Real Middle Band": "29.6600",
+"Real Upper Band": "30.4361",
+"Real Lower Band": "28.8839"
+},
+"2009-12-04": {
+"Real Middle Band": "29.3940",
+"Real Upper Band": "30.8906",
+"Real Lower Band": "27.8974"
+},
+"2009-11-27": {
+"Real Middle Band": "28.9440",
+"Real Upper Band": "31.1310",
+"Real Lower Band": "26.7570"
+},
+"2009-11-20": {
+"Real Middle Band": "28.7040",
+"Real Upper Band": "31.0840",
+"Real Lower Band": "26.3240"
+},
+"2009-11-13": {
+"Real Middle Band": "28.0800",
+"Real Upper Band": "31.1449",
+"Real Lower Band": "25.0151"
+},
+"2009-11-06": {
+"Real Middle Band": "27.2640",
+"Real Upper Band": "30.5194",
+"Real Lower Band": "24.0086"
+},
+"2009-10-30": {
+"Real Middle Band": "26.5520",
+"Real Upper Band": "30.1229",
+"Real Lower Band": "22.9811"
+},
+"2009-10-23": {
+"Real Middle Band": "26.1160",
+"Real Upper Band": "29.3331",
+"Real Lower Band": "22.8989"
+},
+"2009-10-16": {
+"Real Middle Band": "25.5640",
+"Real Upper Band": "27.1134",
+"Real Lower Band": "24.0146"
+},
+"2009-10-09": {
+"Real Middle Band": "25.2360",
+"Real Upper Band": "26.1006",
+"Real Lower Band": "24.3714"
+},
+"2009-10-02": {
+"Real Middle Band": "25.0500",
+"Real Upper Band": "26.0204",
+"Real Lower Band": "24.0796"
+},
+"2009-09-25": {
+"Real Middle Band": "24.9940",
+"Real Upper Band": "26.0642",
+"Real Lower Band": "23.9238"
+},
+"2009-09-18": {
+"Real Middle Band": "24.7660",
+"Real Upper Band": "25.6233",
+"Real Lower Band": "23.9087"
+},
+"2009-09-11": {
+"Real Middle Band": "24.4524",
+"Real Upper Band": "25.6718",
+"Real Lower Band": "23.2330"
+},
+"2009-09-04": {
+"Real Middle Band": "24.1924",
+"Real Upper Band": "25.6112",
+"Real Lower Band": "22.7736"
+},
+"2009-08-28": {
+"Real Middle Band": "23.9724",
+"Real Upper Band": "25.4084",
+"Real Lower Band": "22.5364"
+},
+"2009-08-21": {
+"Real Middle Band": "23.7264",
+"Real Upper Band": "24.7787",
+"Real Lower Band": "22.6741"
+},
+"2009-08-14": {
+"Real Middle Band": "23.7024",
+"Real Upper Band": "24.6149",
+"Real Lower Band": "22.7899"
+},
+"2009-08-07": {
+"Real Middle Band": "23.4420",
+"Real Upper Band": "25.2648",
+"Real Lower Band": "21.6192"
+},
+"2009-07-31": {
+"Real Middle Band": "23.4040",
+"Real Upper Band": "25.2189",
+"Real Lower Band": "21.5891"
+},
+"2009-07-24": {
+"Real Middle Band": "23.3700",
+"Real Upper Band": "25.1768",
+"Real Lower Band": "21.5632"
+},
+"2009-07-17": {
+"Real Middle Band": "23.4940",
+"Real Upper Band": "25.4931",
+"Real Lower Band": "21.4949"
+},
+"2009-07-10": {
+"Real Middle Band": "23.3020",
+"Real Upper Band": "24.9060",
+"Real Lower Band": "21.6980"
+},
+"2009-07-02": {
+"Real Middle Band": "23.2520",
+"Real Upper Band": "25.1184",
+"Real Lower Band": "21.3856"
+},
+"2009-06-26": {
+"Real Middle Band": "22.7560",
+"Real Upper Band": "26.1155",
+"Real Lower Band": "19.3965"
+},
+"2009-06-19": {
+"Real Middle Band": "22.0360",
+"Real Upper Band": "26.7531",
+"Real Lower Band": "17.3189"
+},
+"2009-06-12": {
+"Real Middle Band": "21.2660",
+"Real Upper Band": "25.1908",
+"Real Lower Band": "17.3412"
+},
+"2009-06-05": {
+"Real Middle Band": "20.4840",
+"Real Upper Band": "23.3764",
+"Real Lower Band": "17.5916"
+},
+"2009-05-29": {
+"Real Middle Band": "20.1040",
+"Real Upper Band": "21.5997",
+"Real Lower Band": "18.6083"
+},
+"2009-05-22": {
+"Real Middle Band": "20.1080",
+"Real Upper Band": "21.6227",
+"Real Lower Band": "18.5933"
+},
+"2009-05-15": {
+"Real Middle Band": "19.9980",
+"Real Upper Band": "21.8524",
+"Real Lower Band": "18.1436"
+},
+"2009-05-08": {
+"Real Middle Band": "19.8880",
+"Real Upper Band": "21.7413",
+"Real Lower Band": "18.0347"
+},
+"2009-05-01": {
+"Real Middle Band": "19.7540",
+"Real Upper Band": "22.0366",
+"Real Lower Band": "17.4714"
+},
+"2009-04-24": {
+"Real Middle Band": "19.3320",
+"Real Upper Band": "22.1479",
+"Real Lower Band": "16.5161"
+},
+"2009-04-17": {
+"Real Middle Band": "18.5620",
+"Real Upper Band": "21.2828",
+"Real Lower Band": "15.8412"
+},
+"2009-04-09": {
+"Real Middle Band": "18.0520",
+"Real Upper Band": "21.3550",
+"Real Lower Band": "14.7490"
+},
+"2009-04-03": {
+"Real Middle Band": "17.1740",
+"Real Upper Band": "20.7921",
+"Real Lower Band": "13.5559"
+},
+"2009-03-27": {
+"Real Middle Band": "16.6540",
+"Real Upper Band": "19.4954",
+"Real Lower Band": "13.8126"
+},
+"2009-03-20": {
+"Real Middle Band": "16.6280",
+"Real Upper Band": "19.3496",
+"Real Lower Band": "13.9064"
+},
+"2009-03-13": {
+"Real Middle Band": "17.0340",
+"Real Upper Band": "21.0958",
+"Real Lower Band": "12.9722"
+},
+"2009-03-06": {
+"Real Middle Band": "17.6360",
+"Real Upper Band": "22.6742",
+"Real Lower Band": "12.5978"
+},
+"2009-02-27": {
+"Real Middle Band": "18.0000",
+"Real Upper Band": "21.8363",
+"Real Lower Band": "14.1637"
+},
+"2009-02-20": {
+"Real Middle Band": "18.2100",
+"Real Upper Band": "21.2615",
+"Real Lower Band": "15.1585"
+},
+"2009-02-13": {
+"Real Middle Band": "18.5520",
+"Real Upper Band": "22.0491",
+"Real Lower Band": "15.0549"
+},
+"2009-02-06": {
+"Real Middle Band": "18.6380",
+"Real Upper Band": "22.2889",
+"Real Lower Band": "14.9871"
+},
+"2009-01-30": {
+"Real Middle Band": "18.7720",
+"Real Upper Band": "22.8267",
+"Real Lower Band": "14.7173"
+},
+"2009-01-23": {
+"Real Middle Band": "19.1780",
+"Real Upper Band": "22.3648",
+"Real Lower Band": "15.9912"
+},
+"2009-01-16": {
+"Real Middle Band": "19.5620",
+"Real Upper Band": "20.9006",
+"Real Lower Band": "18.2234"
+},
+"2009-01-09": {
+"Real Middle Band": "19.4920",
+"Real Upper Band": "20.8268",
+"Real Lower Band": "18.1572"
+},
+"2009-01-02": {
+"Real Middle Band": "19.5620",
+"Real Upper Band": "20.9739",
+"Real Lower Band": "18.1501"
+},
+"2008-12-26": {
+"Real Middle Band": "19.5400",
+"Real Upper Band": "20.8464",
+"Real Lower Band": "18.2336"
+},
+"2008-12-19": {
+"Real Middle Band": "19.6500",
+"Real Upper Band": "20.8035",
+"Real Lower Band": "18.4965"
+},
+"2008-12-12": {
+"Real Middle Band": "19.8380",
+"Real Upper Band": "20.7377",
+"Real Lower Band": "18.9383"
+},
+"2008-12-05": {
+"Real Middle Band": "20.2660",
+"Real Upper Band": "22.1951",
+"Real Lower Band": "18.3369"
+},
+"2008-11-28": {
+"Real Middle Band": "20.7580",
+"Real Upper Band": "23.7461",
+"Real Lower Band": "17.7699"
+},
+"2008-11-21": {
+"Real Middle Band": "21.1060",
+"Real Upper Band": "24.2554",
+"Real Lower Band": "17.9566"
+},
+"2008-11-14": {
+"Real Middle Band": "21.9560",
+"Real Upper Band": "25.7124",
+"Real Lower Band": "18.1996"
+},
+"2008-11-07": {
+"Real Middle Band": "22.2440",
+"Real Upper Band": "24.9399",
+"Real Lower Band": "19.5481"
+},
+"2008-10-31": {
+"Real Middle Band": "23.2080",
+"Real Upper Band": "28.4818",
+"Real Lower Band": "17.9342"
+},
+"2008-10-24": {
+"Real Middle Band": "24.2220",
+"Real Upper Band": "31.2079",
+"Real Lower Band": "17.2361"
+},
+"2008-10-17": {
+"Real Middle Band": "24.8620",
+"Real Upper Band": "30.9849",
+"Real Lower Band": "18.7391"
+},
+"2008-10-10": {
+"Real Middle Band": "25.6000",
+"Real Upper Band": "32.2870",
+"Real Lower Band": "18.9130"
+},
+"2008-10-03": {
+"Real Middle Band": "26.4300",
+"Real Upper Band": "29.3045",
+"Real Lower Band": "23.5555"
+},
+"2008-09-26": {
+"Real Middle Band": "26.6240",
+"Real Upper Band": "29.6627",
+"Real Lower Band": "23.5853"
+},
+"2008-09-19": {
+"Real Middle Band": "26.7120",
+"Real Upper Band": "29.9894",
+"Real Lower Band": "23.4346"
+},
+"2008-09-12": {
+"Real Middle Band": "27.2420",
+"Real Upper Band": "29.7012",
+"Real Lower Band": "24.7828"
+},
+"2008-09-05": {
+"Real Middle Band": "27.3440",
+"Real Upper Band": "30.0116",
+"Real Lower Band": "24.6764"
+},
+"2008-08-29": {
+"Real Middle Band": "27.3020",
+"Real Upper Band": "30.2107",
+"Real Lower Band": "24.3933"
+},
+"2008-08-22": {
+"Real Middle Band": "27.0760",
+"Real Upper Band": "30.2928",
+"Real Lower Band": "23.8592"
+},
+"2008-08-15": {
+"Real Middle Band": "26.6800",
+"Real Upper Band": "29.9277",
+"Real Lower Band": "23.4323"
+},
+"2008-08-08": {
+"Real Middle Band": "26.1680",
+"Real Upper Band": "29.2617",
+"Real Lower Band": "23.0743"
+},
+"2008-08-01": {
+"Real Middle Band": "25.7380",
+"Real Upper Band": "26.7584",
+"Real Lower Band": "24.7176"
+},
+"2008-07-25": {
+"Real Middle Band": "26.1760",
+"Real Upper Band": "28.5421",
+"Real Lower Band": "23.8099"
+},
+"2008-07-18": {
+"Real Middle Band": "26.5900",
+"Real Upper Band": "30.0031",
+"Real Lower Band": "23.1769"
+},
+"2008-07-11": {
+"Real Middle Band": "27.2320",
+"Real Upper Band": "31.4807",
+"Real Lower Band": "22.9833"
+},
+"2008-07-03": {
+"Real Middle Band": "27.6800",
+"Real Upper Band": "30.7286",
+"Real Lower Band": "24.6314"
+},
+"2008-06-27": {
+"Real Middle Band": "28.1480",
+"Real Upper Band": "29.8385",
+"Real Lower Band": "26.4575"
+},
+"2008-06-20": {
+"Real Middle Band": "28.2320",
+"Real Upper Band": "29.7580",
+"Real Lower Band": "26.7060"
+},
+"2008-06-13": {
+"Real Middle Band": "28.5840",
+"Real Upper Band": "31.1872",
+"Real Lower Band": "25.9808"
+},
+"2008-06-06": {
+"Real Middle Band": "28.6480",
+"Real Upper Band": "31.3837",
+"Real Lower Band": "25.9123"
+},
+"2008-05-30": {
+"Real Middle Band": "28.9980",
+"Real Upper Band": "31.1424",
+"Real Lower Band": "26.8536"
+},
+"2008-05-23": {
+"Real Middle Band": "29.3000",
+"Real Upper Band": "31.3485",
+"Real Lower Band": "27.2515"
+},
+"2008-05-16": {
+"Real Middle Band": "29.6900",
+"Real Upper Band": "30.6370",
+"Real Lower Band": "28.7430"
+},
+"2008-05-09": {
+"Real Middle Band": "29.3480",
+"Real Upper Band": "31.1537",
+"Real Lower Band": "27.5423"
+},
+"2008-05-02": {
+"Real Middle Band": "29.3020",
+"Real Upper Band": "31.1192",
+"Real Lower Band": "27.4848"
+},
+"2008-04-25": {
+"Real Middle Band": "29.0360",
+"Real Upper Band": "31.5151",
+"Real Lower Band": "26.5569"
+},
+"2008-04-18": {
+"Real Middle Band": "28.9060",
+"Real Upper Band": "31.1188",
+"Real Lower Band": "26.6932"
+},
+"2008-04-11": {
+"Real Middle Band": "28.4980",
+"Real Upper Band": "30.1877",
+"Real Lower Band": "26.8083"
+},
+"2008-04-04": {
+"Real Middle Band": "28.4160",
+"Real Upper Band": "30.2650",
+"Real Lower Band": "26.5670"
+},
+"2008-03-28": {
+"Real Middle Band": "28.0240",
+"Real Upper Band": "29.9478",
+"Real Lower Band": "26.1002"
+},
+"2008-03-20": {
+"Real Middle Band": "27.9780",
+"Real Upper Band": "29.9456",
+"Real Lower Band": "26.0104"
+},
+"2008-03-14": {
+"Real Middle Band": "27.8260",
+"Real Upper Band": "29.0154",
+"Real Lower Band": "26.6366"
+},
+"2008-03-07": {
+"Real Middle Band": "27.9460",
+"Real Upper Band": "29.4368",
+"Real Lower Band": "26.4552"
+},
+"2008-02-29": {
+"Real Middle Band": "28.4620",
+"Real Upper Band": "31.7939",
+"Real Lower Band": "25.1301"
+},
+"2008-02-22": {
+"Real Middle Band": "29.6100",
+"Real Upper Band": "35.3081",
+"Real Lower Band": "23.9119"
+},
+"2008-02-15": {
+"Real Middle Band": "30.6760",
+"Real Upper Band": "36.7046",
+"Real Lower Band": "24.6474"
+},
+"2008-02-08": {
+"Real Middle Band": "31.7740",
+"Real Upper Band": "37.7035",
+"Real Lower Band": "25.8445"
+},
+"2008-02-01": {
+"Real Middle Band": "32.9380",
+"Real Upper Band": "37.0117",
+"Real Lower Band": "28.8643"
+},
+"2008-01-25": {
+"Real Middle Band": "34.0720",
+"Real Upper Band": "37.5511",
+"Real Lower Band": "30.5929"
+},
+"2008-01-18": {
+"Real Middle Band": "34.6960",
+"Real Upper Band": "38.3576",
+"Real Lower Band": "31.0344"
+},
+"2008-01-11": {
+"Real Middle Band": "35.1560",
+"Real Upper Band": "37.8140",
+"Real Lower Band": "32.4980"
+},
+"2008-01-04": {
+"Real Middle Band": "35.2800",
+"Real Upper Band": "37.4794",
+"Real Lower Band": "33.0806"
+},
+"2007-12-28": {
+"Real Middle Band": "35.1240",
+"Real Upper Band": "37.9946",
+"Real Lower Band": "32.2534"
+},
+"2007-12-21": {
+"Real Middle Band": "34.7220",
+"Real Upper Band": "37.3395",
+"Real Lower Band": "32.1045"
+},
+"2007-12-14": {
+"Real Middle Band": "34.3280",
+"Real Upper Band": "36.0458",
+"Real Lower Band": "32.6102"
+},
+"2007-12-07": {
+"Real Middle Band": "34.0120",
+"Real Upper Band": "34.9917",
+"Real Lower Band": "33.0323"
+},
+"2007-11-30": {
+"Real Middle Band": "34.5180",
+"Real Upper Band": "38.3774",
+"Real Lower Band": "30.6586"
+},
+"2007-11-23": {
+"Real Middle Band": "34.8040",
+"Real Upper Band": "38.4253",
+"Real Lower Band": "31.1827"
+},
+"2007-11-16": {
+"Real Middle Band": "34.0160",
+"Real Upper Band": "40.7474",
+"Real Lower Band": "27.2846"
+},
+"2007-11-09": {
+"Real Middle Band": "33.2320",
+"Real Upper Band": "41.3803",
+"Real Lower Band": "25.0837"
+},
+"2007-11-02": {
+"Real Middle Band": "32.4540",
+"Real Upper Band": "41.4657",
+"Real Lower Band": "23.4423"
+},
+"2007-10-26": {
+"Real Middle Band": "30.9340",
+"Real Upper Band": "37.1280",
+"Real Lower Band": "24.7400"
+},
+"2007-10-19": {
+"Real Middle Band": "29.6580",
+"Real Upper Band": "31.3618",
+"Real Lower Band": "27.9542"
+},
+"2007-10-12": {
+"Real Middle Band": "29.4320",
+"Real Upper Band": "31.0626",
+"Real Lower Band": "27.8014"
+},
+"2007-10-05": {
+"Real Middle Band": "29.0860",
+"Real Upper Band": "30.6262",
+"Real Lower Band": "27.5458"
+},
+"2007-09-28": {
+"Real Middle Band": "28.8640",
+"Real Upper Band": "29.9287",
+"Real Lower Band": "27.7993"
+},
+"2007-09-21": {
+"Real Middle Band": "28.7340",
+"Real Upper Band": "29.3233",
+"Real Lower Band": "28.1447"
+},
+"2007-09-14": {
+"Real Middle Band": "28.6540",
+"Real Upper Band": "29.4898",
+"Real Lower Band": "27.8182"
+},
+"2007-09-07": {
+"Real Middle Band": "28.5880",
+"Real Upper Band": "29.2180",
+"Real Lower Band": "27.9580"
+},
+"2007-08-31": {
+"Real Middle Band": "28.6920",
+"Real Upper Band": "29.4056",
+"Real Lower Band": "27.9784"
+},
+"2007-08-24": {
+"Real Middle Band": "28.8240",
+"Real Upper Band": "29.9316",
+"Real Lower Band": "27.7164"
+},
+"2007-08-17": {
+"Real Middle Band": "29.2940",
+"Real Upper Band": "32.3041",
+"Real Lower Band": "26.2839"
+},
+"2007-08-10": {
+"Real Middle Band": "29.6080",
+"Real Upper Band": "32.1983",
+"Real Lower Band": "27.0177"
+},
+"2007-08-03": {
+"Real Middle Band": "29.8600",
+"Real Upper Band": "32.0786",
+"Real Lower Band": "27.6414"
+},
+"2007-07-27": {
+"Real Middle Band": "29.9620",
+"Real Upper Band": "31.8710",
+"Real Lower Band": "28.0530"
+},
+"2007-07-20": {
+"Real Middle Band": "29.9820",
+"Real Upper Band": "31.8402",
+"Real Lower Band": "28.1238"
+},
+"2007-07-13": {
+"Real Middle Band": "29.8480",
+"Real Upper Band": "30.9696",
+"Real Lower Band": "28.7264"
+},
+"2007-07-06": {
+"Real Middle Band": "29.8940",
+"Real Upper Band": "31.0390",
+"Real Lower Band": "28.7490"
+},
+"2007-06-29": {
+"Real Middle Band": "30.0180",
+"Real Upper Band": "31.4442",
+"Real Lower Band": "28.5918"
+},
+"2007-06-22": {
+"Real Middle Band": "30.2200",
+"Real Upper Band": "31.4490",
+"Real Lower Band": "28.9910"
+},
+"2007-06-15": {
+"Real Middle Band": "30.4880",
+"Real Upper Band": "31.2461",
+"Real Lower Band": "29.7299"
+},
+"2007-06-08": {
+"Real Middle Band": "30.5680",
+"Real Upper Band": "31.4669",
+"Real Lower Band": "29.6691"
+},
+"2007-06-01": {
+"Real Middle Band": "30.6700",
+"Real Upper Band": "31.1511",
+"Real Lower Band": "30.1889"
+},
+"2007-05-25": {
+"Real Middle Band": "30.5760",
+"Real Upper Band": "31.4036",
+"Real Lower Band": "29.7484"
+},
+"2007-05-18": {
+"Real Middle Band": "30.2840",
+"Real Upper Band": "32.3477",
+"Real Lower Band": "28.2203"
+},
+"2007-05-11": {
+"Real Middle Band": "29.8400",
+"Real Upper Band": "32.4843",
+"Real Lower Band": "27.1957"
+},
+"2007-05-04": {
+"Real Middle Band": "29.3720",
+"Real Upper Band": "31.8280",
+"Real Lower Band": "26.9160"
+},
+"2007-04-27": {
+"Real Middle Band": "28.8340",
+"Real Upper Band": "31.0583",
+"Real Lower Band": "26.6097"
+},
+"2007-04-20": {
+"Real Middle Band": "28.4140",
+"Real Upper Band": "29.6692",
+"Real Lower Band": "27.1588"
+},
+"2007-04-13": {
+"Real Middle Band": "28.0760",
+"Real Upper Band": "29.4907",
+"Real Lower Band": "26.6613"
+},
+"2007-04-05": {
+"Real Middle Band": "27.8120",
+"Real Upper Band": "29.2166",
+"Real Lower Band": "26.4074"
+},
+"2007-03-30": {
+"Real Middle Band": "27.6540",
+"Real Upper Band": "28.5331",
+"Real Lower Band": "26.7749"
+},
+"2007-03-23": {
+"Real Middle Band": "27.8600",
+"Real Upper Band": "29.6211",
+"Real Lower Band": "26.0989"
+},
+"2007-03-16": {
+"Real Middle Band": "28.0040",
+"Real Upper Band": "30.0686",
+"Real Lower Band": "25.9394"
+},
+"2007-03-09": {
+"Real Middle Band": "28.3340",
+"Real Upper Band": "30.3784",
+"Real Lower Band": "26.2896"
+},
+"2007-03-02": {
+"Real Middle Band": "28.9140",
+"Real Upper Band": "31.2357",
+"Real Lower Band": "26.5923"
+},
+"2007-02-23": {
+"Real Middle Band": "29.4820",
+"Real Upper Band": "31.7638",
+"Real Lower Band": "27.2002"
+},
+"2007-02-16": {
+"Real Middle Band": "29.9240",
+"Real Upper Band": "32.6825",
+"Real Lower Band": "27.1655"
+},
+"2007-02-09": {
+"Real Middle Band": "30.4180",
+"Real Upper Band": "32.8401",
+"Real Lower Band": "27.9959"
+},
+"2007-02-02": {
+"Real Middle Band": "30.5500",
+"Real Upper Band": "32.3041",
+"Real Lower Band": "28.7959"
+},
+"2007-01-26": {
+"Real Middle Band": "30.4840",
+"Real Upper Band": "32.3975",
+"Real Lower Band": "28.5705"
+},
+"2007-01-19": {
+"Real Middle Band": "30.2920",
+"Real Upper Band": "32.4339",
+"Real Lower Band": "28.1501"
+},
+"2007-01-12": {
+"Real Middle Band": "30.1080",
+"Real Upper Band": "31.8679",
+"Real Lower Band": "28.3481"
+},
+"2007-01-05": {
+"Real Middle Band": "29.7460",
+"Real Upper Band": "30.5424",
+"Real Lower Band": "28.9496"
+},
+"2006-12-29": {
+"Real Middle Band": "29.6420",
+"Real Upper Band": "30.7474",
+"Real Lower Band": "28.5366"
+},
+"2006-12-22": {
+"Real Middle Band": "29.6220",
+"Real Upper Band": "30.6981",
+"Real Lower Band": "28.5459"
+},
+"2006-12-15": {
+"Real Middle Band": "29.5740",
+"Real Upper Band": "30.6809",
+"Real Lower Band": "28.4671"
+},
+"2006-12-08": {
+"Real Middle Band": "29.3840",
+"Real Upper Band": "30.0307",
+"Real Lower Band": "28.7373"
+},
+"2006-12-01": {
+"Real Middle Band": "29.2500",
+"Real Upper Band": "30.2629",
+"Real Lower Band": "28.2371"
+},
+"2006-11-24": {
+"Real Middle Band": "29.0940",
+"Real Upper Band": "30.5997",
+"Real Lower Band": "27.5883"
+},
+"2006-11-17": {
+"Real Middle Band": "28.8280",
+"Real Upper Band": "30.1030",
+"Real Lower Band": "27.5530"
+},
+"2006-11-10": {
+"Real Middle Band": "28.6220",
+"Real Upper Band": "29.6380",
+"Real Lower Band": "27.6060"
+},
+"2006-11-03": {
+"Real Middle Band": "28.3480",
+"Real Upper Band": "29.1769",
+"Real Lower Band": "27.5191"
+},
+"2006-10-27": {
+"Real Middle Band": "28.0720",
+"Real Upper Band": "29.3096",
+"Real Lower Band": "26.8344"
+},
+"2006-10-20": {
+"Real Middle Band": "27.7360",
+"Real Upper Band": "29.7297",
+"Real Lower Band": "25.7423"
+},
+"2006-10-13": {
+"Real Middle Band": "27.4200",
+"Real Upper Band": "29.3232",
+"Real Lower Band": "25.5168"
+},
+"2006-10-06": {
+"Real Middle Band": "26.8660",
+"Real Upper Band": "29.1459",
+"Real Lower Band": "24.5861"
+},
+"2006-09-29": {
+"Real Middle Band": "26.4600",
+"Real Upper Band": "28.4080",
+"Real Lower Band": "24.5120"
+},
+"2006-09-22": {
+"Real Middle Band": "26.1600",
+"Real Upper Band": "27.6529",
+"Real Lower Band": "24.6671"
+},
+"2006-09-15": {
+"Real Middle Band": "25.9860",
+"Real Upper Band": "27.3099",
+"Real Lower Band": "24.6621"
+},
+"2006-09-08": {
+"Real Middle Band": "25.5020",
+"Real Upper Band": "27.1326",
+"Real Lower Band": "23.8714"
+},
+"2006-09-01": {
+"Real Middle Band": "25.2400",
+"Real Upper Band": "27.4005",
+"Real Lower Band": "23.0795"
+},
+"2006-08-25": {
+"Real Middle Band": "24.9220",
+"Real Upper Band": "27.1297",
+"Real Lower Band": "22.7143"
+},
+"2006-08-18": {
+"Real Middle Band": "24.5260",
+"Real Upper Band": "26.5020",
+"Real Lower Band": "22.5500"
+},
+"2006-08-11": {
+"Real Middle Band": "23.8260",
+"Real Upper Band": "26.1962",
+"Real Lower Band": "21.4558"
+},
+"2006-08-04": {
+"Real Middle Band": "23.6000",
+"Real Upper Band": "25.8360",
+"Real Lower Band": "21.3640"
+},
+"2006-07-28": {
+"Real Middle Band": "23.4020",
+"Real Upper Band": "25.3899",
+"Real Lower Band": "21.4141"
+},
+"2006-07-21": {
+"Real Middle Band": "23.0520",
+"Real Upper Band": "24.7897",
+"Real Lower Band": "21.3143"
+},
+"2006-07-14": {
+"Real Middle Band": "22.6980",
+"Real Upper Band": "24.2207",
+"Real Lower Band": "21.1753"
+},
+"2006-07-07": {
+"Real Middle Band": "22.6240",
+"Real Upper Band": "24.3730",
+"Real Lower Band": "20.8750"
+},
+"2006-06-30": {
+"Real Middle Band": "22.5160",
+"Real Upper Band": "23.9874",
+"Real Lower Band": "21.0446"
+},
+"2006-06-23": {
+"Real Middle Band": "22.6000",
+"Real Upper Band": "24.4985",
+"Real Lower Band": "20.7015"
+},
+"2006-06-16": {
+"Real Middle Band": "22.6120",
+"Real Upper Band": "24.5062",
+"Real Lower Band": "20.7178"
+},
+"2006-06-09": {
+"Real Middle Band": "22.8260",
+"Real Upper Band": "24.6327",
+"Real Lower Band": "21.0193"
+},
+"2006-06-02": {
+"Real Middle Band": "23.2020",
+"Real Upper Band": "24.6927",
+"Real Lower Band": "21.7113"
+},
+"2006-05-26": {
+"Real Middle Band": "23.4800",
+"Real Upper Band": "25.1511",
+"Real Lower Band": "21.8089"
+},
+"2006-05-19": {
+"Real Middle Band": "24.1660",
+"Real Upper Band": "28.9302",
+"Real Lower Band": "19.4018"
+},
+"2006-05-12": {
+"Real Middle Band": "25.0680",
+"Real Upper Band": "30.1584",
+"Real Lower Band": "19.9776"
+},
+"2006-05-05": {
+"Real Middle Band": "25.8840",
+"Real Upper Band": "30.5750",
+"Real Lower Band": "21.1930"
+},
+"2006-04-28": {
+"Real Middle Band": "26.5660",
+"Real Upper Band": "30.1946",
+"Real Lower Band": "22.9374"
+},
+"2006-04-21": {
+"Real Middle Band": "27.1380",
+"Real Upper Band": "27.4025",
+"Real Lower Band": "26.8735"
+},
+"2006-04-13": {
+"Real Middle Band": "27.2080",
+"Real Upper Band": "27.7194",
+"Real Lower Band": "26.6966"
+},
+"2006-04-07": {
+"Real Middle Band": "27.2280",
+"Real Upper Band": "27.7036",
+"Real Lower Band": "26.7524"
+},
+"2006-03-31": {
+"Real Middle Band": "27.1640",
+"Real Upper Band": "27.7542",
+"Real Lower Band": "26.5738"
+},
+"2006-03-24": {
+"Real Middle Band": "27.0480",
+"Real Upper Band": "27.9063",
+"Real Lower Band": "26.1897"
+},
+"2006-03-17": {
+"Real Middle Band": "26.9860",
+"Real Upper Band": "27.9439",
+"Real Lower Band": "26.0281"
+},
+"2006-03-10": {
+"Real Middle Band": "26.8240",
+"Real Upper Band": "27.4269",
+"Real Lower Band": "26.2211"
+},
+"2006-03-03": {
+"Real Middle Band": "26.8980",
+"Real Upper Band": "27.9087",
+"Real Lower Band": "25.8873"
+},
+"2006-02-24": {
+"Real Middle Band": "27.0700",
+"Real Upper Band": "28.5484",
+"Real Lower Band": "25.5916"
+},
+"2006-02-17": {
+"Real Middle Band": "27.0260",
+"Real Upper Band": "28.6396",
+"Real Lower Band": "25.4124"
+},
+"2006-02-10": {
+"Real Middle Band": "27.1240",
+"Real Upper Band": "28.6649",
+"Real Lower Band": "25.5831"
+},
+"2006-02-03": {
+"Real Middle Band": "27.1680",
+"Real Upper Band": "28.6173",
+"Real Lower Band": "25.7187"
+},
+"2006-01-27": {
+"Real Middle Band": "26.8900",
+"Real Upper Band": "28.6281",
+"Real Lower Band": "25.1519"
+},
+"2006-01-20": {
+"Real Middle Band": "26.6600",
+"Real Upper Band": "27.7552",
+"Real Lower Band": "25.5648"
+},
+"2006-01-13": {
+"Real Middle Band": "26.7580",
+"Real Upper Band": "27.8088",
+"Real Lower Band": "25.7072"
+},
+"2006-01-06": {
+"Real Middle Band": "26.8620",
+"Real Upper Band": "28.3793",
+"Real Lower Band": "25.3447"
+},
+"2005-12-30": {
+"Real Middle Band": "27.0820",
+"Real Upper Band": "29.1399",
+"Real Lower Band": "25.0241"
+},
+"2005-12-23": {
+"Real Middle Band": "27.4040",
+"Real Upper Band": "29.0057",
+"Real Lower Band": "25.8023"
+},
+"2005-12-16": {
+"Real Middle Band": "27.6900",
+"Real Upper Band": "28.9459",
+"Real Lower Band": "26.4341"
+},
+"2005-12-09": {
+"Real Middle Band": "27.7660",
+"Real Upper Band": "28.6053",
+"Real Lower Band": "26.9267"
+},
+"2005-12-02": {
+"Real Middle Band": "27.5560",
+"Real Upper Band": "29.1383",
+"Real Lower Band": "25.9737"
+},
+"2005-11-25": {
+"Real Middle Band": "27.0600",
+"Real Upper Band": "29.7631",
+"Real Lower Band": "24.3569"
+},
+"2005-11-18": {
+"Real Middle Band": "26.4640",
+"Real Upper Band": "30.0115",
+"Real Lower Band": "22.9165"
+},
+"2005-11-11": {
+"Real Middle Band": "25.7840",
+"Real Upper Band": "28.8782",
+"Real Lower Band": "22.6898"
+},
+"2005-11-04": {
+"Real Middle Band": "25.2460",
+"Real Upper Band": "27.5927",
+"Real Lower Band": "22.8993"
+},
+"2005-10-28": {
+"Real Middle Band": "25.0600",
+"Real Upper Band": "26.4806",
+"Real Lower Band": "23.6394"
+},
+"2005-10-21": {
+"Real Middle Band": "25.0080",
+"Real Upper Band": "26.3024",
+"Real Lower Band": "23.7136"
+},
+"2005-10-14": {
+"Real Middle Band": "25.2660",
+"Real Upper Band": "27.0018",
+"Real Lower Band": "23.5302"
+},
+"2005-10-07": {
+"Real Middle Band": "25.6480",
+"Real Upper Band": "27.6896",
+"Real Lower Band": "23.6064"
+},
+"2005-09-30": {
+"Real Middle Band": "26.1340",
+"Real Upper Band": "27.9822",
+"Real Lower Band": "24.2858"
+},
+"2005-09-23": {
+"Real Middle Band": "26.3820",
+"Real Upper Band": "28.3382",
+"Real Lower Band": "24.4258"
+},
+"2005-09-16": {
+"Real Middle Band": "26.6720",
+"Real Upper Band": "27.6965",
+"Real Lower Band": "25.6475"
+},
+"2005-09-09": {
+"Real Middle Band": "26.8680",
+"Real Upper Band": "27.4236",
+"Real Lower Band": "26.3124"
+},
+"2005-09-02": {
+"Real Middle Band": "27.1040",
+"Real Upper Band": "28.1482",
+"Real Lower Band": "26.0598"
+},
+"2005-08-26": {
+"Real Middle Band": "26.8220",
+"Real Upper Band": "28.9147",
+"Real Lower Band": "24.7293"
+},
+"2005-08-19": {
+"Real Middle Band": "26.5640",
+"Real Upper Band": "29.0315",
+"Real Lower Band": "24.0965"
+},
+"2005-08-12": {
+"Real Middle Band": "26.3780",
+"Real Upper Band": "28.9879",
+"Real Lower Band": "23.7681"
+},
+"2005-08-05": {
+"Real Middle Band": "25.9860",
+"Real Upper Band": "28.7432",
+"Real Lower Band": "23.2288"
+},
+"2005-07-29": {
+"Real Middle Band": "25.3760",
+"Real Upper Band": "26.6085",
+"Real Lower Band": "24.1435"
+},
+"2005-07-22": {
+"Real Middle Band": "25.2620",
+"Real Upper Band": "26.4895",
+"Real Lower Band": "24.0345"
+},
+"2005-07-15": {
+"Real Middle Band": "25.1340",
+"Real Upper Band": "26.1987",
+"Real Lower Band": "24.0693"
+},
+"2005-07-08": {
+"Real Middle Band": "25.0620",
+"Real Upper Band": "25.7475",
+"Real Lower Band": "24.3765"
+},
+"2005-07-01": {
+"Real Middle Band": "25.1300",
+"Real Upper Band": "25.9490",
+"Real Lower Band": "24.3110"
+},
+"2005-06-24": {
+"Real Middle Band": "25.4020",
+"Real Upper Band": "26.5324",
+"Real Lower Band": "24.2716"
+},
+"2005-06-17": {
+"Real Middle Band": "25.5420",
+"Real Upper Band": "26.5770",
+"Real Lower Band": "24.5070"
+},
+"2005-06-10": {
+"Real Middle Band": "25.5940",
+"Real Upper Band": "26.4298",
+"Real Lower Band": "24.7582"
+},
+"2005-06-03": {
+"Real Middle Band": "25.5520",
+"Real Upper Band": "26.4933",
+"Real Lower Band": "24.6107"
+},
+"2005-05-27": {
+"Real Middle Band": "25.5260",
+"Real Upper Band": "26.5096",
+"Real Lower Band": "24.5424"
+},
+"2005-05-20": {
+"Real Middle Band": "25.3080",
+"Real Upper Band": "26.0454",
+"Real Lower Band": "24.5706"
+},
+"2005-05-13": {
+"Real Middle Band": "25.0520",
+"Real Upper Band": "26.0072",
+"Real Lower Band": "24.0968"
+},
+"2005-05-06": {
+"Real Middle Band": "24.9800",
+"Real Upper Band": "25.8618",
+"Real Lower Band": "24.0982"
+},
+"2005-04-29": {
+"Real Middle Band": "24.7600",
+"Real Upper Band": "26.0128",
+"Real Lower Band": "23.5072"
+},
+"2005-04-22": {
+"Real Middle Band": "24.5560",
+"Real Upper Band": "25.5976",
+"Real Lower Band": "23.5144"
+},
+"2005-04-15": {
+"Real Middle Band": "24.4220",
+"Real Upper Band": "25.2638",
+"Real Lower Band": "23.5802"
+},
+"2005-04-08": {
+"Real Middle Band": "24.5480",
+"Real Upper Band": "25.7169",
+"Real Lower Band": "23.3791"
+},
+"2005-04-01": {
+"Real Middle Band": "24.5940",
+"Real Upper Band": "25.9233",
+"Real Lower Band": "23.2647"
+},
+"2005-03-24": {
+"Real Middle Band": "24.8200",
+"Real Upper Band": "26.1152",
+"Real Lower Band": "23.5248"
+},
+"2005-03-18": {
+"Real Middle Band": "25.0600",
+"Real Upper Band": "26.2510",
+"Real Lower Band": "23.8690"
+},
+"2005-03-11": {
+"Real Middle Band": "25.3920",
+"Real Upper Band": "26.3430",
+"Real Lower Band": "24.4410"
+},
+"2005-03-04": {
+"Real Middle Band": "25.6380",
+"Real Upper Band": "26.9593",
+"Real Lower Band": "24.3167"
+},
+"2005-02-25": {
+"Real Middle Band": "25.8400",
+"Real Upper Band": "27.0701",
+"Real Lower Band": "24.6099"
+},
+"2005-02-18": {
+"Real Middle Band": "25.9200",
+"Real Upper Band": "26.8655",
+"Real Lower Band": "24.9745"
+},
+"2005-02-11": {
+"Real Middle Band": "26.0480",
+"Real Upper Band": "26.7335",
+"Real Lower Band": "25.3625"
+},
+"2005-02-04": {
+"Real Middle Band": "26.1880",
+"Real Upper Band": "27.1774",
+"Real Lower Band": "25.1986"
+},
+"2005-01-28": {
+"Real Middle Band": "26.2680",
+"Real Upper Band": "27.4510",
+"Real Lower Band": "25.0850"
+},
+"2005-01-21": {
+"Real Middle Band": "26.4340",
+"Real Upper Band": "27.8930",
+"Real Lower Band": "24.9750"
+},
+"2005-01-14": {
+"Real Middle Band": "26.6960",
+"Real Upper Band": "27.6459",
+"Real Lower Band": "25.7461"
+},
+"2005-01-07": {
+"Real Middle Band": "26.8880",
+"Real Upper Band": "27.3767",
+"Real Lower Band": "26.3993"
+},
+"2004-12-31": {
+"Real Middle Band": "27.0000",
+"Real Upper Band": "27.5009",
+"Real Lower Band": "26.4991"
+},
+"2004-12-23": {
+"Real Middle Band": "26.9760",
+"Real Upper Band": "27.6026",
+"Real Lower Band": "26.3494"
+},
+"2004-12-17": {
+"Real Middle Band": "26.9460",
+"Real Upper Band": "27.5837",
+"Real Lower Band": "26.3083"
+},
+"2004-12-10": {
+"Real Middle Band": "27.5480",
+"Real Upper Band": "31.2365",
+"Real Lower Band": "23.8595"
+},
+"2004-12-03": {
+"Real Middle Band": "27.9940",
+"Real Upper Band": "32.1182",
+"Real Lower Band": "23.8698"
+},
+"2004-11-26": {
+"Real Middle Band": "28.1420",
+"Real Upper Band": "32.1121",
+"Real Lower Band": "24.1719"
+},
+"2004-11-19": {
+"Real Middle Band": "28.3700",
+"Real Upper Band": "31.7323",
+"Real Lower Band": "25.0077"
+},
+"2004-11-12": {
+"Real Middle Band": "28.5960",
+"Real Upper Band": "31.2420",
+"Real Lower Band": "25.9500"
+},
+"2004-11-05": {
+"Real Middle Band": "28.2000",
+"Real Upper Band": "29.8890",
+"Real Lower Band": "26.5110"
+},
+"2004-10-29": {
+"Real Middle Band": "27.9880",
+"Real Upper Band": "28.4726",
+"Real Lower Band": "27.5034"
+},
+"2004-10-22": {
+"Real Middle Band": "27.8520",
+"Real Upper Band": "28.8240",
+"Real Lower Band": "26.8800"
+},
+"2004-10-15": {
+"Real Middle Band": "27.8060",
+"Real Upper Band": "28.8613",
+"Real Lower Band": "26.7507"
+},
+"2004-10-08": {
+"Real Middle Band": "27.7060",
+"Real Upper Band": "28.7749",
+"Real Lower Band": "26.6371"
+},
+"2004-10-01": {
+"Real Middle Band": "27.5300",
+"Real Upper Band": "28.6953",
+"Real Lower Band": "26.3647"
+},
+"2004-09-24": {
+"Real Middle Band": "27.3720",
+"Real Upper Band": "27.8291",
+"Real Lower Band": "26.9149"
+},
+"2004-09-17": {
+"Real Middle Band": "27.3540",
+"Real Upper Band": "27.8512",
+"Real Lower Band": "26.8568"
+},
+"2004-09-10": {
+"Real Middle Band": "27.2560",
+"Real Upper Band": "27.8197",
+"Real Lower Band": "26.6923"
+},
+"2004-09-03": {
+"Real Middle Band": "27.1860",
+"Real Upper Band": "27.6324",
+"Real Lower Band": "26.7396"
+},
+"2004-08-27": {
+"Real Middle Band": "27.4620",
+"Real Upper Band": "29.0633",
+"Real Lower Band": "25.8607"
+},
+"2004-08-20": {
+"Real Middle Band": "27.5760",
+"Real Upper Band": "29.3161",
+"Real Lower Band": "25.8359"
+},
+"2004-08-13": {
+"Real Middle Band": "27.6320",
+"Real Upper Band": "29.2938",
+"Real Lower Band": "25.9702"
+},
+"2004-08-06": {
+"Real Middle Band": "27.8000",
+"Real Upper Band": "29.1882",
+"Real Lower Band": "26.4118"
+},
+"2004-07-30": {
+"Real Middle Band": "28.0860",
+"Real Upper Band": "29.3001",
+"Real Lower Band": "26.8719"
+},
+"2004-07-23": {
+"Real Middle Band": "28.1020",
+"Real Upper Band": "29.3668",
+"Real Lower Band": "26.8372"
+},
+"2004-07-16": {
+"Real Middle Band": "28.1660",
+"Real Upper Band": "29.4560",
+"Real Lower Band": "26.8760"
+},
+"2004-07-09": {
+"Real Middle Band": "28.0240",
+"Real Upper Band": "30.0595",
+"Real Lower Band": "25.9885"
+},
+"2004-07-02": {
+"Real Middle Band": "27.6420",
+"Real Upper Band": "30.8861",
+"Real Lower Band": "24.3979"
+},
+"2004-06-25": {
+"Real Middle Band": "27.1740",
+"Real Upper Band": "30.4285",
+"Real Lower Band": "23.9195"
+},
+"2004-06-18": {
+"Real Middle Band": "26.6380",
+"Real Upper Band": "29.3704",
+"Real Lower Band": "23.9056"
+},
+"2004-06-10": {
+"Real Middle Band": "26.1400",
+"Real Upper Band": "27.1635",
+"Real Lower Band": "25.1165"
+},
+"2004-06-04": {
+"Real Middle Band": "25.9420",
+"Real Upper Band": "26.4042",
+"Real Lower Band": "25.4798"
+},
+"2004-05-28": {
+"Real Middle Band": "25.9780",
+"Real Upper Band": "26.4932",
+"Real Lower Band": "25.4628"
+},
+"2004-05-21": {
+"Real Middle Band": "26.2400",
+"Real Upper Band": "28.2212",
+"Real Lower Band": "24.2588"
+},
+"2004-05-14": {
+"Real Middle Band": "26.0940",
+"Real Upper Band": "28.4630",
+"Real Lower Band": "23.7250"
+},
+"2004-05-07": {
+"Real Middle Band": "26.0180",
+"Real Upper Band": "28.4960",
+"Real Lower Band": "23.5400"
+},
+"2004-04-30": {
+"Real Middle Band": "26.0320",
+"Real Upper Band": "28.4993",
+"Real Lower Band": "23.5647"
+},
+"2004-04-23": {
+"Real Middle Band": "25.8120",
+"Real Upper Band": "28.5399",
+"Real Lower Band": "23.0841"
+},
+"2004-04-16": {
+"Real Middle Band": "25.2300",
+"Real Upper Band": "26.4682",
+"Real Lower Band": "23.9918"
+},
+"2004-04-08": {
+"Real Middle Band": "25.2740",
+"Real Upper Band": "26.5180",
+"Real Lower Band": "24.0300"
+},
+"2004-04-02": {
+"Real Middle Band": "25.4480",
+"Real Upper Band": "27.2598",
+"Real Lower Band": "23.6362"
+},
+"2004-03-26": {
+"Real Middle Band": "25.5840",
+"Real Upper Band": "27.8049",
+"Real Lower Band": "23.3631"
+},
+"2004-03-19": {
+"Real Middle Band": "25.8920",
+"Real Upper Band": "28.1890",
+"Real Lower Band": "23.5950"
+},
+"2004-03-12": {
+"Real Middle Band": "26.2840",
+"Real Upper Band": "27.6637",
+"Real Lower Band": "24.9043"
+},
+"2004-03-05": {
+"Real Middle Band": "26.6240",
+"Real Upper Band": "27.3538",
+"Real Lower Band": "25.8942"
+},
+"2004-02-27": {
+"Real Middle Band": "26.8840",
+"Real Upper Band": "28.1817",
+"Real Lower Band": "25.5863"
+},
+"2004-02-20": {
+"Real Middle Band": "27.2740",
+"Real Upper Band": "29.4360",
+"Real Lower Band": "25.1120"
+},
+"2004-02-13": {
+"Real Middle Band": "27.5220",
+"Real Upper Band": "29.4574",
+"Real Lower Band": "25.5866"
+},
+"2004-02-06": {
+"Real Middle Band": "27.7360",
+"Real Upper Band": "29.0793",
+"Real Lower Band": "26.3927"
+},
+"2004-01-30": {
+"Real Middle Band": "27.8100",
+"Real Upper Band": "28.8720",
+"Real Lower Band": "26.7480"
+},
+"2004-01-23": {
+"Real Middle Band": "27.7220",
+"Real Upper Band": "29.0105",
+"Real Lower Band": "26.4335"
+},
+"2004-01-16": {
+"Real Middle Band": "27.4980",
+"Real Upper Band": "28.1385",
+"Real Lower Band": "26.8575"
+},
+"2004-01-09": {
+"Real Middle Band": "27.2660",
+"Real Upper Band": "28.2882",
+"Real Lower Band": "26.2438"
+},
+"2004-01-02": {
+"Real Middle Band": "26.9300",
+"Real Upper Band": "28.5811",
+"Real Lower Band": "25.2789"
+},
+"2003-12-26": {
+"Real Middle Band": "26.5820",
+"Real Upper Band": "28.5387",
+"Real Lower Band": "24.6253"
+},
+"2003-12-19": {
+"Real Middle Band": "26.1620",
+"Real Upper Band": "28.4926",
+"Real Lower Band": "23.8314"
+},
+"2003-12-12": {
+"Real Middle Band": "25.7900",
+"Real Upper Band": "27.3364",
+"Real Lower Band": "24.2436"
+},
+"2003-12-05": {
+"Real Middle Band": "25.6800",
+"Real Upper Band": "26.7403",
+"Real Lower Band": "24.6197"
+},
+"2003-11-28": {
+"Real Middle Band": "25.7120",
+"Real Upper Band": "26.8670",
+"Real Lower Band": "24.5570"
+},
+"2003-11-21": {
+"Real Middle Band": "25.8920",
+"Real Upper Band": "27.4712",
+"Real Lower Band": "24.3128"
+},
+"2003-11-14": {
+"Real Middle Band": "26.6560",
+"Real Upper Band": "30.2271",
+"Real Lower Band": "23.0849"
+},
+"2003-11-07": {
+"Real Middle Band": "27.3380",
+"Real Upper Band": "31.2503",
+"Real Lower Band": "23.4257"
+},
+"2003-10-31": {
+"Real Middle Band": "27.9340",
+"Real Upper Band": "31.7827",
+"Real Lower Band": "24.0853"
+},
+"2003-10-24": {
+"Real Middle Band": "28.3440",
+"Real Upper Band": "31.1053",
+"Real Lower Band": "25.5827"
+},
+"2003-10-17": {
+"Real Middle Band": "29.0140",
+"Real Upper Band": "30.7090",
+"Real Lower Band": "27.3190"
+},
+"2003-10-10": {
+"Real Middle Band": "28.8960",
+"Real Upper Band": "30.7809",
+"Real Lower Band": "27.0111"
+},
+"2003-10-03": {
+"Real Middle Band": "28.7900",
+"Real Upper Band": "30.7725",
+"Real Lower Band": "26.8075"
+},
+"2003-09-26": {
+"Real Middle Band": "28.2780",
+"Real Upper Band": "31.5483",
+"Real Lower Band": "25.0077"
+},
+"2003-09-19": {
+"Real Middle Band": "27.8840",
+"Real Upper Band": "31.9959",
+"Real Lower Band": "23.7721"
+},
+"2003-09-12": {
+"Real Middle Band": "27.0000",
+"Real Upper Band": "30.4651",
+"Real Lower Band": "23.5349"
+},
+"2003-09-05": {
+"Real Middle Band": "26.4480",
+"Real Upper Band": "29.5563",
+"Real Lower Band": "23.3397"
+},
+"2003-08-29": {
+"Real Middle Band": "26.0060",
+"Real Upper Band": "27.1566",
+"Real Lower Band": "24.8554"
+},
+"2003-08-22": {
+"Real Middle Band": "26.0800",
+"Real Upper Band": "27.5652",
+"Real Lower Band": "24.5948"
+},
+"2003-08-15": {
+"Real Middle Band": "26.2140",
+"Real Upper Band": "28.0000",
+"Real Lower Band": "24.4280"
+},
+"2003-08-08": {
+"Real Middle Band": "26.5678",
+"Real Upper Band": "28.4127",
+"Real Lower Band": "24.7229"
+},
+"2003-08-01": {
+"Real Middle Band": "26.7518",
+"Real Upper Band": "27.9141",
+"Real Lower Band": "25.5895"
+},
+"2003-07-25": {
+"Real Middle Band": "26.6438",
+"Real Upper Band": "28.3473",
+"Real Lower Band": "24.9403"
+},
+"2003-07-18": {
+"Real Middle Band": "26.5318",
+"Real Upper Band": "28.2221",
+"Real Lower Band": "24.8415"
+},
+"2003-07-11": {
+"Real Middle Band": "26.0838",
+"Real Upper Band": "28.7660",
+"Real Lower Band": "23.4016"
+},
+"2003-07-03": {
+"Real Middle Band": "25.3560",
+"Real Upper Band": "28.5517",
+"Real Lower Band": "22.1603"
+},
+"2003-06-27": {
+"Real Middle Band": "24.9780",
+"Real Upper Band": "27.7298",
+"Real Lower Band": "22.2262"
+},
+"2003-06-20": {
+"Real Middle Band": "24.6960",
+"Real Upper Band": "27.3654",
+"Real Lower Band": "22.0266"
+},
+"2003-06-13": {
+"Real Middle Band": "24.5440",
+"Real Upper Band": "26.4113",
+"Real Lower Band": "22.6767"
+},
+"2003-06-06": {
+"Real Middle Band": "24.8840",
+"Real Upper Band": "27.7645",
+"Real Lower Band": "22.0035"
+},
+"2003-05-30": {
+"Real Middle Band": "25.3760",
+"Real Upper Band": "27.8781",
+"Real Lower Band": "22.8739"
+},
+"2003-05-23": {
+"Real Middle Band": "25.4960",
+"Real Upper Band": "27.7596",
+"Real Lower Band": "23.2324"
+},
+"2003-05-16": {
+"Real Middle Band": "25.7520",
+"Real Upper Band": "27.0183",
+"Real Lower Band": "24.4857"
+},
+"2003-05-09": {
+"Real Middle Band": "25.4780",
+"Real Upper Band": "27.7592",
+"Real Lower Band": "23.1968"
+},
+"2003-05-02": {
+"Real Middle Band": "25.2260",
+"Real Upper Band": "27.1061",
+"Real Lower Band": "23.3459"
+},
+"2003-04-25": {
+"Real Middle Band": "24.9340",
+"Real Upper Band": "26.2952",
+"Real Lower Band": "23.5728"
+},
+"2003-04-17": {
+"Real Middle Band": "25.2060",
+"Real Upper Band": "27.6283",
+"Real Lower Band": "22.7837"
+},
+"2003-04-11": {
+"Real Middle Band": "25.0780",
+"Real Upper Band": "27.4822",
+"Real Lower Band": "22.6738"
+},
+"2003-04-04": {
+"Real Middle Band": "24.9500",
+"Real Upper Band": "27.8470",
+"Real Lower Band": "22.0530"
+},
+"2003-03-28": {
+"Real Middle Band": "24.6720",
+"Real Upper Band": "27.9084",
+"Real Lower Band": "21.4356"
+},
+"2003-03-21": {
+"Real Middle Band": "24.6600",
+"Real Upper Band": "27.8973",
+"Real Lower Band": "21.4227"
+},
+"2003-03-14": {
+"Real Middle Band": "29.0060",
+"Real Upper Band": "57.9862",
+"Real Lower Band": "0.0258"
+},
+"2003-03-07": {
+"Real Middle Band": "33.3500",
+"Real Upper Band": "67.9188",
+"Real Lower Band": "-1.2188"
+},
+"2003-02-28": {
+"Real Middle Band": "38.1300",
+"Real Upper Band": "72.4114",
+"Real Lower Band": "3.8486"
+},
+"2003-02-21": {
+"Real Middle Band": "43.3600",
+"Real Upper Band": "71.6704",
+"Real Lower Band": "15.0496"
+},
+"2003-02-14": {
+"Real Middle Band": "48.7300",
+"Real Upper Band": "53.9482",
+"Real Lower Band": "43.5118"
+},
+"2003-02-07": {
+"Real Middle Band": "50.2540",
+"Real Upper Band": "60.2062",
+"Real Lower Band": "40.3018"
+},
+"2003-01-31": {
+"Real Middle Band": "51.6960",
+"Real Upper Band": "60.5584",
+"Real Lower Band": "42.8336"
+},
+"2003-01-24": {
+"Real Middle Band": "52.7980",
+"Real Upper Band": "58.9814",
+"Real Lower Band": "46.6146"
+},
+"2003-01-17": {
+"Real Middle Band": "53.4360",
+"Real Upper Band": "57.7987",
+"Real Lower Band": "49.0733"
+},
+"2003-01-10": {
+"Real Middle Band": "53.6440",
+"Real Upper Band": "57.2762",
+"Real Lower Band": "50.0118"
+},
+"2003-01-03": {
+"Real Middle Band": "53.5540",
+"Real Upper Band": "56.6841",
+"Real Lower Band": "50.4239"
+},
+"2002-12-27": {
+"Real Middle Band": "54.3320",
+"Real Upper Band": "60.2390",
+"Real Lower Band": "48.4250"
+},
+"2002-12-20": {
+"Real Middle Band": "55.3820",
+"Real Upper Band": "62.3706",
+"Real Lower Band": "48.3934"
+},
+"2002-12-13": {
+"Real Middle Band": "56.1120",
+"Real Upper Band": "62.2154",
+"Real Lower Band": "50.0086"
+},
+"2002-12-06": {
+"Real Middle Band": "56.6320",
+"Real Upper Band": "60.2620",
+"Real Lower Band": "53.0020"
+},
+"2002-11-29": {
+"Real Middle Band": "56.1380",
+"Real Upper Band": "61.8209",
+"Real Lower Band": "50.4551"
+},
+"2002-11-22": {
+"Real Middle Band": "55.1380",
+"Real Upper Band": "61.5050",
+"Real Lower Band": "48.7710"
+},
+"2002-11-15": {
+"Real Middle Band": "54.1240",
+"Real Upper Band": "58.7393",
+"Real Lower Band": "49.5087"
+},
+"2002-11-08": {
+"Real Middle Band": "52.5600",
+"Real Upper Band": "58.6529",
+"Real Lower Band": "46.4671"
+},
+"2002-11-01": {
+"Real Middle Band": "50.2940",
+"Real Upper Band": "61.1739",
+"Real Lower Band": "39.4141"
+},
+"2002-10-25": {
+"Real Middle Band": "48.7440",
+"Real Upper Band": "60.1179",
+"Real Lower Band": "37.3701"
+},
+"2002-10-18": {
+"Real Middle Band": "47.7000",
+"Real Upper Band": "57.4282",
+"Real Lower Band": "37.9718"
+},
+"2002-10-11": {
+"Real Middle Band": "46.6520",
+"Real Upper Band": "52.2527",
+"Real Lower Band": "41.0513"
+},
+"2002-10-04": {
+"Real Middle Band": "46.4420",
+"Real Upper Band": "51.3989",
+"Real Lower Band": "41.4851"
+},
+"2002-09-27": {
+"Real Middle Band": "47.5040",
+"Real Upper Band": "51.2584",
+"Real Lower Band": "43.7496"
+},
+"2002-09-20": {
+"Real Middle Band": "48.8980",
+"Real Upper Band": "54.1415",
+"Real Lower Band": "43.6545"
+},
+"2002-09-13": {
+"Real Middle Band": "49.4060",
+"Real Upper Band": "54.2677",
+"Real Lower Band": "44.5443"
+},
+"2002-09-06": {
+"Real Middle Band": "49.4480",
+"Real Upper Band": "54.1986",
+"Real Lower Band": "44.6974"
+},
+"2002-08-30": {
+"Real Middle Band": "48.7660",
+"Real Upper Band": "56.4665",
+"Real Lower Band": "41.0655"
+},
+"2002-08-23": {
+"Real Middle Band": "48.0200",
+"Real Upper Band": "56.6870",
+"Real Lower Band": "39.3530"
+},
+"2002-08-16": {
+"Real Middle Band": "47.4880",
+"Real Upper Band": "54.2026",
+"Real Lower Band": "40.7734"
+},
+"2002-08-09": {
+"Real Middle Band": "47.8600",
+"Real Upper Band": "56.0385",
+"Real Lower Band": "39.6815"
+},
+"2002-08-02": {
+"Real Middle Band": "49.2060",
+"Real Upper Band": "60.9708",
+"Real Lower Band": "37.4412"
+},
+"2002-07-26": {
+"Real Middle Band": "51.2640",
+"Real Upper Band": "61.9045",
+"Real Lower Band": "40.6235"
+},
+"2002-07-19": {
+"Real Middle Band": "52.6500",
+"Real Upper Band": "58.5519",
+"Real Lower Band": "46.7481"
+},
+"2002-07-12": {
+"Real Middle Band": "53.7880",
+"Real Upper Band": "58.0493",
+"Real Lower Band": "49.5267"
+},
+"2002-07-05": {
+"Real Middle Band": "53.8120",
+"Real Upper Band": "57.9769",
+"Real Lower Band": "49.6471"
+},
+"2002-06-28": {
+"Real Middle Band": "53.0240",
+"Real Upper Band": "58.0218",
+"Real Lower Band": "48.0262"
+},
+"2002-06-21": {
+"Real Middle Band": "52.7360",
+"Real Upper Band": "57.1264",
+"Real Lower Band": "48.3456"
+},
+"2002-06-14": {
+"Real Middle Band": "53.4860",
+"Real Upper Band": "59.2626",
+"Real Lower Band": "47.7094"
+},
+"2002-06-07": {
+"Real Middle Band": "52.4460",
+"Real Upper Band": "58.7138",
+"Real Lower Band": "46.1782"
+},
+"2002-05-31": {
+"Real Middle Band": "51.9620",
+"Real Upper Band": "59.1577",
+"Real Lower Band": "44.7663"
+},
+"2002-05-24": {
+"Real Middle Band": "52.0800",
+"Real Upper Band": "59.1542",
+"Real Lower Band": "45.0058"
+},
+"2002-05-17": {
+"Real Middle Band": "52.8680",
+"Real Upper Band": "62.3092",
+"Real Lower Band": "43.4268"
+},
+"2002-05-10": {
+"Real Middle Band": "52.8480",
+"Real Upper Band": "62.2295",
+"Real Lower Band": "43.4665"
+},
+"2002-05-03": {
+"Real Middle Band": "54.0120",
+"Real Upper Band": "62.8531",
+"Real Lower Band": "45.1709"
+},
+"2002-04-26": {
+"Real Middle Band": "56.1620",
+"Real Upper Band": "64.6639",
+"Real Lower Band": "47.6601"
+},
+"2002-04-19": {
+"Real Middle Band": "57.9520",
+"Real Upper Band": "64.0692",
+"Real Lower Band": "51.8348"
+},
+"2002-04-12": {
+"Real Middle Band": "59.0100",
+"Real Upper Band": "66.9722",
+"Real Lower Band": "51.0478"
+},
+"2002-04-05": {
+"Real Middle Band": "60.6140",
+"Real Upper Band": "68.8049",
+"Real Lower Band": "52.4231"
+},
+"2002-03-28": {
+"Real Middle Band": "61.7140",
+"Real Upper Band": "65.8031",
+"Real Lower Band": "57.6249"
+},
+"2002-03-22": {
+"Real Middle Band": "61.2500",
+"Real Upper Band": "67.2664",
+"Real Lower Band": "55.2336"
+},
+"2002-03-15": {
+"Real Middle Band": "61.2060",
+"Real Upper Band": "67.2806",
+"Real Lower Band": "55.1314"
+},
+"2002-03-08": {
+"Real Middle Band": "60.8380",
+"Real Upper Band": "66.6061",
+"Real Lower Band": "55.0699"
+},
+"2002-03-01": {
+"Real Middle Band": "60.5800",
+"Real Upper Band": "65.1860",
+"Real Lower Band": "55.9740"
+},
+"2002-02-22": {
+"Real Middle Band": "61.0660",
+"Real Upper Band": "67.1182",
+"Real Lower Band": "55.0138"
+},
+"2002-02-15": {
+"Real Middle Band": "62.6880",
+"Real Upper Band": "69.1327",
+"Real Lower Band": "56.2433"
+},
+"2002-02-08": {
+"Real Middle Band": "64.3640",
+"Real Upper Band": "72.6407",
+"Real Lower Band": "56.0873"
+},
+"2002-02-01": {
+"Real Middle Band": "66.0140",
+"Real Upper Band": "73.5112",
+"Real Lower Band": "58.5168"
+},
+"2002-01-25": {
+"Real Middle Band": "67.0560",
+"Real Upper Band": "72.7470",
+"Real Lower Band": "61.3650"
+},
+"2002-01-18": {
+"Real Middle Band": "67.8040",
+"Real Upper Band": "70.7521",
+"Real Lower Band": "64.8559"
+},
+"2002-01-11": {
+"Real Middle Band": "68.0720",
+"Real Upper Band": "69.8204",
+"Real Lower Band": "66.3236"
+},
+"2002-01-04": {
+"Real Middle Band": "67.9160",
+"Real Upper Band": "69.4724",
+"Real Lower Band": "66.3596"
+},
+"2001-12-28": {
+"Real Middle Band": "66.9780",
+"Real Upper Band": "71.1592",
+"Real Lower Band": "62.7968"
+},
+"2001-12-21": {
+"Real Middle Band": "66.3480",
+"Real Upper Band": "71.0016",
+"Real Lower Band": "61.6944"
+},
+"2001-12-14": {
+"Real Middle Band": "65.9900",
+"Real Upper Band": "70.3014",
+"Real Lower Band": "61.6786"
+},
+"2001-12-07": {
+"Real Middle Band": "65.5440",
+"Real Upper Band": "69.3002",
+"Real Lower Band": "61.7878"
+},
+"2001-11-30": {
+"Real Middle Band": "64.2580",
+"Real Upper Band": "68.8109",
+"Real Lower Band": "59.7051"
+},
+"2001-11-23": {
+"Real Middle Band": "63.8560",
+"Real Upper Band": "69.0420",
+"Real Lower Band": "58.6700"
+},
+"2001-11-16": {
+"Real Middle Band": "62.4920",
+"Real Upper Band": "71.0160",
+"Real Lower Band": "53.9680"
+},
+"2001-11-09": {
+"Real Middle Band": "60.6180",
+"Real Upper Band": "70.0619",
+"Real Lower Band": "51.1741"
+},
+"2001-11-02": {
+"Real Middle Band": "59.1200",
+"Real Upper Band": "65.9136",
+"Real Lower Band": "52.3264"
+},
+"2001-10-26": {
+"Real Middle Band": "57.0740",
+"Real Upper Band": "67.6988",
+"Real Lower Band": "46.4492"
+},
+"2001-10-19": {
+"Real Middle Band": "54.5760",
+"Real Upper Band": "64.9220",
+"Real Lower Band": "44.2300"
+},
+"2001-10-12": {
+"Real Middle Band": "54.5120",
+"Real Upper Band": "64.6785",
+"Real Lower Band": "44.3455"
+},
+"2001-10-05": {
+"Real Middle Band": "54.3160",
+"Real Upper Band": "64.2231",
+"Real Lower Band": "44.4089"
+},
+"2001-09-28": {
+"Real Middle Band": "54.1820",
+"Real Upper Band": "63.6997",
+"Real Lower Band": "44.6643"
+},
+"2001-09-21": {
+"Real Middle Band": "56.3580",
+"Real Upper Band": "68.3193",
+"Real Lower Band": "44.3967"
+},
+"2001-09-10": {
+"Real Middle Band": "58.7920",
+"Real Upper Band": "66.8597",
+"Real Lower Band": "50.7243"
+},
+"2001-09-07": {
+"Real Middle Band": "60.3800",
+"Real Upper Band": "71.3903",
+"Real Lower Band": "49.3697"
+},
+"2001-08-31": {
+"Real Middle Band": "62.6780",
+"Real Upper Band": "72.9416",
+"Real Lower Band": "52.4144"
+},
+"2001-08-24": {
+"Real Middle Band": "64.3620",
+"Real Upper Band": "70.4314",
+"Real Lower Band": "58.2926"
+},
+"2001-08-17": {
+"Real Middle Band": "65.7880",
+"Real Upper Band": "72.9082",
+"Real Lower Band": "58.6678"
+},
+"2001-08-10": {
+"Real Middle Band": "67.6800",
+"Real Upper Band": "74.4973",
+"Real Lower Band": "60.8627"
+},
+"2001-08-03": {
+"Real Middle Band": "67.7880",
+"Real Upper Band": "74.3222",
+"Real Lower Band": "61.2538"
+},
+"2001-07-27": {
+"Real Middle Band": "69.0100",
+"Real Upper Band": "77.7679",
+"Real Lower Band": "60.2521"
+},
+"2001-07-20": {
+"Real Middle Band": "69.6820",
+"Real Upper Band": "76.7629",
+"Real Lower Band": "62.6011"
+},
+"2001-07-13": {
+"Real Middle Band": "69.4500",
+"Real Upper Band": "76.8102",
+"Real Lower Band": "62.0898"
+},
+"2001-07-06": {
+"Real Middle Band": "69.8200",
+"Real Upper Band": "78.2869",
+"Real Lower Band": "61.3531"
+},
+"2001-06-29": {
+"Real Middle Band": "70.6760",
+"Real Upper Band": "77.0111",
+"Real Lower Band": "64.3409"
+},
+"2001-06-22": {
+"Real Middle Band": "70.2580",
+"Real Upper Band": "75.6373",
+"Real Lower Band": "64.8787"
+},
+"2001-06-15": {
+"Real Middle Band": "70.1100",
+"Real Upper Band": "75.9005",
+"Real Lower Band": "64.3195"
+},
+"2001-06-08": {
+"Real Middle Band": "70.3860",
+"Real Upper Band": "75.4741",
+"Real Lower Band": "65.2979"
+},
+"2001-06-01": {
+"Real Middle Band": "69.8980",
+"Real Upper Band": "73.0336",
+"Real Lower Band": "66.7624"
+},
+"2001-05-25": {
+"Real Middle Band": "69.2540",
+"Real Upper Band": "73.6856",
+"Real Lower Band": "64.8224"
+},
+"2001-05-18": {
+"Real Middle Band": "68.8720",
+"Real Upper Band": "72.5470",
+"Real Lower Band": "65.1970"
+},
+"2001-05-11": {
+"Real Middle Band": "67.6900",
+"Real Upper Band": "76.6588",
+"Real Lower Band": "58.7212"
+},
+"2001-05-04": {
+"Real Middle Band": "65.0476",
+"Real Upper Band": "80.8738",
+"Real Lower Band": "49.2214"
+},
+"2001-04-27": {
+"Real Middle Band": "61.8352",
+"Real Upper Band": "78.9302",
+"Real Lower Band": "44.7402"
+},
+"2001-04-20": {
+"Real Middle Band": "59.7238",
+"Real Upper Band": "75.5945",
+"Real Lower Band": "43.8531"
+},
+"2001-04-12": {
+"Real Middle Band": "56.8364",
+"Real Upper Band": "65.1970",
+"Real Lower Band": "48.4758"
+},
+"2001-04-06": {
+"Real Middle Band": "55.7380",
+"Real Upper Band": "58.5100",
+"Real Lower Band": "52.9660"
+},
+"2001-03-30": {
+"Real Middle Band": "55.8380",
+"Real Upper Band": "58.8135",
+"Real Lower Band": "52.8625"
+},
+"2001-03-23": {
+"Real Middle Band": "56.2504",
+"Real Upper Band": "58.7881",
+"Real Lower Band": "53.7127"
+},
+"2001-03-16": {
+"Real Middle Band": "56.4004",
+"Real Upper Band": "59.2454",
+"Real Lower Band": "53.5554"
+},
+"2001-03-09": {
+"Real Middle Band": "57.3128",
+"Real Upper Band": "60.1211",
+"Real Lower Band": "54.5045"
+},
+"2001-03-02": {
+"Real Middle Band": "58.1378",
+"Real Upper Band": "62.9452",
+"Real Lower Band": "53.3304"
+},
+"2001-02-23": {
+"Real Middle Band": "59.6002",
+"Real Upper Band": "67.4703",
+"Real Lower Band": "51.7301"
+},
+"2001-02-16": {
+"Real Middle Band": "60.4502",
+"Real Upper Band": "67.1090",
+"Real Lower Band": "53.7914"
+},
+"2001-02-09": {
+"Real Middle Band": "59.6876",
+"Real Upper Band": "70.0962",
+"Real Lower Band": "49.2790"
+},
+"2001-02-02": {
+"Real Middle Band": "57.6876",
+"Real Upper Band": "74.1980",
+"Real Lower Band": "41.1772"
+},
+"2001-01-26": {
+"Real Middle Band": "54.2000",
+"Real Upper Band": "76.8775",
+"Real Lower Band": "31.5225"
+},
+"2001-01-19": {
+"Real Middle Band": "50.6876",
+"Real Upper Band": "69.0945",
+"Real Lower Band": "32.2807"
+},
+"2001-01-12": {
+"Real Middle Band": "48.3252",
+"Real Upper Band": "58.3856",
+"Real Lower Band": "38.2648"
+},
+"2001-01-05": {
+"Real Middle Band": "48.5128",
+"Real Upper Band": "59.4651",
+"Real Lower Band": "37.5605"
+},
+"2000-12-29": {
+"Real Middle Band": "50.0128",
+"Real Upper Band": "64.7601",
+"Real Lower Band": "35.2655"
+},
+"2000-12-22": {
+"Real Middle Band": "55.3254",
+"Real Upper Band": "79.7955",
+"Real Lower Band": "30.8553"
+},
+"2000-12-15": {
+"Real Middle Band": "59.8504",
+"Real Upper Band": "84.5896",
+"Real Lower Band": "35.1112"
+},
+"2000-12-08": {
+"Real Middle Band": "63.4878",
+"Real Upper Band": "83.2421",
+"Real Lower Band": "43.7335"
+},
+"2000-12-01": {
+"Real Middle Band": "66.2502",
+"Real Upper Band": "80.9116",
+"Real Lower Band": "51.5888"
+},
+"2000-11-24": {
+"Real Middle Band": "68.4628",
+"Real Upper Band": "71.2660",
+"Real Lower Band": "65.6596"
+},
+"2000-11-17": {
+"Real Middle Band": "67.5128",
+"Real Upper Band": "71.4015",
+"Real Lower Band": "63.6241"
+},
+"2000-11-10": {
+"Real Middle Band": "64.4502",
+"Real Upper Band": "80.8003",
+"Real Lower Band": "48.1001"
+},
+"2000-11-03": {
+"Real Middle Band": "62.0878",
+"Real Upper Band": "80.6315",
+"Real Lower Band": "43.5441"
+},
+"2000-10-27": {
+"Real Middle Band": "60.5004",
+"Real Upper Band": "76.5786",
+"Real Lower Band": "44.4222"
+},
+"2000-10-20": {
+"Real Middle Band": "59.6128",
+"Real Upper Band": "72.7291",
+"Real Lower Band": "46.4965"
+},
+"2000-10-13": {
+"Real Middle Band": "59.4128",
+"Real Upper Band": "71.7985",
+"Real Lower Band": "47.0271"
+},
+"2000-10-06": {
+"Real Middle Band": "62.5254",
+"Real Upper Band": "76.1237",
+"Real Lower Band": "48.9271"
+},
+"2000-09-29": {
+"Real Middle Band": "65.4504",
+"Real Upper Band": "76.6908",
+"Real Lower Band": "54.2100"
+},
+"2000-09-22": {
+"Real Middle Band": "67.5128",
+"Real Upper Band": "76.9338",
+"Real Lower Band": "58.0918"
+},
+"2000-09-15": {
+"Real Middle Band": "69.0628",
+"Real Upper Band": "76.5671",
+"Real Lower Band": "61.5585"
+},
+"2000-09-08": {
+"Real Middle Band": "70.7128",
+"Real Upper Band": "73.8019",
+"Real Lower Band": "67.6237"
+},
+"2000-09-01": {
+"Real Middle Band": "70.6752",
+"Real Upper Band": "73.9218",
+"Real Lower Band": "67.4286"
+},
+"2000-08-25": {
+"Real Middle Band": "70.5752",
+"Real Upper Band": "74.0071",
+"Real Lower Band": "67.1433"
+},
+"2000-08-18": {
+"Real Middle Band": "70.9128",
+"Real Upper Band": "74.9357",
+"Real Lower Band": "66.8899"
+},
+"2000-08-11": {
+"Real Middle Band": "72.5004",
+"Real Upper Band": "82.9604",
+"Real Lower Band": "62.0404"
+},
+"2000-08-04": {
+"Real Middle Band": "74.4128",
+"Real Upper Band": "89.8700",
+"Real Lower Band": "58.9556"
+},
+"2000-07-28": {
+"Real Middle Band": "76.5878",
+"Real Upper Band": "90.8079",
+"Real Lower Band": "62.3677"
+},
+"2000-07-21": {
+"Real Middle Band": "78.1878",
+"Real Upper Band": "87.9682",
+"Real Lower Band": "68.4074"
+},
+"2000-07-14": {
+"Real Middle Band": "78.2378",
+"Real Upper Band": "87.7488",
+"Real Lower Band": "68.7268"
+},
+"2000-07-07": {
+"Real Middle Band": "76.2128",
+"Real Upper Band": "90.7922",
+"Real Lower Band": "61.6334"
+},
+"2000-06-30": {
+"Real Middle Band": "73.0754",
+"Real Upper Band": "88.5704",
+"Real Lower Band": "57.5804"
+},
+"2000-06-23": {
+"Real Middle Band": "69.3630",
+"Real Upper Band": "85.9015",
+"Real Lower Band": "52.8245"
+},
+"2000-06-16": {
+"Real Middle Band": "66.8380",
+"Real Upper Band": "78.0037",
+"Real Lower Band": "55.6723"
+},
+"2000-06-09": {
+"Real Middle Band": "66.0880",
+"Real Upper Band": "74.3121",
+"Real Lower Band": "57.8639"
+},
+"2000-06-02": {
+"Real Middle Band": "66.5504",
+"Real Upper Band": "76.4506",
+"Real Lower Band": "56.6502"
+},
+"2000-05-26": {
+"Real Middle Band": "67.2378",
+"Real Upper Band": "77.8249",
+"Real Lower Band": "56.6507"
+},
+"2000-05-19": {
+"Real Middle Band": "70.7378",
+"Real Upper Band": "84.4381",
+"Real Lower Band": "57.0375"
+},
+"2000-05-12": {
+"Real Middle Band": "72.5502",
+"Real Upper Band": "83.5421",
+"Real Lower Band": "61.5583"
+},
+"2000-05-05": {
+"Real Middle Band": "76.6002",
+"Real Upper Band": "97.5494",
+"Real Lower Band": "55.6510"
+},
+"2000-04-28": {
+"Real Middle Band": "83.6252",
+"Real Upper Band": "122.6528",
+"Real Lower Band": "44.5976"
+},
+"2000-04-20": {
+"Real Middle Band": "92.0128",
+"Real Upper Band": "136.2958",
+"Real Lower Band": "47.7298"
+},
+"2000-04-14": {
+"Real Middle Band": "96.1002",
+"Real Upper Band": "136.1062",
+"Real Lower Band": "56.0942"
+},
+"2000-04-07": {
+"Real Middle Band": "101.4752",
+"Real Upper Band": "124.1564",
+"Real Lower Band": "78.7940"
+},
+"2000-03-31": {
+"Real Middle Band": "102.8876",
+"Real Upper Band": "119.3405",
+"Real Lower Band": "86.4347"
+},
+"2000-03-24": {
+"Real Middle Band": "99.9002",
+"Real Upper Band": "120.1776",
+"Real Lower Band": "79.6228"
+},
+"2000-03-17": {
+"Real Middle Band": "96.5752",
+"Real Upper Band": "106.7574",
+"Real Lower Band": "86.3930"
+},
+"2000-03-10": {
+"Real Middle Band": "96.6878",
+"Real Upper Band": "107.1667",
+"Real Lower Band": "86.2089"
+},
+"2000-03-03": {
+"Real Middle Band": "97.8004",
+"Real Upper Band": "113.3159",
+"Real Lower Band": "82.2849"
+},
+"2000-02-25": {
+"Real Middle Band": "98.2254",
+"Real Upper Band": "113.5361",
+"Real Lower Band": "82.9147"
+},
+"2000-02-18": {
+"Real Middle Band": "100.7128",
+"Real Upper Band": "112.8645",
+"Real Lower Band": "88.5611"
+},
+"2000-02-11": {
+"Real Middle Band": "104.1502",
+"Real Upper Band": "119.0987",
+"Real Lower Band": "89.2017"
+},
+"2000-02-04": {
+"Real Middle Band": "106.4502",
+"Real Upper Band": "121.9264",
+"Real Lower Band": "90.9740"
+},
+"2000-01-28": {
+"Real Middle Band": "108.4876",
+"Real Upper Band": "128.3140",
+"Real Lower Band": "88.6612"
+},
+"2000-01-21": {
+"Real Middle Band": "112.3252",
+"Real Upper Band": "127.0250",
+"Real Lower Band": "97.6254"
+},
+"2000-01-14": {
+"Real Middle Band": "114.6252",
+"Real Upper Band": "121.8023",
+"Real Lower Band": "107.4481"
+},
+"2000-01-07": {
+"Real Middle Band": "110.9502",
+"Real Upper Band": "137.3099",
+"Real Lower Band": "84.5905"
+},
+"1999-12-31": {
+"Real Middle Band": "107.8876",
+"Real Upper Band": "139.5989",
+"Real Lower Band": "76.1763"
+},
+"1999-12-23": {
+"Real Middle Band": "102.7626",
+"Real Upper Band": "136.4317",
+"Real Lower Band": "69.0935"
+},
+"1999-12-17": {
+"Real Middle Band": "96.4750",
+"Real Upper Band": "126.4069",
+"Real Lower Band": "66.5431"
+},
+"1999-12-10": {
+"Real Middle Band": "91.2626",
+"Real Upper Band": "101.8680",
+"Real Lower Band": "80.6572"
+},
+"1999-12-03": {
+"Real Middle Band": "90.8002",
+"Real Upper Band": "100.7213",
+"Real Lower Band": "80.8791"
+},
+"1999-11-26": {
+"Real Middle Band": "90.0878",
+"Real Upper Band": "97.0460",
+"Real Lower Band": "83.1296"
+},
+"1999-11-19": {
+"Real Middle Band": "90.4004",
+"Real Upper Band": "98.0011",
+"Real Lower Band": "82.7997"
+},
+"1999-11-12": {
+"Real Middle Band": "90.8130",
+"Real Upper Band": "96.4004",
+"Real Lower Band": "85.2256"
+},
+"1999-11-05": {
+"Real Middle Band": "91.9630",
+"Real Upper Band": "98.6854",
+"Real Lower Band": "85.2406"
+},
+"1999-10-29": {
+"Real Middle Band": "91.6472",
+"Real Upper Band": "98.7925",
+"Real Lower Band": "84.5019"
+},
+"1999-10-22": {
+"Real Middle Band": "91.3222",
+"Real Upper Band": "98.3578",
+"Real Lower Band": "84.2866"
+},
+"1999-10-15": {
+"Real Middle Band": "92.0722",
+"Real Upper Band": "101.4631",
+"Real Lower Band": "82.6813"
+},
+"1999-10-08": {
+"Real Middle Band": "93.4596",
+"Real Upper Band": "101.0334",
+"Real Lower Band": "85.8858"
+},
+"1999-10-01": {
+"Real Middle Band": "93.6470",
+"Real Upper Band": "101.6228",
+"Real Lower Band": "85.6712"
+},
+"1999-09-24": {
+"Real Middle Band": "94.3002",
+"Real Upper Band": "100.2923",
+"Real Lower Band": "88.3081"
+}
+}
+}

@@ -3,19 +3,19 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    background: rgb(15, 15, 15);
+    /* background: rgb(15, 15, 15); */
     display: flex;
     flex-direction: column;
 }
 .app-header {
-    color: white;
+    /* color: white; */
     font-size: 72px;
     font-weight: 800;
     text-align: center;
 }
 svg {
-    /* height: 500px;
-    width: 56%; */
+    min-height: 500px;
+    min-width: 600; 
    
     /* background: cornflowerblue; */
 }
@@ -46,10 +46,10 @@ line:hover {
 
 @keyframes flashing {
      from {
-        transform:rotate(0  deg);
+        stroke: red;
     }
     to {
-        transform:rotate(360deg);
+        stroke: green;
     }
 }
 
@@ -61,7 +61,8 @@ line:hover {
 .content {
     text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .svg-smas {
@@ -69,7 +70,7 @@ line:hover {
 }
 
 .tooltip {
-    height: 30px;
+    height: 19px;
     width: 70px;
     position: absolute;
 
@@ -86,19 +87,38 @@ line:hover {
 }
 
 .button-sma {
-    height: 70px;
-    width: 83px;
-    font-size: 35px;
+    height: 36px;
+    width: 72px;
+    font-size: 14px;
     cursor: pointer;
     font-weight: 600;
     border-radius: 10px;
 }
 
+.button-boll {
+    height: 36px;
+    width: 72px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.input-sma:focus, .input-sma-weeks:focus {
+    outline: none;
+}
+
 .input-sma {
-    height: 70px;
-    width: 127px;
+    height: 36px;
+    width: 72px;
     border-radius: 5%;
-    font-size: 32px;
+    font-size: 14px;
+}
+
+.input-sma-weeks {
+    height: 36px;
+    width: 72px;
+    border-radius: 5%;
+    font-size: 14px;
 }
 .inputs {
     display: flex;
@@ -110,4 +130,25 @@ line:hover {
     display: inline-block;
 }
 
+.inputs > * {
+    margin: 10px;
+}
 
+.draw {
+    animation: draw 10s infinite;
+    /* animation-fill-mode: forwards ; */
+    animation-direction: reverse;
+    animation-timing-function: ease-out;
+    /* stroke-dashoffset: 2000; */
+    stroke-dasharray: 10000;
+
+}
+
+@keyframes draw {
+    0% { 
+        stroke-dashoffset: 0;
+    }
+    100% { 
+        stroke-dashoffset: 10000;
+    }
+}
