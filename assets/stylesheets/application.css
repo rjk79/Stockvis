@@ -130,7 +130,6 @@ line:hover {
     font-weight: 600;
     border-radius: 10px;
 }
-
 .button-boll {
     height: 36px;
     width: 77px;
@@ -138,6 +137,19 @@ line:hover {
     cursor: pointer;
     font-weight: 600;
     border-radius: 10px;
+}
+.button-stoch {
+    height: 36px;
+    width: 87px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.button-sma:hover, .button-boll:hover, .button-stoch:hover {
+    background: black;
+    outline: white;
+    color:white;
 }
 .input-sma:focus, .input-sma-weeks:focus {
     outline: none;
@@ -432,4 +444,7 @@ button {
     font-weight: 600;
     background: none;
     border: none;
+}
+strong {
+    font-weight: 800;
 }

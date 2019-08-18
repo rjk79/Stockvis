@@ -33,6 +33,7 @@
         <!-- <input class="input-sma-weeks" type="text" name="weeks" value="" placeholder="weeks"> -->
         <button class="button-sma">SMA</button>
         <button class="button-boll">Bollinger</button>
+        <button class="button-stoch">Stochastic</button>
         <button class="clear">Clear All</button>
         <button class="sample-tickers">Common Tickers >></button>
 
@@ -66,25 +67,25 @@
         <div class="content">
             <div class="tooltip"></div>
             <div class="section">
-                <!-- <p class="svg-title">ST v. LT Moving Average</p> -->
+                <p class="svg-title">Simple Moving Averages</p>
                 <svg class="svg-smas"></svg>
                 <button class="smas-info-button">More Info!</button>
                 <p class="description-smas hidden">
-                    Blue-Pink line: 21-day MA <br>
-                    Black line: 49-day MA <br>
+                    <strong>Blue-Pink line: 21-day MA</strong><br>
+                    <strong>Black line: 49-day MA</strong><br>
                     Short term and long term price moving averages (MA) are well-established means of evaluating a company's performance. If
                     a short term MA is crossing through a long term one, then it is a buy signal (golden cross). If the opposite is
                     occurring, then it is a sell signal (dead cross).
                 </p>
             </div>
             <div class="section">
-                <!-- <p class="rainbow svg-title">Bollinger Bands</p> -->
+                <p class="rainbow svg-title">Bollinger Bands</p>
                 <svg class="svg-bolls"></svg>
                 <button class="bbands-info-button">More Info!</button>
                 <p class="description-bbands hidden">
-                    Green line: 3 SDs below MA
-                    Black line: 35-day MA
-                    Pink line: 3 SDs below MA
+                    <strong>Green line: 3 SDs below MA</strong><br>
+                    <strong>Black line: 35-day MA</strong><br>
+                    <strong>Pink line: 3 SDs below MA</strong><br>
                     Bollinger bands are also highly instrumental in evaluating securities. When viewing them, there is a middle line that
                     indicates a moving average (MA) and two lines above and below, showing a certain number of standard deviations (SD) above and below the moving
                     average, respectively. When the MA line crosses the upper one, the resistance level, or
@@ -93,18 +94,16 @@
                 </p>
             </div>
             <div class="section">
-                <!-- <p class="rainbow svg-title">Bollinger Bands</p> -->
+                <p class="rainbow svg-title">Stochastic Oscillator</p>
                 <svg class="svg-stochs"></svg>
                 <button class="stochs-info-button">More Info!</button>
                 <p class="description-stochs hidden">
-                    Green line: 3 SDs below MA
-                    Black line: 35-day MA
-                    Pink line: 3 SDs below MA
-                    Bollinger bands are also highly instrumental in evaluating securities. When viewing them, there is a middle line that
-                    indicates a moving average (MA) and two lines above and below, showing a certain number of standard deviations (SD) above and below the moving
-                    average, respectively. When the MA line crosses the upper one, the resistance level, or
-                    the lower one, the support level, there is a major price event occurring.  Also, when the bands squeeze or expand apart, there is a 
-                    high chance of a change in price volatility.
+                    <strong>Blue line: Slow K = smoothed %K</strong> <br>
+                    <strong>Green line: Slow D = MA of Slow K</strong><br>
+                    Stochastic oscillators are useful for gauging stocks since they show the closing price of a stock relative to its price
+                    range over a given time period. A high ratio of Slow K / Slow D generates a buy signal and the opposite generates a sell signal.
+                    The value of %K itself is also used to determine its intrinsic value. A value over 80 can be interpreted as overbought and a 
+                    value under 20 as oversold. 
                 </p>
             </div>
         

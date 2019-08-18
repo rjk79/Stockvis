@@ -1,7 +1,7 @@
 const Stochastic = () => {
     let tick = document.getElementsByClassName("input-sma")[0].value
     var request = new XMLHttpRequest()
-    request.open('GET', `https://www.alphavantage.co/query?function=STOCH&symbol=${tick}&interval=daily&apikey=T12XNN62PCMC53Y8`, true)
+    request.open('GET', `https://www.alphavantage.co/query?function=STOCH&symbol=${tick}&interval=weekly&apikey=T12XNN62PCMC53Y8`, true)
     request.onload = function () {
         var data = JSON.parse(this.response)
         if (request.status >= 200 && request.status < 400) {
@@ -9,10 +9,10 @@ const Stochastic = () => {
             let slowK = Object.values(data["Technical Analysis: STOCH"])
                 .map(el => parseFloat(el["SlowK"])) .reverse()
             let slowD = Object.values(data["Technical Analysis: STOCH"])
-                .map(el => parseFloat(el["SlowD"])) .reverse()
-            
-
-            //set svg
+                .map(el => parseFloat(el["SlowD"])) .reverse() 
+            let dataYears = Object.keys(data["Technical Analysis: STOCH"])
+                .map(el => parseInt(el)) .reverse()
+            //set SVG
             var margin = { top: 50, right: 50, bottom: 50, left: 50 }
             var width = 600 - margin.left
             var height = 500 - margin.bottom
@@ -20,9 +20,9 @@ const Stochastic = () => {
             var svg = d3.select('.svg-stochs')
                 .attr('width', width + margin.left)
                 .attr('height', height + margin.bottom)
-
-            var x_scale = d3.scaleLinear()
-                .domain([0, dataUppers.length - 1])
+            //Scale everything
+            var x_scale = d3.scaleLinear() //scaleTime?
+                .domain([0, slowK.length - 1])
                 .range([0, width])
 
             var new_x_scale = d3.scaleLinear()
@@ -30,11 +30,11 @@ const Stochastic = () => {
                 .range([0, width])
 
             var y_scale = d3.scaleLinear()
-                .domain([d3.max(dataUppers), 0]) //divide by MAX of highest band
+                .domain([d3.max(slowK), 0]) //divide by MAX of highest band
                 .range([height, 0]) //multiply by 500
 
             var new_y_scale = d3.scaleLinear()
-                .domain([0, d3.max(dataUppers)])
+                .domain([0, d3.max(slowK)])
                 .range([height, 0])
 
             var x_axis = d3.axisBottom()
@@ -42,7 +42,7 @@ const Stochastic = () => {
                 .tickFormat(d => `${d}`)
             var y_axis = d3.axisLeft()
                 .scale(new_y_scale)
-
+            //Axis labels
             svg.append("g")
                 .attr("transform", "translate(50, 0)") //2nd val needs to adjust for y shifts
                 .call(y_axis)
@@ -53,7 +53,6 @@ const Stochastic = () => {
                 .style("text-anchor", "middle")
                 .text("$");
 
-
             svg.append("g")
                 .attr("transform", "translate(50," + height + ")") //1st val needs to change
                 .call(x_axis.ticks(10))
@@ -63,88 +62,36 @@ const Stochastic = () => {
                 .style("text-anchor", "middle")
                 .text("Year");
 
-
-            //Higher band
+            //Slow K line
             var line = d3.line() //NEW
                 .x((d, idx) => x_scale(idx))
-                .y((d, idx) => y_scale(d3.max(dataUppers) - d))
+                .y((d, idx) => y_scale(d3.max(slowK) - d))
 
             var g1 = svg.append('g')
                 .attr('transform', 'translate(' + margin.left + ', 0)')
+                .attr('class', 'slowK-line')
 
             var path = g1.append('path') //new
-                .attr('d', line(dataUppers))
+                .attr('d', line(slowK))
                 .attr('stroke', 'rgb(161, 185, 22)')
                 .attr('stroke-width', '2')
                 .attr('fill', 'none')
                 .attr('class', '')
 
 
-            //Middle line
+            //Slow D line
 
             var g2 = svg.append('g')
                 .attr('transform', 'translate(' + margin.left + ', 0)')
-                .attr('class', 'middle-band')
+                .attr('class', 'slowD-line')
 
             var path2 = g2.append('path') //new
-                .attr('d', line(dataMiddles))
-                .attr('stroke', 'rgb(25, 25, 25)')
+                .attr('d', line(slowD))
+                .attr('stroke', 'cyan')
                 .attr('stroke-width', '2')
                 .attr('fill', 'none')
-                .attr('class', 'draw flashing')
-            // var g5 = g4.selectAll("g")
-            //     .data(dataMiddles)
-            //     .enter()
-            //     .append("g")
-
-            // var lines3 = g5.append('line')
-            //     .attr('x1', function (d, idx) { return x_scale(idx - 1) })
-            //     .attr('x2', function (d, idx) { return x_scale(idx) })
-            //     .attr('y1', function (d, idx) { return y_scale(d3.max(dataUppers) - (dataMiddles[idx - 1] || d)) })
-            //     .attr('y2', function (d, idx) { return y_scale(d3.max(dataUppers) - d) })
-
-            //     .style('stroke', '#00cccc')
-            //     .attr('class', 'line-boll middle')
-
-            //Lower band
-            var g2 = svg.append('g')
-                .attr('transform', 'translate(' + margin.left + ', 0)')
-                .attr('class', 'lower-band')
-
-            var g3 = g2.selectAll("g")
-                .data(dataLowers)
-                .enter()
-                .append("g")
-
-            var lines2 = g3.append('line')
-                .attr('x1', function (d, idx) { return x_scale(idx - 1) })
-                .attr('x2', function (d, idx) { return x_scale(idx) })
-
-                .attr("stroke-opacity", 0)
-                .attr('y1', function (d, idx) { return height - 50 })
-                .attr('y2', function (d, idx) { return height - 50 })
-            lines2.transition()
-                .duration(2000)
-                .attr("stroke-opacity", 1)
-
-                .attr('y1', function (d, idx) { return y_scale(d3.max(dataUppers) - (dataLowers[idx - 1] || d)) })
-                .attr('y2', function (d, idx) { return y_scale(d3.max(dataUppers) - d) })
-
-
-                .style('stroke', 'hotpink')
-                .attr('class', 'line-boll lower')
-
-
-            const fade = () => {
-                svg.selectAll(".upper, .lower")
-                    .transition()
-                    .duration(2000)
-                    .style('opacity', ".5")
-                    .transition()
-                    .duration(2000)
-                    .style('opacity', "1.0")
-                    .on("end", fade)
-            }
+                .attr('class', '')
+           
 
         }
         else {
