@@ -10,21 +10,103 @@
 </head>
 
 <body>
-    <p class="app-header">StockVis</p>
+    <div class="navbar"></div>
+    <div class="holder-holder">
+
+
+    <div class="spinner-holder">
+        <div class="spinner">
+            <div class="box-right"></div>
+            <div class="box-top"></div>
+            <p class="app-header header-top">StockVis</p>
+            <div class="box-bottom"></div>
+            <p class="app-header header-bottom"></p>
+            <div class="box-left"></div>
+        </div>
+    </div>
+
+    </div>
 <!-- 33333333333333333 -->
     <div class="inputs">
-        <input class="input-sma" type="text" name="tick" value="" placeholder="ticker" autofocus>
+        Stock Ticker:
+        <input class="input-sma" type="text" name="tick" value="" placeholder="SYM" autofocus>
         <!-- <input class="input-sma-weeks" type="text" name="weeks" value="" placeholder="weeks"> -->
         <button class="button-sma">SMA</button>
         <button class="button-boll">Bollinger</button>
+        <button class="clear">Clear All</button>
+        <button class="sample-tickers">Common Tickers >></button>
+
+
+    <div class="tornado-holder">
+        <div class="tornado hidden">
+            <div class="tornado-row-1 rotate">
+                <div class="tornado-cell-1 cell">AAPL</div>
+                <div class="tornado-cell-2 cell">MSFT</div>
+                <div class="tornado-cell-3 cell">AMZN</div>
+                <div class="tornado-cell-4 cell">GOOGL</div>
+            </div>
+            <div class="tornado-row-2 rotate-reverse">
+                <div class="tornado-cell-1 cell">SPOT</div>
+                <div class="tornado-cell-2 cell">IBM</div>
+                <div class="tornado-cell-3 cell">SPY</div>
+                <div class="tornado-cell-4 cell">FB</div>
+            </div>
+            <div class="tornado-row-3 rotate">
+                <div class="tornado-cell-1 cell">NVDA</div>
+                <div class="tornado-cell-2 cell">UBER</div>
+                <div class="tornado-cell-3 cell">DELL</div>
+                <div class="tornado-cell-4 cell">TWTR</div>
+            </div>
+        </div>
+    </div>
     </div>
     <div class="main">
 
 
         <div class="content">
             <div class="tooltip"></div>
-            <svg class="svg-smas"></svg>
-            <svg class="svg-bolls"></svg>
+            <div class="section">
+                <!-- <p class="svg-title">ST v. LT Moving Average</p> -->
+                <svg class="svg-smas"></svg>
+                <button class="smas-info-button">More Info!</button>
+                <p class="description-smas hidden">
+                    Blue-Pink line: 21-day MA <br>
+                    Black line: 49-day MA <br>
+                    Short term and long term price moving averages (MA) are well-established means of evaluating a company's performance. If
+                    a short term MA is crossing through a long term one, then it is a buy signal (golden cross). If the opposite is
+                    occurring, then it is a sell signal (dead cross).
+                </p>
+            </div>
+            <div class="section">
+                <!-- <p class="rainbow svg-title">Bollinger Bands</p> -->
+                <svg class="svg-bolls"></svg>
+                <button class="bbands-info-button">More Info!</button>
+                <p class="description-bbands hidden">
+                    Green line: 3 SDs below MA
+                    Black line: 35-day MA
+                    Pink line: 3 SDs below MA
+                    Bollinger bands are also highly instrumental in evaluating securities. When viewing them, there is a middle line that
+                    indicates a moving average (MA) and two lines above and below, showing a certain number of standard deviations (SD) above and below the moving
+                    average, respectively. When the MA line crosses the upper one, the resistance level, or
+                    the lower one, the support level, there is a major price event occurring.  Also, when the bands squeeze or expand apart, there is a 
+                    high chance of a change in price volatility.
+                </p>
+            </div>
+            <div class="section">
+                <!-- <p class="rainbow svg-title">Bollinger Bands</p> -->
+                <svg class="svg-stochs"></svg>
+                <button class="stochs-info-button">More Info!</button>
+                <p class="description-stochs hidden">
+                    Green line: 3 SDs below MA
+                    Black line: 35-day MA
+                    Pink line: 3 SDs below MA
+                    Bollinger bands are also highly instrumental in evaluating securities. When viewing them, there is a middle line that
+                    indicates a moving average (MA) and two lines above and below, showing a certain number of standard deviations (SD) above and below the moving
+                    average, respectively. When the MA line crosses the upper one, the resistance level, or
+                    the lower one, the support level, there is a major price event occurring.  Also, when the bands squeeze or expand apart, there is a 
+                    high chance of a change in price volatility.
+                </p>
+            </div>
         
             <ul> </ul>
         </div>
@@ -34,6 +116,8 @@
     <a class="github-link" href="https://github.com/rjk79">
         <img class="icon" src="assets/GitHub-Mark-120px-plus.png">
     </a>
+
+
 
 <!-- ##################################################################### -->
     <script type="module" src="src/index.js"></script>

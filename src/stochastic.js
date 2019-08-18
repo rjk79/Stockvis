@@ -1,42 +1,26 @@
-const Bollinger = () => {
-
-
-
-    //grab info from form
+const Stochastic = () => {
     let tick = document.getElementsByClassName("input-sma")[0].value
-    
-    //make the request
     var request = new XMLHttpRequest()
-    request.open('GET', `https://www.alphavantage.co/query?function=BBANDS&symbol=${tick}&interval=weekly&time_period=5&series_type=close&nbdevup=3&nbdevdn=3&apikey=T12XNN62PCMC53Y8`, true)
+    request.open('GET', `https://www.alphavantage.co/query?function=STOCH&symbol=${tick}&interval=daily&apikey=T12XNN62PCMC53Y8`, true)
     request.onload = function () {
         var data = JSON.parse(this.response)
-        console.log(data)
-    if (request.status >= 200 && request.status < 400) {
-        // let data = bollData
-        //vet the data
-        let reverseDataUppers = Object.values(data["Technical Analysis: BBANDS"])
-            .map(el => parseFloat(el["Real Upper Band"]))
-        let reverseDataMiddles = Object.values(data["Technical Analysis: BBANDS"])
-            .map(el => parseFloat(el["Real Middle Band"]))
-        let reverseDataLowers = Object.values(data["Technical Analysis: BBANDS"])
-            .map(el => parseFloat(el["Real Lower Band"]))
-        let reverseDataYears = Object.keys(data["Technical Analysis: BBANDS"])
-            .map(el => parseInt(el))
-        //reverse all of it
-        let dataUppers = reverseDataUppers.reverse()
-        let dataLowers = reverseDataLowers.reverse()
-        let dataMiddles = reverseDataMiddles.reverse()
-        let dataYears = reverseDataYears.reverse()
-        
-        //set svg
+        if (request.status >= 200 && request.status < 400) {
+            // let data = bollData
+            let slowK = Object.values(data["Technical Analysis: STOCH"])
+                .map(el => parseFloat(el["SlowK"])) .reverse()
+            let slowD = Object.values(data["Technical Analysis: STOCH"])
+                .map(el => parseFloat(el["SlowD"])) .reverse()
+            
+
+            //set svg
             var margin = { top: 50, right: 50, bottom: 50, left: 50 }
-            var width = 600 - margin.left 
+            var width = 600 - margin.left
             var height = 500 - margin.bottom
 
-            var svg = d3.select('.svg-bolls')
+            var svg = d3.select('.svg-stochs')
                 .attr('width', width + margin.left)
                 .attr('height', height + margin.bottom)
-            
+
             var x_scale = d3.scaleLinear()
                 .domain([0, dataUppers.length - 1])
                 .range([0, width])
@@ -67,35 +51,35 @@ const Bollinger = () => {
                 .attr("y", margin.left - 30)
                 .attr("x", 0 - (height / 2))
                 .style("text-anchor", "middle")
-                .text("$");      
+                .text("$");
 
-                
+
             svg.append("g")
-            .attr("transform", "translate(50," + height + ")") //1st val needs to change
-            .call(x_axis.ticks(10))
+                .attr("transform", "translate(50," + height + ")") //1st val needs to change
+                .call(x_axis.ticks(10))
 
             svg.append("text")
-                .attr("transform", "translate(" + (width / 2 + margin.left) + " ," + (height + margin.bottom ) + ")")
+                .attr("transform", "translate(" + (width / 2 + margin.left) + " ," + (height + margin.bottom) + ")")
                 .style("text-anchor", "middle")
                 .text("Year");
 
-            
+
             //Higher band
             var line = d3.line() //NEW
-                        .x((d, idx) => x_scale(idx))
-                        .y((d, idx) => y_scale( d3.max(dataUppers) - d ) ) 
+                .x((d, idx) => x_scale(idx))
+                .y((d, idx) => y_scale(d3.max(dataUppers) - d))
 
             var g1 = svg.append('g')
                 .attr('transform', 'translate(' + margin.left + ', 0)')
 
             var path = g1.append('path') //new
-                        .attr('d', line(dataUppers))
+                .attr('d', line(dataUppers))
                 .attr('stroke', 'rgb(161, 185, 22)')
-                        .attr('stroke-width', '2')
-                        .attr('fill', 'none')
-                        .attr('class', '')
+                .attr('stroke-width', '2')
+                .attr('fill', 'none')
+                .attr('class', '')
 
-            
+
             //Middle line
 
             var g2 = svg.append('g')
@@ -133,8 +117,8 @@ const Bollinger = () => {
                 .append("g")
 
             var lines2 = g3.append('line')
-                .attr('x1', function (d, idx) { return x_scale(idx - 1)  })
-                .attr('x2', function (d, idx) { return x_scale(idx)  })
+                .attr('x1', function (d, idx) { return x_scale(idx - 1) })
+                .attr('x2', function (d, idx) { return x_scale(idx) })
 
                 .attr("stroke-opacity", 0)
                 .attr('y1', function (d, idx) { return height - 50 })
@@ -146,20 +130,20 @@ const Bollinger = () => {
                 .attr('y1', function (d, idx) { return y_scale(d3.max(dataUppers) - (dataLowers[idx - 1] || d)) })
                 .attr('y2', function (d, idx) { return y_scale(d3.max(dataUppers) - d) })
 
-            
+
                 .style('stroke', 'hotpink')
                 .attr('class', 'line-boll lower')
-            
-            
+
+
             const fade = () => {
-            svg.selectAll(".upper, .lower")     
-                .transition()
-                .duration(2000)
-                .style('opacity', ".5")
-                .transition()
-                .duration(2000)
-                .style('opacity', "1.0")
-                .on("end", fade)
+                svg.selectAll(".upper, .lower")
+                    .transition()
+                    .duration(2000)
+                    .style('opacity', ".5")
+                    .transition()
+                    .duration(2000)
+                    .style('opacity', "1.0")
+                    .on("end", fade)
             }
 
         }
@@ -180,4 +164,4 @@ const Bollinger = () => {
 
 }
 
-export default Bollinger
+export default Stochastic
