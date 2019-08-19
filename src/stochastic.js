@@ -23,10 +23,11 @@ const Stochastic = () => {
                 })
             }
             
-            dataArr = dataArr.slice(dataArr.length * (19/20))
+            dataArr = dataArr.slice(dataArr.length * (19/20), -1)
             // dataArr = [ {data: , slowK: , slowD: }]
             
-            
+            debugger
+
             //set SVG
             var margin = { top: 50, right: 50, bottom: 50, left: 50 }
             var width = 600 - margin.left
@@ -86,7 +87,7 @@ const Stochastic = () => {
                 .attr('stroke', 'cyan')
                 .attr('stroke-width', '2')
                 .attr('fill', 'none')
-                .attr('class', '')
+                .attr('class', 'draw')
 
             //Slow D line
             var line2 = d3.line() //NEW
@@ -102,6 +103,7 @@ const Stochastic = () => {
                 .attr('stroke-width', '2')
                 .attr('fill', 'none')
                 .attr('class', 'draw')
+                
            
 
         }
