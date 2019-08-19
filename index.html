@@ -5,6 +5,7 @@
     <script src='https://d3js.org/d3.v4.min.js'></script> 
     <script src="./src/stockData.json"></script>
     <script src="./src/bollData.json"></script>
+    <script src="./src/stochData.json"></script>
     <!-- version 4 -->
     <link rel="stylesheet" href="assets/stylesheets/application.css">
 </head>
@@ -27,6 +28,7 @@
 
     </div>
 <!-- 33333333333333333 -->
+    <div><strong>Technical Analysis of Stocks</strong></div>
     <div class="inputs">
         Stock Ticker:
         <input class="input-sma" type="text" name="tick" value="" placeholder="SYM" autofocus>
@@ -35,7 +37,7 @@
         <button class="button-boll">Bollinger</button>
         <button class="button-stoch">Stochastic</button>
         <button class="clear">Clear All</button>
-        <button class="sample-tickers">Common Tickers >></button>
+        <button class="sample-tickers">View Common Tickers 
 
 
     <div class="tornado-holder">
@@ -60,6 +62,8 @@
             </div>
         </div>
     </div>
+    </button>
+
     </div>
     <div class="main">
 
@@ -71,7 +75,7 @@
                 <svg class="svg-smas"></svg>
                 <button class="smas-info-button">More Info!</button>
                 <p class="description-smas hidden">
-                    <strong>Blue-Pink line: 21-day MA</strong><br>
+                    <strong>Blue-Orange line: 21-day MA</strong><br>
                     <strong>Black line: 49-day MA</strong><br>
                     Short term and long term price moving averages (MA) are well-established means of evaluating a company's performance. If
                     a short term MA is crossing through a long term one, then it is a buy signal (golden cross). If the opposite is
@@ -83,9 +87,8 @@
                 <svg class="svg-bolls"></svg>
                 <button class="bbands-info-button">More Info!</button>
                 <p class="description-bbands hidden">
-                    <strong>Green line: 3 SDs below MA</strong><br>
+                    <strong>Green / Pink line: 3 SDs +/- MA</strong><br>
                     <strong>Black line: 35-day MA</strong><br>
-                    <strong>Pink line: 3 SDs below MA</strong><br>
                     Bollinger bands are also highly instrumental in evaluating securities. When viewing them, there is a middle line that
                     indicates a moving average (MA) and two lines above and below, showing a certain number of standard deviations (SD) above and below the moving
                     average, respectively. When the MA line crosses the upper one, the resistance level, or
@@ -99,7 +102,7 @@
                 <button class="stochs-info-button">More Info!</button>
                 <p class="description-stochs hidden">
                     <strong>Blue line: Slow K = smoothed %K</strong> <br>
-                    <strong>Green line: Slow D = MA of Slow K</strong><br>
+                    <strong>Dark Blue line: Slow D = MA of Slow K</strong><br>
                     Stochastic oscillators are useful for gauging stocks since they show the closing price of a stock relative to its price
                     range over a given time period. A high ratio of Slow K / Slow D generates a buy signal and the opposite generates a sell signal.
                     The value of %K itself is also used to determine its intrinsic value. A value over 80 can be interpreted as overbought and a 

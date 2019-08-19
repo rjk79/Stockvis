@@ -1,6 +1,5 @@
 
 const SMAGrapher = () => {
-    // Bollinger()
     debugger
     let tick = document.getElementsByClassName("input-sma")[0].value
     // let numWeeks = document.getElementsByClassName("input-sma-weeks")[0].value
@@ -155,7 +154,6 @@ const SMAGrapher = () => {
 
 
     function handleMouseOver(e) {
-
         document.getElementsByClassName("tooltip")[0].style.display = "inline-block"
         document.getElementsByClassName("tooltip")[0].innerHTML = "SMA: $" + `${parseFloat(e).toFixed(2)}`
     }
