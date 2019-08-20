@@ -4,6 +4,9 @@ import Stochastic from './stochastic.js'
 
 document.addEventListener("DOMContentLoaded", () => {
     //Input buttons
+    document.getElementsByClassName("overview-button")[0].addEventListener('click', ()=> {
+        document.getElementsByClassName("overview-description")[0].classList.toggle('hidden')
+    })
     document.getElementsByClassName("button-sma")[0].addEventListener("click", () => {
         SMAGrapher()
     })
@@ -32,7 +35,12 @@ document.addEventListener("DOMContentLoaded", () => {
     })
 
     document.getElementsByClassName("clear")[0].addEventListener('click', ()=>{
-        d3.selectAll("svg > *").remove();
+        d3.selectAll("svg > *")
+          .exit()
+          .transition()
+          .duration(5000)
+          .attr("opacity", "0")
+          .remove();
     })
 
     document.getElementsByClassName("sample-tickers")[0].addEventListener('click', ()=>{

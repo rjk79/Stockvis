@@ -1,4 +1,8 @@
 const Stochastic = () => {
+    d3.selectAll(".svg-stochs > *")
+       
+        .remove();
+
     let tick = document.getElementsByClassName("input-sma")[0].value
     var request = new XMLHttpRequest()
     request.open('GET', `https://www.alphavantage.co/query?function=STOCH&symbol=${tick}&interval=weekly&apikey=T12XNN62PCMC53Y8`, true)

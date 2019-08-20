@@ -1,6 +1,9 @@
 
 const SMAGrapher = () => {
-    debugger
+    d3.selectAll(".svg-smas > *")
+        
+        .remove();
+
     let tick = document.getElementsByClassName("input-sma")[0].value
     // let numWeeks = document.getElementsByClassName("input-sma-weeks")[0].value
 

@@ -1,6 +1,7 @@
 const Bollinger = () => {
-
-
+    d3.selectAll(".svg-bolls > *")
+        
+        .remove();
 
     //grab info from form
     let tick = document.getElementsByClassName("input-sma")[0].value
@@ -19,7 +20,7 @@ const Bollinger = () => {
         let reverseDataMiddles = Object.values(data["Technical Analysis: BBANDS"])
             .map(el => parseFloat(el["Real Middle Band"]))
         let reverseDataLowers = Object.values(data["Technical Analysis: BBANDS"])
-            .map(el => parseFloat(el["Real Lower Band"]))
+            .map(el => parseFloat(el["Real Lower Band"])) .map(el => el >= 0 ? el : 0)
         let reverseDataYears = Object.keys(data["Technical Analysis: BBANDS"])
             .map(el => parseInt(el))
         //reverse all of it

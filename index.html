@@ -6,30 +6,51 @@
     <script src="./src/stockData.json"></script>
     <script src="./src/bollData.json"></script>
     <script src="./src/stochData.json"></script>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
     <!-- version 4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"
+        integrity="sha256-PF6MatZtiJ8/c9O9HQ8uSUXr++R9KBYu4gbNG5511WE=" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/stylesheets/application.css">
 </head>
 
 <body>
-    <div class="navbar"></div>
-    <div class="holder-holder">
+    <div class="navbar">
+        <button class="overview-button">Overview</button>
+            <div class="overview-description hidden">
+                Stockvis allows you to make more informed investing decisions by displaying trends in technical indicators in a
+                dynamic,
+                visually-appealing way. Stockvis renders historical financial data for companies according to their industries which
+                allows you to examine technical indicators such as short and long term moving price averages, bollinger bands, and
+                stochastic oscillators. </br></br>
+                Select the indicator you would like to view: short and long term MA's, bollinger bands, or stochastic oscillators.
+                </br></br>
+                Click "More Info!" to learn how to interpret results.
+            </div>
+    </div>
 
+    <div class="title-bar">
+        
 
-    <div class="spinner-holder">
-        <div class="spinner">
-            <div class="box-right"></div>
-            <div class="box-top"></div>
-            <p class="app-header header-top">StockVis</p>
-            <div class="box-bottom"></div>
-            <p class="app-header header-bottom"></p>
-            <div class="box-left"></div>
+        <div class="holder-holder">
+
+            <div class="spinner-holder">
+                <div class="spinner">
+                    <div class="box-right"></div>
+                    <div class="box-top"></div>
+                    <p class="app-header header-top">StockVis</p>
+                    <div class="box-bottom"></div>
+                    <p class="app-header header-bottom"></p>
+                    <div class="box-left"></div>
+                </div>
+            </div>
+
         </div>
     </div>
 
-    </div>
 <!-- 33333333333333333 -->
     <div><strong>Technical Analysis of Stocks</strong></div>
     <div class="inputs">
+        
         Stock Ticker:
         <input class="input-sma" type="text" name="tick" value="" placeholder="SYM" autofocus>
         <!-- <input class="input-sma-weeks" type="text" name="weeks" value="" placeholder="weeks"> -->
@@ -110,14 +131,18 @@
                 </p>
             </div>
         
-            <ul> </ul>
         </div>
     </div>
     
-    
+    <div class="handles">
     <a class="github-link" href="https://github.com/rjk79">
         <img class="icon" src="assets/GitHub-Mark-120px-plus.png">
     </a>
+    <a class="linkedin-link" href="https://www.linkedin.com/in/robert-ku-b9464461">
+        <img class="icon" src="assets/linkedin.jpg">
+    </a>
+    robertku79@gmail.com
+    </div>
 
 
 
