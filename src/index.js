@@ -9,12 +9,24 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     document.getElementsByClassName("button-sma")[0].addEventListener("click", () => {
         SMAGrapher()
+        document.getElementsByClassName("button-sma")[0].disabled = true;
+        setTimeout(function () {
+            document.getElementsByClassName("button-sma")[0].disabled = false;
+        }, 10000);
     })
     document.getElementsByClassName("button-boll")[0].addEventListener("click", () => { 
         Bollinger()
+        document.getElementsByClassName("button-boll")[0].disabled = true;
+        setTimeout(function () {
+            document.getElementsByClassName("button-boll")[0].disabled = false;
+        }, 10000);
     })
     document.getElementsByClassName("button-stoch")[0].addEventListener("click", () => { 
         Stochastic()
+        document.getElementsByClassName("button-stoch")[0].disabled = true;
+        setTimeout(function () {
+            document.getElementsByClassName("button-stoch")[0].disabled = false;
+        }, 10000);
     })
 //     let boxParts = Array.from(document.getElementsByClassName("box-top"))
     //     boxParts.forEach(part => part.style.transform = "translateY(30px)")
@@ -52,6 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
              document.getElementsByClassName("input-sma")[0].value = e.currentTarget.innerText
         })
     })
+    
   
 })
 
