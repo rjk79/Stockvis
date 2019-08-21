@@ -1,6 +1,5 @@
 const Stochastic = () => {
     d3.selectAll(".svg-stochs > *")
-       
         .remove();
 
     let tick = document.getElementsByClassName("input-sma")[0].value
@@ -30,7 +29,7 @@ const Stochastic = () => {
             dataArr = dataArr.slice(dataArr.length * (19/20), -1)
             // dataArr = [ {data: , slowK: , slowD: }]
             
-            debugger
+            
 
             //set SVG
             var margin = { top: 50, right: 50, bottom: 50, left: 50 }

@@ -36,10 +36,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.getElementsByClassName("clear")[0].addEventListener('click', ()=>{
         d3.selectAll("svg > *")
-          .exit()
-          .transition()
-          .duration(5000)
-          .attr("opacity", "0")
+        //   .exit()
+        //   .transition()
+        //   .duration(5000)
+        //   .attr("opacity", "0")
           .remove();
     })
 

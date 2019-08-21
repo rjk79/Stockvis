@@ -9,25 +9,24 @@ Bollinger bands are also highly instrumental in evaluating securities. When view
 Lastly, stochastic oscillators are useful for gauging stocks since they show the closing price of a stock relative to its price range over a given time period. A high ratio generators a buy signal and the opposite generates a sell signal.
 
 ## Functionality
-* Users can select the industry and time period they want to examine.
-* Users can select the indicator they want to view: short and long term MA's, bollinger bands, or stochastic oscillators
-* A 3D terrain-like line graph displays the technical indicator values.
+* Users can select the company ticker and the indicator they want to view: short and long term MA's, bollinger bands, or stochastic oscillators
+* An animated line graph displays the technical indicator values.
 * The graph lines render gradually in an aesthetically-pleasing manner.
-* Favorable trends are color-coded.
+* Favorable trends are color-coded on the MA graph.
 ## Wireframes
 https://wireframe.cc/v3Q5Gz
 
 ## MVPs
-* Render company financial data on a 3D line graph.
-* Enable sorting by industry and time period.
+* Render company financial data on an animated line graph.
 * Enable switching between viewing moving average trend lines, stochastic oscillators, and Bollinger Bands.
 * Interactive and smooth styling.
+* Create assistive buttons and descriptions as well as social media links.
 ## Bonus:
 
 * Allow filtering by market cap (company size).
-* Implement viewing a single company's trends for a time period.
+* Implement viewing an industry's trends for a time period.
 ## Technologies
-*Vanilla Javascript for graph logic
+* Vanilla Javascript for graph logic
 * D3 for visualizing data
 * Webpack for bundling scripts
 ## Implementation Timeline
@@ -39,7 +38,7 @@ https://wireframe.cc/v3Q5Gz
 * Create project skeleton.
 * Construct basic rendering of data.
 ### Day 2
-* Allow filtering by various industries and time periods.
+* Allow filtering by various companies and animate graphs.
 ### Day 3
 * Implement viewing of moving averages and Bollinger Bands.
 ### Day 4

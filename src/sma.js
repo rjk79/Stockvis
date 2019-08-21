@@ -163,7 +163,7 @@ const SMAGrapher = () => {
 
 
 
-    debugger
+    
 
 
 }
