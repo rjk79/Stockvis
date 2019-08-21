@@ -13,6 +13,7 @@ const Bollinger = () => {
         var data = JSON.parse(this.response)
         console.log(data)
     if (request.status >= 200 && request.status < 400) {
+        
         // let data = bollData
         //vet the data
         let reverseDataUppers = Object.values(data["Technical Analysis: BBANDS"])
