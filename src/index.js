@@ -45,6 +45,15 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementsByClassName("stochs-info-button")[0].addEventListener('click', ()=> {
         document.getElementsByClassName("description-stochs")[0].classList.toggle('hidden')
     })
+    document.getElementsByClassName("run-all")[0].addEventListener('click', ()=> {
+        SMAGrapher()
+        Bollinger()
+        Stochastic()
+        document.getElementsByClassName("run-all")[0].disabled = true;
+        setTimeout(function () {
+            document.getElementsByClassName("run-all")[0].disabled = false;
+        }, 30000);
+    })
 
     document.getElementsByClassName("clear")[0].addEventListener('click', ()=>{
         d3.selectAll("svg > *")
