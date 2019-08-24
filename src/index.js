@@ -7,6 +7,9 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementsByClassName("overview-button")[0].addEventListener('click', ()=> {
         document.getElementsByClassName("overview-description")[0].classList.toggle('hidden')
     })
+    document.getElementsByClassName("overview-button")[0].addEventListener('blur', ()=> {
+        document.getElementsByClassName("overview-description")[0].classList.add('hidden')
+    })
     document.getElementsByClassName("button-sma")[0].addEventListener("click", () => {
         SMAGrapher()
         document.getElementsByClassName("button-sma")[0].disabled = true;

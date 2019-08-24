@@ -277,6 +277,11 @@ line:hover {
     margin: 0;
     transform: translateZ(60px);
     width: 300px;
+    background: white;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .header-bottom {
     position: absolute;
@@ -291,7 +296,8 @@ line:hover {
     height: 84px;
     width: 122px;
     position: absolute;
-    background: rgba(80, 160, 250, .5);
+    /* background: rgba(80, 160, 250, .5); */
+    /* background: rgba(15, 15, 15, .5); */
     margin: 0;
     transform: rotateY(90deg) translateX(0px) translateZ(150px);
 }
@@ -299,7 +305,8 @@ line:hover {
     height: 84px;
     width: 120px;
     position: absolute;
-    background: rgba(161, 185, 22, 0.5);
+    /* background: rgba(161, 185, 22, 0.5); */
+    /* background: rgba(15, 15, 15, .5); */
     margin: 0;
     transform: rotateY(-90deg) translateX(0px) translateZ(150px);
 }
@@ -308,14 +315,17 @@ line:hover {
     position: absolute;
     height: 120px;
     width: 300px;
-    background: rgba(213, 168, 46, 0.5);
+    /* background: rgba(213, 168, 46, 0.5); */
+    background: rgba(15, 15, 15, .5);
     transform: rotateX(90deg) translateZ(60px);
 }
 .box-left {
     position: absolute;
     height: 120px;
     width: 300px;
-    background: rgba(249, 30, 66, 0.5);
+    /* background: rgba(249, 30, 66, 0.5); */
+    background: rgba(15, 15, 15, .5);
+
     transform: rotateX(90deg) translateZ(-23px);
 }
 /* 
@@ -520,4 +530,7 @@ strong {
     cursor: pointer;
     font-weight: 600;
     border-radius: 10px;
+}
+.logo-img {
+    height: 56px;
 }
