@@ -1,5 +1,5 @@
 # Stockvis
-![logo](assets/Stockvis-logo.png?raw=true "Title")
+![logo](assets/StockVis-logo.png?raw=true "Title")
 
 ## Overview
 Stockvis allows you to make more informed investing decisions by displaying trends in technical indicators in a dynamic, visually-appealing way. Stockvis renders historical financial data for companies according to their industries which allows you to examine technical indicators such as short and long term moving price averages, bollinger bands, and stochastic oscillators.
