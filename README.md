@@ -9,7 +9,7 @@ Bollinger bands are also highly instrumental in evaluating securities. When view
 
 Lastly, Stochastic oscillators are useful for gauging stocks since they show the closing price of a stock relative to its price range over a given time period. A high ratio of Slow K / Slow D generates a buy signal and the opposite generates a sell signal. The value of %K itself is also used to determine its intrinsic value. A value over 80 can be interpreted as overbought and a value under 20 as oversold.
 
-![](stockvis.gif)
+![gif](assets/stockvis.gif)
 
 ## Functionality
 * Users can select the company ticker and the indicator they want to view: short and long term MA's, bollinger bands, or stochastic oscillators
