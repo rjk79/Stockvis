@@ -1,6 +1,5 @@
+![logo](assets/StockVis-logo.png?raw=true)
 # Stockvis
-![logo](assets/StockVis-logo.png?raw=true "Title")
-
 ## Overview
 Stockvis allows you to make more informed investing decisions by displaying trends in technical indicators in a dynamic, visually-appealing way. Stockvis renders historical financial data for companies according to their industries which allows you to examine technical indicators such as short and long term moving price averages, bollinger bands, and stochastic oscillators.
 
@@ -9,6 +8,8 @@ Short term and long term price moving averages (MA) are well-established means o
 Bollinger bands are also highly instrumental in evaluating securities. When viewing them, there is a middle line that indicates a moving average (MA) and two lines above and below, showing a certain number of standard deviations (SD) above and below the moving average, respectively. When the MA line crosses the upper one, the resistance level, or the lower one, the support level, there is a major price event occurring. Also, when the bands squeeze or expand apart, there is a high chance of a change in price volatility.
 
 Lastly, Stochastic oscillators are useful for gauging stocks since they show the closing price of a stock relative to its price range over a given time period. A high ratio of Slow K / Slow D generates a buy signal and the opposite generates a sell signal. The value of %K itself is also used to determine its intrinsic value. A value over 80 can be interpreted as overbought and a value under 20 as oversold.
+
+![](stockvis.gif)
 
 ## Functionality
 * Users can select the company ticker and the indicator they want to view: short and long term MA's, bollinger bands, or stochastic oscillators
