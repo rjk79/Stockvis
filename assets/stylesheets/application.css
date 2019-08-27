@@ -534,3 +534,12 @@ strong {
 .logo-img {
     height: 56px;
 }
+.envelope-link {
+    padding-left: 1px;
+    width: 30px;
+    height: 30px;
+    padding-top: 1px;
+}
+    .fa-envelope-square {
+        font-size: 29px;
+    }
