@@ -158,6 +158,10 @@ line:hover {
 .input-sma:focus, .input-sma-weeks:focus {
     outline: none;
 }
+.input-sma:focus {
+    color: blue;
+    opacity: .9;
+}
 
 .input-sma {
     height: 36px;

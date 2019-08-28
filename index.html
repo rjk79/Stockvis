@@ -2,6 +2,16 @@
 
 <head>
     <title>Stockvis</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122864868-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-122864868-3');
+    </script>
+
     <script src='https://d3js.org/d3.v4.min.js'></script> 
     <script src="./src/stockData.json"></script>
     <script src="./src/bollData.json"></script>
@@ -28,10 +38,10 @@
 
 
         <div class="handles">
-            <a class="github-link" href="https://github.com/rjk79">
+            <a class="github-link" href="https://github.com/rjk79" target="_blank">
                 <img class="icon" src="assets/GitHub-Mark-120px-plus.png">
             </a>
-            <a class="linkedin-link" href="https://www.linkedin.com/in/robert-ku-b9464461">
+            <a class="linkedin-link" href="https://www.linkedin.com/in/robert-ku-b9464461" target="_blank">
                 <img class="icon" src="assets/linkedin.jpg">
             </a>
             <a class="envelope-link" href="mailto:robertku79@gmail.com">
@@ -67,7 +77,7 @@
     <div class="inputs">
         
         Stock Ticker:
-        <input class="input-sma" type="text" name="tick" value="" placeholder="SYM" autofocus>
+        <input class="input-sma" type="text" name="tick" value="" placeholder="SYM" autofocus autocomplete="off">
         <!-- <input class="input-sma-weeks" type="text" name="weeks" value="" placeholder="weeks"> -->
         <button class="button-sma">SMA</button>
         <button class="button-boll">Bollinger</button>
@@ -152,10 +162,10 @@
     </div>
     
     <div class="handles">
-        <a class="github-link" href="https://github.com/rjk79">
+        <a class="github-link" href="https://github.com/rjk79" target="_blank">
             <img class="icon" src="assets/GitHub-Mark-120px-plus.png">
         </a>
-        <a class="linkedin-link" href="https://www.linkedin.com/in/robert-ku-b9464461">
+        <a class="linkedin-link" href="https://www.linkedin.com/in/robert-ku-b9464461" target="_blank">
             <img class="icon" src="assets/linkedin.jpg">
         </a>
         <a class="envelope-link" href="mailto:robertku79@gmail.com">
