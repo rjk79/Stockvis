@@ -15,7 +15,8 @@
     </script>
 
     <script src='https://d3js.org/d3.v4.min.js'></script> 
-    <script src="./src/stockData.json"></script>
+    <script src="./src/longSmaData.json"></script>
+    <script src="./src/shortSmaData.json"></script>
     <script src="./src/bollData.json"></script>
     <script src="./src/stochData.json"></script>
     <!-- version 4 -->
@@ -77,17 +78,29 @@
 <!-- 33333333333333333 -->
     <div><strong>Technical Analysis of Stocks</strong></div>
     <div class="inputs">
-        
-        Stock Ticker:
-        <input class="input-sma" type="text" name="tick" value="" placeholder="SYM" autofocus autocomplete="off">
-        <!-- <input class="input-sma-weeks" type="text" name="weeks" value="" placeholder="weeks"> -->
-        <button class="button-sma">SMA</button>
-        <button class="button-boll">Bollinger</button>
-        <button class="button-stoch">Stochastic</button>
-        <button class="run-all">Run All</button>
-        <button class="clear">Clear All</button>
-        <button class="sample-tickers">View Common Tickers 
+        <div class="input-titles-holder">
+            <div class="input-titles">
+                <p>
+                    1. Choose Ticker
+                </p>
+                <input class="input-sma" type="text" name="tick" value="" placeholder="SYM" autofocus autocomplete="off">
+                <button class="sample-tickers">View Common Tickers
 
+            </div>
+        </div>
+        <div class="indicator-titles-holder">
+            <div class="indicator-titles">
+                <p>
+                    2. Choose Indicator
+                </p>
+            <!-- <input class="input-sma-weeks" type="text" name="weeks" value="" placeholder="weeks"> -->
+                <button class="button-sma">SMA</button>
+                <button class="button-boll">Bollinger</button>
+                <button class="button-stoch">Stochastic</button>
+                <button class="run-all">Run All</button>
+                <button class="clear">Clear All</button>
+            </div>
+        </div>
         
     <div class="tornado-holder">
         <div class="tornado hidden">
