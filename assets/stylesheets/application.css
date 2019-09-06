@@ -133,7 +133,6 @@ line:hover {
     cursor: pointer;
     font-weight: 600;
     border-radius: 10px;
-    transition: background .3s, color .3s
 }
 .button-boll {
     height: 36px;
@@ -142,7 +141,6 @@ line:hover {
     cursor: pointer;
     font-weight: 600;
     border-radius: 10px;
-    transition: background .3s, color .3s
 }
 .button-stoch {
     height: 36px;
@@ -151,7 +149,6 @@ line:hover {
     cursor: pointer;
     font-weight: 600;
     border-radius: 10px;
-    transition: background .3s, color .3s
 }
 .button-sma:hover, .button-boll:hover, .button-stoch:hover {
     background: black;
@@ -183,40 +180,13 @@ line:hover {
 }
 .inputs {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     width: 80%;
     /* margin-left: -50%; */
     align-items: center;
     font-size: 25px;
     font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 100;
-    font-size: 14px;
-    font-family: sans-serif;
 }
-.input-titles-holder {
-    width: 100%;
-}
-.indicator-titles-holder {
-    width: 100%;
-
-}
-.input-titles {
-    display: flex;
-    width: 45%;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.indicator-titles  {
-    display: flex;
-    align-items: center;
-    width: 80%;
-    justify-content: space-between;
-}
-
-
 .github-link {
     display: inline-block;
 }
